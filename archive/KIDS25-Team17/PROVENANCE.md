@@ -3,12 +3,12 @@
 This tree is an archived copy of the **St. Jude Biohackathon 2025** team repository:
 
 - **Original URL:** https://github.com/stjude-biohackathon/KIDS25-Team17
-- **Import location:** `archive/KIDS25-Team17/` in [Mmaycon/GEOScouter](https://github.com/Mmaycon/GEOScouter)
+- **Import location:** `archive/KIDS25-Team17/` in [Mmaycon/GEOscouter](https://github.com/Mmaycon/GEOscouter)
 - **Import method:** `git subtree add` (full file tree; hackathon git history is linked via the subtree merge commit on `main`)
 
 ## Canonical software today
 
-The maintained GEOScouter application and library are at the **repository root**:
+The maintained GEOscouter application and library are at the **repository root**:
 
 - Python package: `geoscouter/`
 - Streamlit UI: `streamlit_app.py`

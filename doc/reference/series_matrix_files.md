@@ -1,6 +1,6 @@
 # Series Matrix files — design note
 
-GEO **Series Matrix** files (`GSE*_series_matrix.txt.gz`) bundle SOFT-style metadata headers with an optional expression table. This doc explains why GEOScouter does **not** use them as the primary scrape source.
+GEO **Series Matrix** files (`GSE*_series_matrix.txt.gz`) bundle SOFT-style metadata headers with an optional expression table. This doc explains why GEOscouter does **not** use them as the primary scrape source.
 
 ---
 
@@ -35,9 +35,9 @@ Gene/feature matrix. Size varies:
 
 ---
 
-## Comparison with GEOScouter's pipeline
+## Comparison with GEOscouter's pipeline
 
-| Aspect | Series Matrix header | GEOScouter (SOFT + XML + tar) |
+| Aspect | Series Matrix header | GEOscouter (SOFT + XML + tar) |
 |--------|----------------------|-------------------------------|
 | Series metadata | Yes (`!Series_*`) | Yes (SOFT full-view) |
 | Series supp files | Often only `*_RAW.tar` | Same from SOFT |
@@ -52,7 +52,7 @@ Gene/feature matrix. Size varies:
 
 So for **some spatial datasets**, matrix headers are **richer at listing filenames** than series-level SOFT alone.
 
-GEOScouter recovers similar filename sets without downloading matrix bodies:
+GEOscouter recovers similar filename sets without downloading matrix bodies:
 
 1. Custom XML when SOFT shows `*_RAW.tar`
 2. Remote tar member listing ([tar_expand.py](../../geoscouter/core/tar_expand.py))
@@ -64,7 +64,7 @@ GEOScouter recovers similar filename sets without downloading matrix bodies:
 1. **Bandwidth** — You must download (and usually decompress) the entire matrix file to read headers. For bulk RNA-seq this dwarfs the metadata size.
 2. **Coverage** — Many modern submissions (scRNA-seq, spatial, proteomics) have no Series Matrix; supplementary files live only under `suppl/`.
 3. **Redundancy** — Header fields duplicate SOFT full-view for series metadata; the app's goal is supplementary **filename comparison**, which SOFT+XML+tar already targets.
-4. **Parsing cost** — Sample-level supplementary lines require aggregating across GSM columns into series-level rows for Jaccard similarity (GEOScouter's model is one table keyed by `Series`).
+4. **Parsing cost** — Sample-level supplementary lines require aggregating across GSM columns into series-level rows for Jaccard similarity (GEOscouter's model is one table keyed by `Series`).
 
 ### When matrix headers would help
 
@@ -72,7 +72,7 @@ GEOScouter recovers similar filename sets without downloading matrix bodies:
 - You need sample-level supplementary URLs without tar/XML expansion
 - You are building a **hybrid** tool that streams only until `!series_matrix_table_begin`
 
-That hybrid is **not** implemented in GEOScouter today.
+That hybrid is **not** implemented in GEOscouter today.
 
 ---
 

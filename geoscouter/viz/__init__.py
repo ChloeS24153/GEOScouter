@@ -1,1 +1,1 @@
-"""GEOScouter Streamlit visualizations."""
+"""GEOscouter Streamlit visualizations."""

@@ -6,7 +6,7 @@ The directory [`KIDS25-Team17/`](KIDS25-Team17/) is a full mirror of the hackath
 
 **https://github.com/stjude-biohackathon/KIDS25-Team17**
 
-Canonical ongoing development lives in this repository (`Mmaycon/GEOScouter`) at the repo root (`geoscouter/`, `streamlit_app.py`).
+Canonical ongoing development lives in this repository (`Mmaycon/GEOscouter`) at the repo root (`geoscouter/`, `streamlit_app.py`).
 
 See [`KIDS25-Team17/PROVENANCE.md`](KIDS25-Team17/PROVENANCE.md) for contributor attribution and import notes.
 

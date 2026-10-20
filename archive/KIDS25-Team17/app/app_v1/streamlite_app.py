@@ -335,7 +335,7 @@ def get_gse_metadata(df_filtered, metadata_dir):
 
 # --- Streamlit App ---
 st.set_page_config(layout="wide")
-st.title("GEOScouter - Curating datasets from GEO 🧬")
+st.title("GEOscouter - Curating datasets from GEO 🧬")
 
 # Initialize session state
 st.session_state.setdefault('df_combined', None)

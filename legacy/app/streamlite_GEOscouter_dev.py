@@ -1,25 +1,18 @@
-# How to run it 
-# Create your own env from requirements.txt
+# How to run it
 # conda activate {your env}
-# cd /mnt/scratch2/Maycon/GEOScouter/
-# streamlit run streamlite_GEOScouter_v2.py
-
-# How to get the input
-# From GEODatasets (https://www.ncbi.nlm.nih.gov/gds/?term=lung+cancer
-# Do your search (TNBC AND CosMx, for instance)
-# Go down to the page, export gds_result.txt
-# gds_result.txt is the input for the app 
-
+# cd /where/your/code/is
+# streamlit run streamlite_GEOscouter_v2.py
+# input: upload gds_result.txt via the UI (works locally as well)
 
 # env: 'merged env ...'
 
-# Top of your main app file (before other imports)
+# Top of your main app file (before other imports) - helpful friendly error if bs4 missing
 try:
     from bs4 import BeautifulSoup
 except Exception as e:
     import streamlit as st
     st.set_page_config(layout="wide")
-    st.title("GEOScouter - Dependency error")
+    st.title("GEOscouter - Dependency error")
     st.error(
         "Missing Python package: beautifulsoup4 (bs4). "
         "Streamlit cannot import `bs4`. \n\n"
@@ -48,11 +41,21 @@ import plotly.graph_objects as go
 import textwrap
 from pathlib import Path
 import tempfile
-import hashlib
 import xml.etree.ElementTree as ET
-
+from urllib.parse import urljoin
 
 logging.basicConfig(level=logging.INFO)
+
+# --- Selenium optional import ---
+SELENIUM_AVAILABLE = True
+try:
+    from selenium import webdriver
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support import expected_conditions as EC
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.chrome.options import Options
+except Exception:
+    SELENIUM_AVAILABLE = False
 
 # --- Part 1: Pipeline Functions ---
 @st.cache_data
@@ -63,51 +66,6 @@ def wrap_text_for_plotly(text, width=30):
     return "<br>".join(textwrap.wrap(text, width=width))
 
 # --- Helper function Excel sheet names ---
-
-import hashlib
-import os
-import streamlit as st
-
-def offer_download(file_path: str, label: str = None):
-    file_path = str(file_path)
-    if not os.path.exists(file_path):
-        return
-
-    # Normalize path for stable dedupe
-    abs_path = os.path.abspath(file_path)
-
-    # Track which download buttons we already rendered in THIS rerun
-    st.session_state.setdefault("_rendered_download_keys", set())
-
-    filename = os.path.basename(abs_path)
-    label = label or f"Download {filename}"
-
-    if filename.endswith(".csv"):
-        mime = "text/csv"
-    elif filename.endswith(".xlsx"):
-        mime = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-    else:
-        mime = "application/octet-stream"
-
-    # Stable key from path
-    key = "download_" + hashlib.md5(abs_path.encode("utf-8")).hexdigest()
-
-    # ✅ If we've already rendered this key in this run, skip
-    if key in st.session_state["_rendered_download_keys"]:
-        return
-
-    st.session_state["_rendered_download_keys"].add(key)
-
-    with open(abs_path, "rb") as f:
-        st.download_button(
-            label=label,
-            data=f,
-            file_name=filename,
-            mime=mime,
-            key=key,
-        )
-
-
 def sanitize_sheet_name(name: str, used: set) -> str:
     # Excel sheet name rules
     name = str(name) if pd.notna(name) and str(name).strip() else "NA"
@@ -123,16 +81,12 @@ def sanitize_sheet_name(name: str, used: set) -> str:
     used.add(safe)
     return safe
 
-
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.chrome.options import Options
-
-
+# Selenium driver creation (local only)
 def get_headless_driver():
-    """Configures and returns a headless Selenium driver."""
+    """Configures and returns a headless Selenium driver (LOCAL only)."""
+    if not SELENIUM_AVAILABLE:
+        raise RuntimeError("Selenium is not available in this environment.")
+
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-gpu")
@@ -144,6 +98,81 @@ def get_headless_driver():
     )
     return webdriver.Chrome(options=chrome_options)
 
+# New helper: parse (custom) links without Selenium
+def parse_custom_supp_files(custom_href: str, base_url: str, data: dict):
+    """
+    Fetch the '(custom)' supplementary file listing using requests (no Selenium),
+    parse the table rows, and return a list of row dictionaries.
+    """
+    custom_url = urljoin(base_url, custom_href)
+
+    r = requests.get(custom_url, timeout=30)
+    r.raise_for_status()
+    s = BeautifulSoup(r.text, "html.parser")
+
+    supp_data = []
+
+    # Each file row usually has a checkbox in the first column.
+    for row in s.select("table tr"):
+        cb = row.select_one("input[type='checkbox']")
+        if not cb:
+            continue
+
+        tds = row.find_all("td")
+        if len(tds) < 3:
+            continue
+
+        # On GEO "(custom)" pages, column 0 is often checkbox, column 1 is filename
+        # Filename may be a link (<a>), so prefer link text if present.
+        filename_td = tds[1]
+        a = filename_td.find("a")
+        file_name = (a.get_text(strip=True) if a else filename_td.get_text(strip=True))
+
+        if not file_name or file_name.lower() == "(all files)":
+            continue
+
+        # Usually size is in the next column
+        size = tds[2].get_text(strip=True)
+
+        # "File type/resource" is often later (sometimes last column)
+        file_type_resource = ""
+        if len(tds) >= 5:
+            file_type_resource = tds[4].get_text(strip=True)
+        elif len(tds) >= 4:
+            file_type_resource = tds[3].get_text(strip=True)
+
+        # Optional: keep your old "file_type" logic, but it's less reliable than GEO's column
+        parts = file_name.split(".")
+        file_type = parts[1] if len(parts) > 1 else "unknown"
+
+        row_dict = data.copy()
+        row_dict.update({
+            "Supplementary file": file_name,
+            "Size": size,
+            "File type/resource": file_type_resource or file_type,
+        })
+        supp_data.append(row_dict)
+
+    return supp_data
+
+def supplementary_files_from_soft(soft_text: str):
+    """
+    Extract supplementary file URLs from SOFT text and return filenames + URLs.
+    """
+    files = []
+    for line in soft_text.splitlines():
+        if line.startswith("!Series_supplementary_file"):
+            # format: !Series_supplementary_file = <url>
+            parts = line.split("=", 1)
+            if len(parts) != 2:
+                continue
+            url = parts[1].strip()
+            if not url:
+                continue
+            filename = url.rstrip("/").split("/")[-1]
+            if filename:
+                files.append((filename, url))
+    return files
 
 def _is_ncbi_blocked(text: str) -> bool:
     lowered = text.lower()
@@ -200,21 +229,6 @@ def _bytes_to_geo_size(size_bytes: str) -> str:
         return f"{nbytes / 1024:.1f} Kb"
     return f"{nbytes} b"
 
-def supplementary_files_from_soft(soft_text: str):
-    files = []
-    for line in soft_text.splitlines():
-        if line.startswith("!Series_supplementary_file"):
-            parts = line.split("=", 1)
-            if len(parts) != 2:
-                continue
-            url = parts[1].strip()
-            if not url:
-                continue
-            filename = url.rstrip("/").split("/")[-1]
-            if filename:
-                files.append((filename, url))
-    return files
-
 def _fetch_custom_supp_files_xml(gse_id: str, data: dict) -> list[dict]:
     xml_url = f"https://www.ncbi.nlm.nih.gov/geo/download/?format=xml&acc={gse_id}"
     try:
@@ -239,8 +253,8 @@ def _fetch_custom_supp_files_xml(gse_id: str, data: dict) -> list[dict]:
         rows.append(row_dict)
     return rows
 
-
-def process_gse(gse_id, driver, super_series=None):
+# Main GSE processing - driver is optional
+def process_gse(gse_id, driver=None, super_series=None):
     if not super_series:
         super_series = gse_id
 
@@ -296,58 +310,65 @@ def process_gse(gse_id, driver, super_series=None):
         for file_name, file_url in soft_supp_files:
             parts = file_name.split(".")
             file_type = parts[1] if len(parts) > 1 else "unknown"
+
             row_dict = data.copy()
             row_dict.update({
                 "Supplementary file": file_name,
                 "Size": "",
                 "File type/resource": file_type,
+                "Supplementary URL": file_url,
             })
             supp_data.append(row_dict)
 
-    # Case 1: Selenium for "(custom)" button
+    # Case 1: '(custom)' link - requests-first approach (HTML only when not blocked)
     custom_link_tag = soup.find("a", string="(custom)") if soup is not None else None
     if custom_link_tag and not supp_data:
         try:
-            driver.get(url)
-            wait = WebDriverWait(driver, 7)
+            href = custom_link_tag.get("href")
+            if href:
+                parsed = parse_custom_supp_files(href, url, data)
+                if parsed:
+                    supp_data.extend(parsed)
+                else:
+                    logging.warning(f"(custom) page returned no parsed files for {gse_id}; will fallback.")
+            else:
+                logging.warning(f"(custom) link has no href for {gse_id}; will fallback.")
 
-            custom_link = wait.until(
-                EC.element_to_be_clickable((By.LINK_TEXT, "(custom)"))
-            )
-            custom_link.click()
+            if not supp_data and driver is not None and SELENIUM_AVAILABLE:
+                driver.get(url)
+                wait = WebDriverWait(driver, 7)
 
-            wait.until(
-                EC.presence_of_all_elements_located(
+                custom_link = wait.until(EC.element_to_be_clickable((By.LINK_TEXT, "(custom)")))
+                custom_link.click()
+
+                wait.until(EC.presence_of_all_elements_located(
                     (By.XPATH, "//table//tr[td/input[@type='checkbox']]")
-                )
-            )
-            rows = driver.find_elements(
-                By.XPATH, "//table//tr[td/input[@type='checkbox']]"
-            )
+                ))
+                rows = driver.find_elements(By.XPATH, "//table//tr[td/input[@type='checkbox']]")
 
-            for row in rows:
-                cells = row.find_elements(By.TAG_NAME, "td")
-                if len(cells) >= 2:
-                    file_name = cells[0].text.strip()
-                    if file_name.lower() == "(all files)":
-                        continue
+                for row in rows:
+                    cells = row.find_elements(By.TAG_NAME, "td")
+                    if len(cells) >= 2:
+                        file_name = cells[0].text.strip()
+                        if file_name.lower() == "(all files)":
+                            continue
 
-                    size = cells[1].text.strip()
-                    parts = file_name.split('.')
-                    file_type = parts[1] if len(parts) > 1 else "unknown"
+                        size = cells[1].text.strip()
+                        parts = file_name.split('.')
+                        file_type = parts[1] if len(parts) > 1 else "unknown"
 
-                    row_dict = data.copy()
-                    row_dict.update({
-                        "Supplementary file": file_name,
-                        "Size": size,
-                        "File type/resource": file_type,
-                    })
-                    supp_data.append(row_dict)
+                        row_dict = data.copy()
+                        row_dict.update({
+                            "Supplementary file": file_name,
+                            "Size": size,
+                            "File type/resource": file_type,
+                        })
+                        supp_data.append(row_dict)
+
         except Exception as e:
             logging.warning(f"Error processing custom link for {gse_id}: {e}")
-            supp_data.append(data)
 
-    # Case 2: standard HTML parsing
+    # Case 2: standard HTML parsing fallback
     if not supp_data and soup is not None:
         tables = soup.find_all('table')
         supp_table = None
@@ -438,8 +459,15 @@ def run_geo_pipeline(dir_base, proximity_window=10):
     gds_processed_path = os.path.join(dir_base, "gds_processed.csv")
     df.to_csv(gds_processed_path, index=False)
 
-    # 1. initialize driver once
-    driver = get_headless_driver()
+    # 1. Selenium optional initialization
+    driver = None
+    if SELENIUM_AVAILABLE:
+        try:
+            driver = get_headless_driver()
+        except Exception as e:
+            logging.warning(f"Selenium driver not available; continuing without Selenium. Details: {e}")
+            driver = None
+
     all_data = []
 
     progress_bar = st.progress(0)
@@ -451,13 +479,17 @@ def run_geo_pipeline(dir_base, proximity_window=10):
 
         for i, gse in enumerate(gse_list):
             status_text.text(f"Scraping {gse} ({i+1}/{total})...")
-            # pass driver to Selenium-enabled process_gse
+            # pass optional driver (None on Cloud)
             all_data.extend(process_gse(gse, driver))
             progress_bar.progress((i + 1) / total)
 
         status_text.success("Web scraping complete!")
     finally:
-        driver.quit()
+        if driver is not None:
+            try:
+                driver.quit()
+            except Exception:
+                pass
 
     df_combined = pd.DataFrame(all_data)
 
@@ -466,6 +498,7 @@ def run_geo_pipeline(dir_base, proximity_window=10):
     df_combined.to_csv(combined_path, index=False)
 
     return df_combined
+
 
 def normalize_scrape_df(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
@@ -593,21 +626,15 @@ def file_ext_network(df):
         node_x.append(x)
         node_y.append(y)
         node_text.append(node)
-
+        
         if node in node_info_df.index:
             info = node_info_df.loc[node]
-
-            # ✅ Safely handle Title (could be NaN/float)
-            title_val = info.get("Title", "N/A")
-            title_str = "N/A" if pd.isna(title_val) else str(title_val)
-
             hover_text = (
                 f"<b>{node}</b><br>"
-                f"Title: {title_str[:50]}...<br>"
+                f"Title: {info.get('Title', 'N/A')[:50]}...<br>"
                 f"Platforms: {info.get('Platforms', 'N/A')}<br>"
                 f"Samples: {info.get('Samples', 'N/A')}"
             )
-
             node_hover_text.append(hover_text)
         else:
             node_hover_text.append(f"<b>{node}</b>")
@@ -718,10 +745,7 @@ def get_gse_metadata(df_filtered, metadata_dir):
 
 # --- Streamlit App ---
 st.set_page_config(layout="wide")
-st.title("GEOScouter - Curating datasets from GEO 🧬")
-
-# Reset per-rerun rendered download keys
-st.session_state["_rendered_download_keys"] = set()
+st.title("GEOscouter - Curating datasets from GEO 🧬")
 
 # Initialize session state
 st.session_state.setdefault('df_combined', None)
@@ -731,11 +755,9 @@ st.session_state.setdefault('gse_df_filtered', None)
 st.session_state.setdefault('list_of_metadata_dfs', None)
 st.session_state.setdefault('metadata_search_results', None)
 
-
 # --- Main Pipeline Execution ---
 st.header("1. Run Data Scraping")
 uploaded_gds = st.file_uploader("Upload gds_result.txt", type=["txt"])
-
 # Working directory (Cloud-safe): /tmp/geoscouter
 WORK_DIR = Path(tempfile.gettempdir()) / "geoscouter"
 WORK_DIR.mkdir(parents=True, exist_ok=True)
@@ -743,77 +765,23 @@ WORK_DIR.mkdir(parents=True, exist_ok=True)
 dir_base = str(WORK_DIR)  # keep the rest of your pipeline code unchanged
 
 # --- Manual cache cleanup button ---
-if st.button("🗑 Delete ALL cached outputs"):
-    # List every file your app writes that you consider "cache"
-    cache_files = [
-        "geo_webscrap.csv",
-        "gds_processed.csv",
-        "filtered_geo_webscrap.csv",
-        "metadata_GSE.xlsx",
-        "metadata_filtered_by_word.xlsx",
-    ]
-
-    deleted_files = []
-    missing_files = []
-    errors = []
-
-    for fname in cache_files:
-        fpath = os.path.join(dir_base, fname)
-        if os.path.exists(fpath):
-            try:
-                os.remove(fpath)
-                deleted_files.append(fname)
-            except Exception as e:
-                errors.append(f"{fname}: {e}")
-        else:
-            missing_files.append(fname)
-
-    # Clear in-memory session state objects that hold data
-    for key in [
-        "df_combined",
-        "summary_df",
-        "gse_selection_list",
-        "gse_df_filtered",
-        "list_of_metadata_dfs",
-        "metadata_search_results",
-    ]:
-        if key in st.session_state:
-            # reset to your defaults
-            if key == "gse_selection_list":
-                st.session_state[key] = []
-            else:
-                st.session_state[key] = None
-
-    # Clear Streamlit cached functions (@st.cache_data)
-    st.cache_data.clear()
-
-    # UI feedback
-    if deleted_files:
-        st.success("Deleted: " + ", ".join(deleted_files))
-    if missing_files:
-        st.info("Not found (already gone): " + ", ".join(missing_files))
-    if errors:
-        st.error("Errors while deleting:\n" + "\n".join(errors))
-
-    st.rerun()
-
-# Save the uploaded file to the exact filename expected by run_geo_pipeline
-if uploaded_gds is not None:
-    target_path = WORK_DIR / "gds_result.txt"
-    try:
-        target_path.write_bytes(uploaded_gds.getvalue())
-        st.success(f"Uploaded file saved to: {target_path}")
-    except Exception as e:
-        st.error(f"Failed to save uploaded file: {e}")
-
-# Button to trigger pipeline
-if st.button("Run Pipeline", type="primary"):
-    expected_input = WORK_DIR / "gds_result.txt"
-    if not expected_input.exists():
-        st.error(f"Please upload gds_result.txt first. Expected path: {expected_input}")
+if st.button("🗑 Delete cached geo_webscrap.csv"):
+    cache_path = os.path.join(dir_base, "geo_webscrap.csv")
+    if os.path.exists(cache_path):
+        os.remove(cache_path)
+        st.success("Cached geo_webscrap.csv deleted. Next run will scrape fresh data.")
     else:
-        cache_file_path = os.path.join(dir_base, "geo_webscrap.csv")
+        st.info("No cached geo_webscrap.csv found.")
+        
+if st.button("Run Pipeline", type="primary"):
+    if uploaded_gds is None:
+        st.error("Please upload gds_result.txt first.")
+    else:
+        # Save uploaded file into WORK_DIR as gds_result.txt (so run_geo_pipeline can find it)
+        gds_path = Path(dir_base) / "gds_result.txt"
+        gds_path.write_bytes(uploaded_gds.getvalue())
 
+        cache_file_path = os.path.join(dir_base, "geo_webscrap.csv")
         if os.path.exists(cache_file_path):
             st.info(f"Loading data from existing file: {cache_file_path}")
             st.session_state.df_combined = pd.read_csv(cache_file_path)
@@ -824,44 +792,46 @@ if st.button("Run Pipeline", type="primary"):
             if df_result is not None:
                 st.session_state.df_combined = df_result
                 st.session_state.df_combined.to_csv(cache_file_path, index=False)
-                st.success(f"Pipeline finished! Results are ready and saved to {cache_file_path} for future runs.")
+                st.success(f"Pipeline finished! Results saved to {cache_file_path}")
 
-        # Show immediate downloads for files produced/loaded in this run (if present)
-        immediate_files = {
-            "geo_webscrap.csv": os.path.join(dir_base, "geo_webscrap.csv"),
-            "gds_processed.csv": os.path.join(dir_base, "gds_processed.csv"),
-            "filtered_geo_webscrap.csv": os.path.join(dir_base, "filtered_geo_webscrap.csv"),
-            "metadata_GSE.xlsx": os.path.join(dir_base, "metadata_GSE.xlsx"),
-            "metadata_filtered_by_word.xlsx": os.path.join(dir_base, "metadata_filtered_by_word.xlsx"),
-        }
+# --- Debug: Inspect Raw Output Files ---
+if dir_base and os.path.isdir(dir_base):
+    st.header("🔎 Debug: Inspect Pipeline Output Files")
 
-        any_immediate = False
-        for label, path in immediate_files.items():
-            if os.path.exists(path):
-                any_immediate = True
-                offer_download(path, f"Download {label}")
+    gds_path = os.path.join(dir_base, "gds_processed.csv")
+    geo_path = os.path.join(dir_base, "geo_webscrap.csv")
 
-        if not any_immediate:
-            st.info("No output files found yet to download (they will appear here after a run).")
+    col_a, col_b = st.columns(2)
 
-# Global "Available downloads" section so users can grab files without re-running
-st.subheader("Available downloads")
-all_expected_files = [
-    os.path.join(dir_base, "geo_webscrap.csv"),
-    os.path.join(dir_base, "gds_processed.csv"),
-    os.path.join(dir_base, "filtered_geo_webscrap.csv"),
-    os.path.join(dir_base, "metadata_GSE.xlsx"),
-    os.path.join(dir_base, "metadata_filtered_by_word.xlsx"),
-]
+    with col_a:
+        st.subheader("gds_processed.csv")
+        if os.path.exists(gds_path):
+            try:
+                df_gds = pd.read_csv(gds_path)
+                st.write("Shape:", df_gds.shape)
+                st.dataframe(df_gds.head(20))
+                with st.expander("Download gds_processed.csv"):
+                    st.write(f"Path: {gds_path}")
+                    st.download_button("Download gds_processed.csv", data=open(gds_path, "rb"), file_name="gds_processed.csv")
+            except Exception as e:
+                st.error(f"Failed to read gds_processed.csv: {e}")
+        else:
+            st.info("gds_processed.csv not found yet.")
 
-found_any = False
-for fp in all_expected_files:
-    if os.path.exists(fp):
-        found_any = True
-        offer_download(fp)
-
-if not found_any:
-    st.info("No exports available yet. Run the pipeline or perform an export to generate downloadable files.")
+    with col_b:
+        st.subheader("geo_webscrap.csv")
+        if os.path.exists(geo_path):
+            try:
+                df_geo = pd.read_csv(geo_path)
+                st.write("Shape:", df_geo.shape)
+                st.dataframe(df_geo.head(20))
+                with st.expander("Download geo_webscrap.csv"):
+                    st.write(f"Path: {geo_path}")
+                    st.download_button("Download geo_webscrap.csv", data=open(geo_path, "rb"), file_name="geo_webscrap.csv")
+            except Exception as e:
+                st.error(f"Failed to read geo_webscrap.csv: {e}")
+        else:
+            st.info("geo_webscrap.csv not found yet.")
 
 # --- Unfiltered Visualization Section ---
 if st.session_state.df_combined is not None:
@@ -884,90 +854,11 @@ if st.session_state.df_combined is not None:
         with col1_filter:
             platforms_series = st.session_state.df_combined['Platforms'].dropna().str.split(', ')
             all_platforms = sorted(list(set([p for sublist in platforms_series for p in sublist])))
-            selected_platforms = st.multiselect(
-                "Filter by Platform(s):",
-                options=all_platforms,
-                help="Leave empty to include all."
-            )
+            selected_platforms = st.multiselect("Filter by Platform(s):", options=all_platforms, help="Leave empty to include all.")
         with col2_filter:
             st.write("**Filter by Sample Count Range:**")
-            min_samples = st.number_input(
-                "Minimum samples (>=):",
-                min_value=0, value=0, step=10,
-                help="Set to 0 to disable."
-            )
-            max_samples = st.number_input(
-                "Maximum samples (<=):",
-                min_value=0, value=0, step=10,
-                help="Set to 0 to disable."
-            )
-
-        # ✅ NEW: Step 1 button that feeds into Step 2 selection list
-        st.write("**Step 1 Action:** Add matches to the selection list (used in Step 2 / Step 3)")
-        col1_step1, col2_step1 = st.columns(2)
-
-        with col1_step1:
-            if st.button("Add Step 1 Matches"):
-                df_base = normalize_scrape_df(st.session_state.df_combined)
-                series_level = df_base.drop_duplicates(subset=["Series"]).copy()
-
-                keep = series_level.copy()
-
-                # Platform filter
-                if selected_platforms:
-                    platform_regex = "|".join(re.escape(p) for p in selected_platforms)
-                    keep = keep[keep["Platforms"].str.contains(platform_regex, na=False, regex=True)]
-
-                # Sample filters
-                if min_samples > 0:
-                    keep = keep[keep["Samples"] >= int(min_samples)]
-                if max_samples > 0:
-                    keep = keep[keep["Samples"] <= int(max_samples)]
-
-                matched = (
-                    keep["Series"]
-                    .dropna()
-                    .astype(str)
-                    .str.upper()
-                    .unique()
-                    .tolist()
-                )
-
-                before = len(set(st.session_state.gse_selection_list))
-                st.session_state.gse_selection_list.extend(matched)
-                after = len(set(st.session_state.gse_selection_list))
-
-                st.success(f"Added {after - before} new GSEs from Step 1 filters (matched {len(matched)} total).")
-
-        with col2_step1:
-            if st.button("Replace Selection List with Step 1 Matches"):
-                df_base = normalize_scrape_df(st.session_state.df_combined)
-                series_level = df_base.drop_duplicates(subset=["Series"]).copy()
-
-                keep = series_level.copy()
-
-                # Platform filter
-                if selected_platforms:
-                    platform_regex = "|".join(re.escape(p) for p in selected_platforms)
-                    keep = keep[keep["Platforms"].str.contains(platform_regex, na=False, regex=True)]
-
-                # Sample filters
-                if min_samples > 0:
-                    keep = keep[keep["Samples"] >= int(min_samples)]
-                if max_samples > 0:
-                    keep = keep[keep["Samples"] <= int(max_samples)]
-
-                matched = (
-                    keep["Series"]
-                    .dropna()
-                    .astype(str)
-                    .str.upper()
-                    .unique()
-                    .tolist()
-                )
-
-                st.session_state.gse_selection_list = matched
-                st.success(f"Selection List replaced with {len(set(matched))} GSEs from Step 1 filters.")
+            min_samples = st.number_input("Minimum samples (>=):", min_value=0, value=0, step=10, help="Set to 0 to disable.")
+            max_samples = st.number_input("Maximum samples (<=):", min_value=0, value=0, step=10, help="Set to 0 to disable.")
 
         st.subheader("Step 2: Build Additional GSE Selection List (Optional)")
         col1_add, col2_add = st.columns(2)
@@ -988,7 +879,7 @@ if st.session_state.df_combined is not None:
                     st.rerun()
 
         st.divider()
-
+        
         unique_selection_count = len(set(st.session_state.gse_selection_list))
         st.write(f"**Additive Selection List:** {unique_selection_count} unique GSEs selected.")
         if st.button("Reset Selection List"):
@@ -997,65 +888,48 @@ if st.session_state.df_combined is not None:
 
         st.subheader("Step 3: Apply All Filters")
         if st.button("Filter GSE Selected", type="primary"):
-            df_base = normalize_scrape_df(st.session_state.df_combined)
-
-            # One row per series for sample/platform checks
-            series_level = df_base.drop_duplicates(subset=["Series"]).copy()
-
-            # Start with all series
-            keep_series = set(series_level["Series"].unique())
-
-            # --- Platform filter ---
+            df_to_filter = st.session_state.df_combined.copy()
+            unique_samples_df = df_to_filter.drop_duplicates(subset=['Series'])
             if selected_platforms:
-                platform_regex = "|".join(re.escape(p) for p in selected_platforms)
-                platform_keep = set(
-                    series_level.loc[
-                        series_level["Platforms"].str.contains(platform_regex, na=False, regex=True),
-                        "Series"
-                    ]
-                )
-                keep_series &= platform_keep
-
-            # --- Sample filters ---
+                platform_regex = '|'.join(selected_platforms)
+                df_to_filter = df_to_filter[df_to_filter['Platforms'].str.contains(platform_regex, na=False)]
+            
+            gses_passing_samples = set(df_to_filter['Series'].unique())
             if min_samples > 0:
-                keep_series &= set(series_level.loc[series_level["Samples"] >= int(min_samples), "Series"])
-
+                gses_passing_samples.intersection_update(unique_samples_df.query(f'Samples >= {min_samples}')['Series'])
             if max_samples > 0:
-                keep_series &= set(series_level.loc[series_level["Samples"] <= int(max_samples), "Series"])
-
-            # --- Step 2 additive list ---
+                gses_passing_samples.intersection_update(unique_samples_df.query(f'Samples <= {max_samples}')['Series'])
+            df_to_filter = df_to_filter[df_to_filter['Series'].isin(gses_passing_samples)]
+            
             if st.session_state.gse_selection_list:
-                requested = set(s.strip().upper() for s in st.session_state.gse_selection_list if s)
-                keep_series &= requested
-
-            # Apply to full row-level dataframe (keeps supplementary files)
-            st.session_state.gse_df_filtered = df_base[df_base["Series"].isin(keep_series)].copy()
-
-            final_gse_count = st.session_state.gse_df_filtered["Series"].nunique()
+                unique_gses_to_keep = set(st.session_state.gse_selection_list)
+                df_to_filter = df_to_filter[df_to_filter['Series'].isin(unique_gses_to_keep)]
+            
+            st.session_state.gse_df_filtered = df_to_filter
+            final_gse_count = len(st.session_state.gse_df_filtered['Series'].unique())
             st.success(f"Filtered DataFrame created with {final_gse_count} unique GSEs.")
 
-        # --- Filtered Visualization and Export Section ---
-        if st.session_state.gse_df_filtered is not None:
-            st.header("4. Analyze Selected GSEs")
+# --- Filtered Visualization and Export Section ---
+if st.session_state.gse_df_filtered is not None:
+    st.header("4. Analyze Selected GSEs")
+    
+    if st.button("Make Plots from Selected GSEs"):
+        with st.spinner("Generating filtered plots..."):
+            if not st.session_state.gse_df_filtered.empty:
+                filtered_summary = dataset_snapshot(st.session_state.gse_df_filtered)
+                file_per_smp_complexity(filtered_summary)
+                file_ext_network(st.session_state.gse_df_filtered)
+            else:
+                st.warning("The filtered DataFrame is empty. No plots to generate.")
 
-            if st.button("Make Plots from Selected GSEs"):
-                with st.spinner("Generating filtered plots..."):
-                    if not st.session_state.gse_df_filtered.empty:
-                        filtered_summary = dataset_snapshot(st.session_state.gse_df_filtered)
-                        file_per_smp_complexity(filtered_summary)
-                        file_ext_network(st.session_state.gse_df_filtered)
-                    else:
-                        st.warning("The filtered DataFrame is empty. No plots to generate.")
+    if st.button("Extract the data"):
+        if dir_base:
+            output_csv_path = os.path.join(dir_base, "filtered_geo_webscrap.csv")
+            st.session_state.gse_df_filtered.to_csv(output_csv_path, index=False)
+            st.success(f"Filtered data saved successfully to: {output_csv_path}")
+        else:
+            st.error("Please provide the initial directory path in Step 1 to save the file.")
 
-            if st.button("Extract the data"):
-                if dir_base:
-                    output_csv_path = os.path.join(dir_base, "filtered_geo_webscrap.csv")
-                    st.session_state.gse_df_filtered.to_csv(output_csv_path, index=False)
-                    st.success("Filtered data exported!")
-                    offer_download(output_csv_path, "Download filtered_geo_webscrap.csv")
-                else:
-                    st.error("Please provide the initial directory path in Step 1 to save the file.")
-                    
 # --- Metadata Analysis Section ---
 st.title("5. Metadata Analysis")
 if st.button("Get GSE Metadata"):
@@ -1093,9 +967,7 @@ if st.session_state.list_of_metadata_dfs:
                         gse_id = df['gse_id'].iloc[0]
                         sheet_name = sanitize_sheet_name(gse_id, used_names)
                         df.to_excel(writer, sheet_name=sheet_name, index=False)
-
-                st.success("Metadata exported!")
-                offer_download(excel_out_path, "Download metadata_GSE.xlsx")
+                st.success(f"Metadata successfully exported to: {excel_out_path}")
             else:
                 st.error("Please provide the initial directory path in Step 1 to save the Excel file.")
 
@@ -1162,8 +1034,6 @@ if st.session_state.list_of_metadata_dfs:
                             gse_id = filt_df['gse_id'].iloc[0]
                             sheet_name = sanitize_sheet_name(gse_id, used_names)
                             filt_df.to_excel(writer, sheet_name=sheet_name, index=False)
-                    st.success("Filtered metadata exported!")
-                    offer_download(excel_out_path, "Download metadata_filtered_by_word.xlsx")
-                    
-                else:
+                    st.success(f"Filtered metadata successfully exported to: {excel_out_path}")
+                
                     st.error("Cannot export. Ensure data is loaded and a search has been performed.")

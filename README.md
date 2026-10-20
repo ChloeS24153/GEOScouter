@@ -1,16 +1,16 @@
-# GEOScouter
+# GEOscouter
 
-GEOScouter helps you profile and compare public datasets on [GEO](https://www.ncbi.nlm.nih.gov/geo/) from an exported `gds_result.txt` search.
+GEOscouter helps you profile and compare public datasets on [GEO](https://www.ncbi.nlm.nih.gov/geo/) from an exported `gds_result.txt` search.
 
 ## Use the deployed app
 
-**[Open GEOScouter on Streamlit Cloud →](https://geoscouter.streamlit.app/)**
+**[Open GEOscouter on Streamlit Cloud →](https://geoscouter.streamlit.app/)**
 
 No local setup required — upload your GEO `gds_result.txt` and run the pipeline in the browser.
 
 ## Full documentation
 
-See [doc/README.md](doc/README.md) for the pipeline guide, filtering, visualization, and design notes (Series Matrix files, GEO DataSets vs GEOScouter).
+See [doc/README.md](doc/README.md) for the pipeline guide, filtering, visualization, and design notes (Series Matrix files, GEO DataSets vs GEOscouter).
 
 Hackathon provenance (KIDS25 Team 17): [archive/KIDS25-Team17/PROVENANCE.md](archive/KIDS25-Team17/PROVENANCE.md).
 
@@ -19,7 +19,7 @@ Hackathon provenance (KIDS25 Team 17): [archive/KIDS25-Team17/PROVENANCE.md](arc
 Before editing or running the app, check that your local folder matches GitHub. Add this alias to `~/.zshrc` (once):
 
 ```bash
-alias geoscoutersync='cd /Users/mmarcao/Documents/GEOScouter_v3 && git fetch origin && git status -sb'
+alias geoscoutersync='cd /Users/mmarcao/Documents/GEOscouter_v3 && git fetch origin && git status -sb'
 ```
 
 Reload your shell (`source ~/.zshrc`), then whenever you return to the project run:
@@ -43,7 +43,7 @@ Work on branch **`dev`** (see [Push to GitHub](#push-to-github)).
 ### First-time setup
 
 ```bash
-cd path/to/GEOScouter_v3
+cd path/to/GEOscouter_v3
 git checkout dev
 python3 -m venv .venv
 source .venv/bin/activate
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 ### Launch the app
 
 ```bash
-cd path/to/GEOScouter_v3
+cd path/to/GEOscouter_v3
 source .venv/bin/activate
 streamlit run streamlit_app.py
 ```
@@ -113,7 +113,7 @@ To redeploy or fork your own instance:
 
 1. Push the `dev` branch to GitHub (see below)
 2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. New app → repository `Mmaycon/GEOScouter`, branch **`dev`**
+3. New app → repository `Mmaycon/GEOscouter`, branch **`dev`**
 4. Main file path: **`streamlit_app.py`**
 5. Deploy
 

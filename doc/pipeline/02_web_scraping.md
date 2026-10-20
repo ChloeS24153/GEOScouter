@@ -1,6 +1,6 @@
 # Step 1 — Web scraping
 
-For each GSE in `gds_processed.csv`, GEOScouter fetches series metadata and supplementary file names, then writes **`geo_webscrap.csv`**.
+For each GSE in `gds_processed.csv`, GEOscouter fetches series metadata and supplementary file names, then writes **`geo_webscrap.csv`**.
 
 **Source:** [geoscouter/core/pipeline.py](../../geoscouter/core/pipeline.py), [tar_expand.py](../../geoscouter/core/tar_expand.py)
 

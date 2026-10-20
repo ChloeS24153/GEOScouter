@@ -1,5 +1,5 @@
 """
-GEOScouter – Streamlit entry point (deploy on Streamlit Community Cloud).
+GEOscouter – Streamlit entry point (deploy on Streamlit Community Cloud).
 
 Run locally:
   streamlit run streamlit_app.py
@@ -11,7 +11,7 @@ except Exception as e:
     import streamlit as st
 
     st.set_page_config(layout="wide")
-    st.title("GEOScouter – dependency error")
+    st.title("GEOscouter – dependency error")
     st.error(
         "Missing package: beautifulsoup4. Add it to requirements.txt and redeploy.\n\n"
         f"Import error: {e}"
@@ -57,7 +57,7 @@ from geoscouter.viz.complexity import file_per_sample_complexity
 from geoscouter.viz.network import supervised_file_similarity_network
 from geoscouter.viz.snapshot import dataset_snapshot_plots
 
-_GITHUB = "https://github.com/Mmaycon/GEOScouter"
+_GITHUB = "https://github.com/Mmaycon/GEOscouter"
 _ISSUE_TEMPLATE = "contribution.yml"
 
 
@@ -83,7 +83,7 @@ def _step_header(step: int, title: str, *, caption: str | None = None) -> None:
         )
 
 
-st.set_page_config(layout="wide", page_title="GEOScouter")
+st.set_page_config(layout="wide", page_title="GEOscouter")
 
 with st.sidebar:
     st.markdown("**Collaborate**")
@@ -92,7 +92,7 @@ with st.sidebar:
     st.link_button("Contributing guide", f"{_GITHUB}/blob/dev/CONTRIBUTING.md", use_container_width=True)
     st.link_button("Documentation", f"{_GITHUB}/blob/dev/doc/README.md", use_container_width=True)
 
-st.title("GEOScouter – curating datasets from GEO")
+st.title("GEOscouter – curating datasets from GEO")
 
 st.markdown(
     """

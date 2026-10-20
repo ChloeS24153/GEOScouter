@@ -1,4 +1,4 @@
-Thanks for contributing to GEOScouter. Pull requests should target **`dev`** and stay focused on one feature or fix.
+Thanks for contributing to GEOscouter. Pull requests should target **`dev`** and stay focused on one feature or fix.
 
 ## Checklist
 

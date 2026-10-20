@@ -1,1 +1,1 @@
-"""GEOScouter utilities: I/O, summaries, HTTP helpers."""
+"""GEOscouter utilities: I/O, summaries, HTTP helpers."""

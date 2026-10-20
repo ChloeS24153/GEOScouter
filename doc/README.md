@@ -1,4 +1,4 @@
-# GEOScouter documentation
+# GEOscouter documentation
 
 > ### Deployed app
 >
@@ -6,7 +6,7 @@
 > - **Branch:** `dev` (Streamlit Community Cloud)
 > - **Example input:** [`data/input/gds_result.txt`](../data/input/gds_result.txt)
 
-GEOScouter helps you profile and compare public datasets on [GEO](https://www.ncbi.nlm.nih.gov/geo/) from an exported `gds_result.txt` search.
+GEOscouter helps you profile and compare public datasets on [GEO](https://www.ncbi.nlm.nih.gov/geo/) from an exported `gds_result.txt` search.
 
 **Code is the source of truth.** Paths, cache file names, and runtime behavior live in the scripts and package modules linked below — not duplicated here.
 
@@ -16,7 +16,7 @@ GEOScouter helps you profile and compare public datasets on [GEO](https://www.nc
 
 Before using the app, run a search on [GEO DataSets](https://www.ncbi.nlm.nih.gov/gds/) and export **`gds_result.txt`**.
 
-See [pipeline/01_gds_input.md](pipeline/01_gds_input.md) for how that file is structured and what GEOScouter reads from it.
+See [pipeline/01_gds_input.md](pipeline/01_gds_input.md) for how that file is structured and what GEOscouter reads from it.
 
 ---
 
@@ -51,7 +51,7 @@ flowchart LR
 ### Local
 
 ```bash
-cd path/to/GEOScouter
+cd path/to/GEOscouter
 git checkout dev
 python3 -m venv .venv
 source .venv/bin/activate
@@ -64,7 +64,7 @@ Open the URL Streamlit prints (usually http://localhost:8501).
 ### Streamlit Community Cloud
 
 1. Push the `dev` branch to GitHub.
-2. [share.streamlit.io](https://share.streamlit.io) → New app → repo `Mmaycon/GEOScouter`, branch **`dev`**, main file **`streamlit_app.py`**.
+2. [share.streamlit.io](https://share.streamlit.io) → New app → repo `Mmaycon/GEOscouter`, branch **`dev`**, main file **`streamlit_app.py`**.
 3. After deploy or code updates: use **Delete all cached outputs** in the app, then re-run the pipeline.
 
 ### Using the app (short)
@@ -87,7 +87,7 @@ Open the URL Streamlit prints (usually http://localhost:8501).
 | Steps 3–4 — visualization | [visualization/README.md](visualization/README.md) | [viz/](../geoscouter/viz/), [similarity.py](../geoscouter/core/similarity.py) |
 | Step 5 — metadata curation | [metadata/README.md](metadata/README.md) | [curation.py](../geoscouter/core/curation.py), [metadata.py](../geoscouter/core/metadata.py) |
 | Series Matrix files (design note) | [reference/series_matrix_files.md](reference/series_matrix_files.md) | — |
-| GEO DataSets vs GEOScouter | [reference/geodatasets_api_vs_geoscouter.md](reference/geodatasets_api_vs_geoscouter.md) | — |
+| GEO DataSets vs GEOscouter | [reference/geodatasets_api_vs_geoscouter.md](reference/geodatasets_api_vs_geoscouter.md) | — |
 
 ---
 

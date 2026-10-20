@@ -1,6 +1,6 @@
 blank_issues_enabled: true
 contact_links:
   - name: Contributing guide
-    url: https://github.com/Mmaycon/GEOScouter/blob/dev/CONTRIBUTING.md
+    url: https://github.com/Mmaycon/GEOscouter/blob/dev/CONTRIBUTING.md
   - name: Documentation
-    url: https://github.com/Mmaycon/GEOScouter/blob/dev/doc/README.md
+    url: https://github.com/Mmaycon/GEOscouter/blob/dev/doc/README.md

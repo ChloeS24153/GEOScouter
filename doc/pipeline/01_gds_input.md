@@ -1,6 +1,6 @@
 # Step 0 — `gds_result.txt` input
 
-GEOScouter starts from a plain-text export of a [GEO DataSets](https://www.ncbi.nlm.nih.gov/gds/) search — not from the Entrez API directly.
+GEOscouter starts from a plain-text export of a [GEO DataSets](https://www.ncbi.nlm.nih.gov/gds/) search — not from the Entrez API directly.
 
 **Source:** [geoscouter/core/gds_parse.py](../../geoscouter/core/gds_parse.py)
 
@@ -9,7 +9,7 @@ GEOScouter starts from a plain-text export of a [GEO DataSets](https://www.ncbi.
 ## When to use
 
 - You have run a keyword or fielded search on GEO DataSets (e.g. `lung cancer AND Xenium`).
-- You want to curate the resulting series list in GEOScouter (filter, compare supplementary files, visualize).
+- You want to curate the resulting series list in GEOscouter (filter, compare supplementary files, visualize).
 
 ---
 

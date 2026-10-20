@@ -24,7 +24,7 @@ flowchart TD
 
 ## Fetch scope
 
-When you click **Fetch GEO sample metadata**, GEOScouter downloads SOFT via GEOparse for:
+When you click **Fetch GEO sample metadata**, GEOscouter downloads SOFT via GEOparse for:
 
 1. **Comparison list GSEs** (step 4) when the list is non-empty
 2. Otherwise, all GSEs in the **active working set** (`df_active`)

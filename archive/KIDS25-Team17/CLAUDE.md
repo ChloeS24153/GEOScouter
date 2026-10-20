@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-GEOScouter is a Streamlit-based tool for profiling and curating public datasets from the Gene Expression Omnibus (GEO). It helps researchers quickly identify promising datasets, assess file format complexity, and budget for data analysis projects.
+GEOscouter is a Streamlit-based tool for profiling and curating public datasets from the Gene Expression Omnibus (GEO). It helps researchers quickly identify promising datasets, assess file format complexity, and budget for data analysis projects.
 
 ## Environment Setup
 

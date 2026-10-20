@@ -1,1 +1,1 @@
-"""GEOScouter core: pipeline, filters, metadata, similarity."""
+"""GEOscouter core: pipeline, filters, metadata, similarity."""

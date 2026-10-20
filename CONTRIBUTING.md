@@ -1,25 +1,25 @@
-# Contributing to GEOScouter
+# Contributing to GEOscouter
 
-Thank you for helping improve GEOScouter. This document covers the essentials; full project docs are in [README.md](README.md) and [doc/README.md](doc/README.md).
+Thank you for helping improve GEOscouter. This document covers the essentials; full project docs are in [README.md](README.md) and [doc/README.md](doc/README.md).
 
 ## Branch workflow (fork → feature branch → PR)
 
-Contributors work from a **fork**. You do **not** need push access to `Mmaycon/GEOScouter`. The maintainer **reviews and merges**; do not push directly to the upstream repo.
+Contributors work from a **fork**. You do **not** need push access to `Mmaycon/GEOscouter`. The maintainer **reviews and merges**; do not push directly to the upstream repo.
 
 | Repository | Role |
 |------------|------|
-| **`Mmaycon/GEOScouter`** (upstream) | Canonical project. Target branch for PRs: **`dev`**. **`main`** is release-only. |
-| **Your fork** (`YOUR_USER/GEOScouter`) | Where you push feature branches. |
+| **`Mmaycon/GEOscouter`** (upstream) | Canonical project. Target branch for PRs: **`dev`**. **`main`** is release-only. |
+| **Your fork** (`YOUR_USER/GEOscouter`) | Where you push feature branches. |
 
 **Rules**
 
-- Open pull requests **into `dev`** on `Mmaycon/GEOScouter` — **not** into `main`.
+- Open pull requests **into `dev`** on `Mmaycon/GEOscouter` — **not** into `main`.
 - One topic per PR (one feature, fix, or doc).
 - Delete your feature branch on the fork after merge (optional but tidy).
 
 ### dev and main: integration vs release
 
-GEOScouter uses two upstream branches on purpose:
+GEOscouter uses two upstream branches on purpose:
 
 - **`dev`** — integration branch. All community pull requests merge here. When your PR is merged, your work is part of the project.
 - **`main`** — release branch. Maintainers merge **`dev` → `main`** when cutting a release. **`main`** is the stable line and GitHub’s **default branch** for this repository.
@@ -41,13 +41,13 @@ flowchart LR
 
 ### First-time setup
 
-1. On GitHub: **Fork** [Mmaycon/GEOScouter](https://github.com/Mmaycon/GEOScouter) to your account.
+1. On GitHub: **Fork** [Mmaycon/GEOscouter](https://github.com/Mmaycon/GEOscouter) to your account.
 2. Clone **your fork** (replace `YOUR_USER`):
 
 ```bash
-git clone https://github.com/YOUR_USER/GEOScouter.git
-cd GEOScouter
-git remote add upstream https://github.com/Mmaycon/GEOScouter.git
+git clone https://github.com/YOUR_USER/GEOscouter.git
+cd GEOscouter
+git remote add upstream https://github.com/Mmaycon/GEOscouter.git
 git fetch upstream
 git checkout -b dev upstream/dev   # track upstream dev locally
 ```
@@ -58,15 +58,15 @@ git checkout -b dev upstream/dev   # track upstream dev locally
 
 ```bash
 git checkout dev
-git pull upstream dev              # sync with Mmaycon/GEOScouter dev
+git pull upstream dev              # sync with Mmaycon/GEOscouter dev
 git checkout -b feature/short-name # new branch from dev
 # … edit, commit …
 git push -u origin feature/short-name   # origin = your fork
 ```
 
 3. On GitHub: **New pull request**
-   - **base repository:** `Mmaycon/GEOScouter`, **base:** `dev`
-   - **head repository:** `YOUR_USER/GEOScouter`, **compare:** `feature/short-name`
+   - **base repository:** `Mmaycon/GEOscouter`, **base:** `dev`
+   - **head repository:** `YOUR_USER/GEOscouter`, **compare:** `feature/short-name`
 4. Fill in the PR template, link an issue if you have one (e.g. `Fixes #3`), and wait for CI **tests** + maintainer review.
 
 If GitHub shows “compare across forks,” choose your fork as the head and **`dev`** as the base.
@@ -106,7 +106,7 @@ If you change behavior in `geoscouter/core/` or library code under `geoscouter/`
 
 ## Continuous integration
 
-On every pull request to **`dev`**, GitHub Actions runs the **`tests`** workflow on Ubuntu: install dependencies, run the command above, then verify `import geoscouter` and `import streamlit_app`. See the [Actions tab](https://github.com/Mmaycon/GEOScouter/actions) for logs.
+On every pull request to **`dev`**, GitHub Actions runs the **`tests`** workflow on Ubuntu: install dependencies, run the command above, then verify `import geoscouter` and `import streamlit_app`. See the [Actions tab](https://github.com/Mmaycon/GEOscouter/actions) for logs.
 
 ## After you open a PR
 
@@ -118,7 +118,7 @@ Small fixes do not need a linked issue; larger work benefits from discussing fir
 
 ## Issues and ideas
 
-Use the [issue chooser](https://github.com/Mmaycon/GEOScouter/issues/new/choose) (template **Ideas, bugs, or help**) or open a **blank issue**. Prefix the title with `[Step N]` if you know which part of the app — optional. A short paragraph is enough.
+Use the [issue chooser](https://github.com/Mmaycon/GEOscouter/issues/new/choose) (template **Ideas, bugs, or help**) or open a **blank issue**. Prefix the title with `[Step N]` if you know which part of the app — optional. A short paragraph is enough.
 
 ## Where to change code
 

@@ -1,6 +1,6 @@
-# Worked Example: End-to-End GEOScouter Run
+# Worked Example: End-to-End GEOscouter Run
 
-This guide provides a reproducible end-to-end workflow to test GEOScouter using a fixed input and expected outputs.  
+This guide provides a reproducible end-to-end workflow to test GEOscouter using a fixed input and expected outputs.  
 
 ### Pinned Parameters
 

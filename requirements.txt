@@ -1,4 +1,4 @@
-# GEOScouter – Streamlit Community Cloud (lean set)
+# GEOscouter – Streamlit Community Cloud (lean set)
 streamlit>=1.32
 pandas>=2.0
 numpy>=1.24

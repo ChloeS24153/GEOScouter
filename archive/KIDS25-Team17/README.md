@@ -1,6 +1,6 @@
 # KIDS25-Team17
 
-## GEOScouter – a tool to save you time when profiling public datasets on the Gene Expression Omnibus (GEO).
+## GEOscouter – a tool to save you time when profiling public datasets on the Gene Expression Omnibus (GEO).
 
 1. Spotting the best GSEs: Quickly zero in on the most promising datasets worth your attention.
 2. Messiness meter: Get a sneak peek at just how wild those file formats can get.
