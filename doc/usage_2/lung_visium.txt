@@ -1,0 +1,3104 @@
+
+1. Spatial Transcriptomics Reveals Compartment-Specific Cytotoxic T cells Crosstalk with AT2 and Goblet cells in Advanced COPD
+(Submitter supplied) Chronic obstructive pulmonary disease (COPD) is characterized by chronic inflammation and structural remodelling across different anatomical structures of the lung, including airways, parenchyma, and pulmonary vessels. However, compartment specific changes in immune cells composition and their communications with underlying structural cells is under investigated. Our study sought to assess the spatially resolved cellular organization of healthy and advanced end-stage COPD lungs using Visium spatial transcriptomics. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 8 Samples
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE318nnn/GSE318039/
+Series		Accession: GSE318039	ID: 200318039
+
+2. Time-resolved single-cell RNA sequencing of mouse lungs during acute Pseudomonas aeruginosa pneumonia
+(Submitter supplied) Pseudomonas aeruginosa pneumonia triggers a complex, dynamic host response, yet the cellular coordination of inflammation and repair remains poorly defined. Here, we performed time-resolved single-cell RNA sequencing (scRNA-seq) on murine lungs across five timepoints (0-96 h post-infection), capturing the dynamic continuum from acute injury to resolution and repair, profiling a total of 41,452 high-quality cells. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24247 5 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE345nnn/GSE345596/
+Series		Accession: GSE345596	ID: 200345596
+
+3. Persistent Lung Inflammation and Fibrosis After Mouse-Adapted Omicron BA.1 Infection
+(Submitter supplied) The Omicron sub-lineages of SARS-CoV-2 have caused a significant acute disease burden on human health and strained public health and healthcare services, while eliciting chronic disease outcomes as well. As such, the development of animal models that provoke acute and chronic disease phenotypes are essential for understanding disease mechanisms and for development of interventional countermeasures. To address this, we infected aged BALB/c with mouse-adapted SARS-CoV-2 Omicron BA.1 virus (BA.1 MA) which resulted in significant weight loss, reduced lung function, and anosmia during acute disease phase. We observed viral RNA in sustentacular cells in the upper nasal airways, club cells in lower bronchiolar airways, and alveolar type 2 epithelial cells (AT2 cells) in the alveolar parenchyma. Four months post-infection, post-acute lung pathology was observed that was characteristic of an organized pneumonia with inflammatory infiltrates, tertiary lymphoid structures, and fibrotic lesions. Highly multiplexed immunostaining and spatial transcriptomics indicate the molecular signature of the post-acute fibrotic lesion is consistent with idiopathic fibrosis. Together, this system enables the further study of acute and chronic fibrotic lung disease mechanisms and therapeutic approaches to minimize the symptoms of life-threatening respiratory disease.
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL30172 2 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE337nnn/GSE337537/
+Series		Accession: GSE337537	ID: 200337537
+
+4. Spatial multi-omics reveals IRF9-driven immunopathology determines breed-specific susceptibility to Mycoplasma hyopneumoniae in pigs
+(Submitter supplied) Spatial transcriptomic analysis of Mycoplasma hyopneumoniae infection in porcine lung tissue using 10x Genomics Visium platform. Forty-eight pigs (24 Chenghua and 24 Yorkshire) were divided into infection and control groups. Lung tissues were collected at days 28 post-infection. Twelve samples underwent spatial transcriptomic sequencing: CHI (n=4), YYI (n=4), CHC (n=2), and YYC (n=2).
+Organism:	Sus scrofa
+Type:		Other
+Platform: GPL26351 4 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE306nnn/GSE306706/
+Series		Accession: GSE306706	ID: 200306706
+
+5. Genetic deletion of Usp22 in KRASG12D-p53-null driven mouse lung cancer [Visium]
+(Submitter supplied) Ubiquitin-specific peptidase 22 (USP22), a deubiquitinase and component of the “Death-By-Cancer” 11-gene signature, is overexpressed in multiple cancers and linked to recurrence, therapy resistance, and poor prognosis. While its role in tumor immune evasion is emerging, the function of USP22 in KRAS-driven lung cancer and antitumor immunity remains largely unknown. Given that oncogenic KRAS promotes an immunosuppressive tumor microenvironment (TME) and resistance to immunotherapy, this study investigates USP22's role in KRAS-driven lung cancer and its potential impacts on carcinogenesis and anticancer immunity. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL21103 2 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE306nnn/GSE306019/
+Series		Accession: GSE306019	ID: 200306019
+
+6. Spatiotemporal transcriptomic niches of complement pathway and serine protease inhibitor activation in aging and infection
+(Submitter supplied) Aging is a multifactorial and complex physiological process, affecting every organ with characteristic manifestations. Understanding the molecular mechanisms that drive aging processes is crucial to targeting age-related disorders. Recent reports suggest that severe post-infection syndromes can partially accelerate aging. However, the underlying gene-encoded regulatory interplay, whether being shared or distinct between aging and infection biology are poorly understood. more...
+Organism:	Mus musculus
+Type:		Other
+Platforms: GPL28330 GPL24247 168 Samples
+FTP download: GEO (CSV, GEF, H5, JPG, JSON, PNG, TIFF, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE283nnn/GSE283283/
+Series		Accession: GSE283283	ID: 200283283
+
+7. Spatial transcriptomics unveils the in situ cellular and molecular hallmarks of the lung in fatal COVID-19
+(Submitter supplied) Severe Coronavirus disease 2019 (COVID-19) induces heterogeneous and progressive diffuse alveolar damage (DAD) highly disrupting lung tissue architecture and homeostasis, hampering disease management leading to fatal outcomes. Characterizing DAD pathophysiology across disease progression is of ultimate importance to better understand the molecular and cellular features driving different DAD patterns and to optimize treatment strategies. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL20795 23 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE271nnn/GSE271370/
+Series		Accession: GSE271370	ID: 200271370
+
+8. Decoding Lymphangioleiomyomatosis (LAM) Niche Environment via Integrative Analysis of Single Cell Multiomics and Spatial Transcriptomics
+(Submitter supplied) Lymphangioleiomyomatosis (LAM) is a rare, progressive lung disease characterized by cystic destruction and metastatic growth of smooth muscle-like cells. Despite advances in understanding its genetic basis, the cellular heterogeneity, regulatory mechanisms, and microenvironmental interactions driving LAM progression remain poorly defined. We identified two spatially and functionally distinct LAM subtypes: LAMCORE1 and LAMCORE2. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing; Other
+Platforms: GPL16791 GPL30882 GPL24676 12 Samples
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE302nnn/GSE302356/
+Series		Accession: GSE302356	ID: 200302356
+
+9. Dendritic cell-mediated antigen presentation regulates tertiary lymphoid structure development in cancer.
+(Submitter supplied) Tertiary lymphoid structures (TLS) correlate with favorable responses to immunotherapy, yet the mechanisms governing their formation and maintenance in tumors remain poorly defined. Through high-resolution spatial mapping across human tumors, we identified a consistent accumulation of CCR7⁺ mature dendritic cells (DC) within TLS. To dissect their function, we developed a non-small cell lung cancer (NSCLC) model that recapitulates mature TLS formation. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 7 Samples
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE322nnn/GSE322553/
+Series		Accession: GSE322553	ID: 200322553
+
+10. A novel CAF population coordinates hyper-suppressive regulatory T cell recruitment and localization in lung cancer [Spatial Transcriptomics]
+(Submitter supplied) Across many solid tumor types, cancer-associated fibroblasts (CAFs) are abundant and highly heterogeneous, with distinct subpopulations exerting immunomodulatory functions. Though they have been well characterized in malignancies considered to be highly desmoplastic, how distinct CAF populations in lung adenocarcinoma (LUAD) influence the tumor–immune microenvironment is not well understood. Here, we identify a novel population of immunomodulatory CAFs (imCAFs) in the LUAD tumor microenvironment, characterized by CHL1 expression and enriched in transcriptional programs involving immune regulation and chemokine signaling. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL24247 2 Samples
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE303nnn/GSE303162/
+Series		Accession: GSE303162	ID: 200303162
+
+11. Spatial Transcriptomics of MHC Expression in Mauritian Cynomolgus Macaque Tissues
+(Submitter supplied) A spatial transcriptomics method was developed with the 10X Genomics Visium HD platform and a custom probe panel to study expression of Major Histocompatibility Complex (MHC) genes in tissues from Mauritian-origin cynomolgus macaques. Previous scRNA sequencing studies with these macaque demonstrated a wide range of allele-specific MHC transcript levels in multiple peripheral blood mononuclear cell subsets. more...
+Organism:	Macaca fascicularis
+Type:		Other
+Platform: GPL34842 16 Samples
+FTP download: GEO (CSV, H5, H5AD, JSON, PARQUET, TIFF, Unknown) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE336nnn/GSE336633/
+Series		Accession: GSE336633	ID: 200336633
+
+12. Multi-omics uncovers the immune landscape and molecular signatures associated with antibody-dependent cellular cytotoxicity in SARS-CoV-2 clearance
+(Submitter supplied) The immune responses to SARS-CoV-2 infection, especially neutralizing antibody generation, have been extensively studied. Beyond direct neutralization, antibodies can eliminate infected cells through engagement with natural killer (NK) cells. However, the molecular and cellular mechanisms by which NK cells collaborate with infection-induced antibodies in vivo during SARS-CoV-2 clearance remain elusive. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL30172 8 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE300nnn/GSE300023/
+Series		Accession: GSE300023	ID: 200300023
+
+13. Conserved principles of spatial biology define tumor heterogeneity and immunotherapy sensitivity
+(Submitter supplied) Spatial transcriptomics experiments were performed on human patient pre-treatment biopsies for patients with either NSCLC or DLBCL. This was part of a larger study on pan-tumor spatial biology organization.
+Organism:	Homo sapiens
+Type:		Other
+Platforms: GPL24676 GPL34281 18 Samples
+FTP download: GEO (CSV, H5, TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE292nnn/GSE292299/
+Series		Accession: GSE292299	ID: 200292299
+
+14. Single Nuclei and Spatial Transcriptomic Datasets in Brain Metastases [Xenium]
+(Submitter supplied) We performed single nuclei and spatial transcriptomic sequencing on a cohort of solid tumor human brain metastasis specimens resected at Duke University Medical Center from 1998 to 2022. This includes 23 single nuclei specimens, 12 Visium standard specimens, and 4 Xenium specimens. These samples encompass metastases from lung cancer, breast cancer, melanoma, and sarcoma primaries. Analysis of these data revealed novel tumor-microenvironment cell-cell interactions associated with patient survival.
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL33762 4 Samples
+FTP download: GEO (H5, PARQUET, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE325nnn/GSE325935/
+Series		Accession: GSE325935	ID: 200325935
+
+15. Single Nuclei and Spatial Transcriptomic Datasets in Brain Metastases
+(Submitter supplied) We performed single nuclei and spatial transcriptomic sequencing on a cohort of solid tumor human brain metastasis specimens resected at Duke University Medical Center from 1998 to 2022. This includes 23 single nuclei specimens, 12 Visium standard specimens, and 4 Xenium specimens. These samples encompass metastases from lung cancer, breast cancer, melanoma, and sarcoma primaries. Analysis of these data revealed novel tumor-microenvironment cell-cell interactions associated with patient survival.
+Organism:	Homo sapiens
+Type:		Other; Expression profiling by high throughput sequencing
+Platform: GPL24676 35 Samples
+FTP download: GEO (CSV, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE325nnn/GSE325196/
+Series		Accession: GSE325196	ID: 200325196
+
+16. Spatial Transcriptomics identifies Prosaposin (PSAP) as a Novel Therapeutic Vulnerability in Pulmonary Sarcoidosis
+(Submitter supplied) Sarcoidosis is a chronic inflammatory disorder characterized by the presence of tiny collections of immune cells known as granulomas. An incomplete understanding of etiology and immune-pathologic pathways have limited the development of quality biomarkers and novel targeted therapies. We found a Fsp1-Cre mediated TSC1/2 deletion mice unexpectedly led to development of a disease state, which was identified and characterized by spatial transcriptomics and single-cell RNA sequencing, similar to sarcoidosis. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL16791 4 Samples
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE262nnn/GSE262998/
+Series		Accession: GSE262998	ID: 200262998
+
+17. DGAT: A Dual-Graph Attention Network for Inferring Spatial Protein Landscapes from Transcriptomics
+(Submitter supplied) This dataset comprises spatial multi-omic profiling of malignant pleural mesothelioma (MPM) tissue, enabling simultaneous measurement of transcriptomic and protein expression at spatial resolution. To address the lack of spatially resolved proteomic measurements in standard spatial transcriptomics (ST) technologies, we generated this in-house MPM spatial transcriptomics and proteomics dataset and used it to train and evaluate DGAT (Dual-Graph Attention Network), a deep learning framework for imputing protein expression from ST data. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL30173 10 Samples
+FTP download: GEO (H5AD) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE300nnn/GSE300851/
+Series		Accession: GSE300851	ID: 200300851
+
+18. Spatial transcriptomic atlas of aggressive osteosarcomas reveals shared gene surface expression and immune landscape.
+(Submitter supplied) Osteosarcoma remains a highly aggressive malignancy with limited advancements in treatment efficacy and survival rates over the past four decades. Current therapeutic strategies fail in a significant proportion of patients, leading to metastatic relapse and poor prognosis. The substantial genomic instability and cellular plasticity of osteosarcoma contribute to its complex biology, necessitating innovative approaches for improved diagnosis and treatment. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 26 Samples
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE293nnn/GSE293065/
+Series		Accession: GSE293065	ID: 200293065
+
+19. Spatial transcriptomics for intrathoracic adhesion in mice
+(Submitter supplied) Intrathoracic adhesions (IAs) complicate thoracic surgery, causing risks such as bleeding, prolonged operative time, and postoperative air leakage. Severe adhesions (>10% pleura) often necessitate conversion from VATS to open thoracotomy due to dissection difficulties and pleural damage. Given the increasing role of lung segmentectomy and re-lobectomy for small or recurrent NSCLC, reoperations with IA are expected to rise, highlighting the need for effective IA prevention. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL28457 1 Sample
+FTP download: GEO (H5, TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE308nnn/GSE308260/
+Series		Accession: GSE308260	ID: 200308260
+
+20. GPNMB as a viable CAR Target for MITF pathognomonic fusion-driven cancers: A first-in-person GCAR1 Trial [ASPS-02_VisiumHD]
+(Submitter supplied) CAR T therapy for solid tumours is limited by a lack of safe and uniformly expressed cell-surface targets. We identify the MITF-driven gene GPNMB as being highly, homogeneously and stably expressed from primary and relapsed translocation-positive alveolar soft part sarcoma (ASPS) and renal cell carcinoma (tRCC). We developed a 2nd generation GPNMB-targeting CAR T therapy (GCAR1) that shows activity against cells, organoids and PDX models. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL30173 2 Samples
+FTP download: GEO (JPG, JSON, MTX, PARQUET, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE325nnn/GSE325706/
+Series		Accession: GSE325706	ID: 200325706
+
+21. GPNMB as a viable CAR Target for MITF pathognomonic fusion-driven cancers: A first-in-person GCAR1 Trial
+(Submitter supplied) CAR T therapy for solid tumours is limited by a lack of safe and uniformly expressed cell-surface targets. We identify the MITF-driven gene GPNMB as being highly, homogeneously and stably expressed from primary and relapsed translocation-positive alveolar soft part sarcoma (ASPS) and renal cell carcinoma (tRCC). We developed a 2nd generation GPNMB-targeting CAR T therapy (GCAR1) that shows activity against cells, organoids and PDX models. more...
+Organism:	Homo sapiens; Mus musculus
+Type:		Other
+Platforms: GPL30173 GPL30172 4 Samples
+FTP download: GEO (JPG, JSON, MTX, PARQUET, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE282nnn/GSE282057/
+Series		Accession: GSE282057	ID: 200282057
+
+22. Spatial transcriptomic sequencing data of human small cell lung cancer
+(Submitter supplied) Small cell lung cancer is a lung tumor with extremely poor prognosis, and its tumor heterogeneity and unique microenvironment remain unclear. This study aimed to reveal the early tumorigenesis and microenvironment of small cell lung cancer by performing idle transcriptomic sequencing of patients' small cell lung cancer tissues.
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 5 Samples
+FTP download: GEO (CSV, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE263nnn/GSE263196/
+Series		Accession: GSE263196	ID: 200263196
+
+23. Single-Cell Spatial Transcriptomics of Archival Human Lung and Breast Tumor FFPE Samples
+(Submitter supplied) We profiled human lung and breast tumor fragments using imaging-based single-cell spatial transcriptomics (10x Xenium) and compared the results to sequencing-based spatial transcriptomics (10x Visium) and single-nucleus RNA-seq
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL33762 41 Samples
+FTP download: GEO (DAT, H5, PARQUET, RPT, TIFF, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE311nnn/GSE311609/
+Series		Accession: GSE311609	ID: 200311609
+
+24. Spatial transcriptomics of cellular niches in pulmonary granuloma of chronic sarcoidosis patients
+(Submitter supplied) Spatial Transcriptomics using the 10x Genomics Visium technology was performed in  lung tissues from 9 patients with chronic sarcoidosis
+Organism:	Homo sapiens
+Type:		Other
+Platforms: GPL24676 GPL18573 9 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE288nnn/GSE288607/
+Series		Accession: GSE288607	ID: 200288607
+
+25. Lineage and Organ Signals Sequentially Build Organ Intrinsic Nervous Systems [Spatial Transcriptomics]
+(Submitter supplied) Organ intrinsic nervous systems (OINSs) are critical components of the body–brain axis, coordinating visceral organ function with systemic physiological control. Despite their importance, how these distinct neural architectures arise from a common neural crest cell (NCC) origin has remained unclear. Here, we present a systems-level, cross-organ analysis of OINS development, integrating lineage tracing, 3D imaging, single-cell transcriptomics, and genetic perturbations across heart, pancreas, intestine, and lungs. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL24247 1 Sample
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TAR, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE322nnn/GSE322766/
+Series		Accession: GSE322766	ID: 200322766
+
+26. Single-cell and Spatial Transcriptomic Profiling of the Bone Metastatic Microenvironment
+(Submitter supplied) The goal of this study is to comprehensively characterize the cellular composition, transcriptional programs, and spatial organization of the bone metastatic microenvironment and to assess how therapeutic perturbation influences tumor–microenvironment interactions. A mouse bone metastasis model was established via internal iliac artery injection of Lewis lung carcinoma cells, and metastatic lesions were monitored by in vivo imaging. more...
+Organism:	Mus musculus
+Type:		Other; Expression profiling by high throughput sequencing
+Platform: GPL24247 5 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE323nnn/GSE323357/
+Series		Accession: GSE323357	ID: 200323357
+
+27. Single cell and spatial sequencing analysis of cancer associated fibroblasts in the brain metastasis tumor microenvironment
+(Submitter supplied) Brain metastasis (BM) remains largely incurable. Cancer-associated fibroblasts (CAFs) can either support or inhibit tumor growth in the tumor microenvironment (TME), yet their roles in BM remain under-described. Here we report a single-cell and spatial sequencing analysis of human BM tissues and define four transcriptionally distinct CAF subpopulations. BM CAF subpopulations are characterized by either extracellular matrix (ECM), immune, contractile, or neural features, and show distinct spatial distributions within the BM TME. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 4 Samples
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE320nnn/GSE320505/
+Series		Accession: GSE320505	ID: 200320505
+
+28. Spatial  transcriptomic comparison between IPF and donor lung distal explant tissue
+(Submitter supplied) Pulmonary fibrosis remains a significant public health concern due to an increasing incidence and limited treatment options. Alveolar type 2 epithelial cell (AT2) senescence causes stem cell exhaustion and progenitor failure, leading to ineffective and aberrant alveolar repairs and unresolved fibrosis. AT2 senescence regulatory molecules require additional studies. The spatial transcriptomics study we present here is aiming to comparing end stage IPF explant tissue with donor distal tissue to better understand the molecular changes associated with diseases.
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 5 Samples
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE292nnn/GSE292956/
+Series		Accession: GSE292956	ID: 200292956
+
+29. Vascular STING activation facilitates NK cell anti-tumor immunity in small cell lung cancer [Spatial_Transcriptome]
+(Submitter supplied) Small cell lung cancer (SCLC) typically displays a "cold" tumor microenvironment with a paucity of immune infiltrate. Neuroendocrine SCLC cells also profoundly repress MHC-I expression, rendering them vulnerable to NK cell-mediated cytotoxicity. Here, we confirm that neuroendocrine SCLC cells are sensitive to NK cell mediated attack, yet quantitative spatial profiling of the SCLC immune microenvironment in patient samples reveals that effector immune cells, including NK cells, are excluded from MHC-Ilow/neg SCLC regions. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 3 Samples
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE318nnn/GSE318867/
+Series		Accession: GSE318867	ID: 200318867
+
+30. Vascular STING activation facilitates NK cell anti-tumor immunity in small cell lung cancer
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing; Other
+Platforms: GPL24676 GPL20301 16 Samples
+FTP download: GEO (BW, MTX, TAR, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE318nnn/GSE318663/
+Series		Accession: GSE318663	ID: 200318663
+
+31. Targeting the lipid metabolism proteins FASN and GPAM in alveolar type II cells decreases lung metastasis
+(Submitter supplied) Cancer cells that seed in the lung require lipids, which are mostly produced by alveolar type II (AT2) cells. However, whether overt metastases depend on AT2 cell-derived lipids and whether AT2 cells can be targeted to reduce metastasis growth remains unknown. We discovered that metastases stimulate the proliferation of AT2 cells in their vicinity and reprogram them into lipid feeder cells in mice and patients with breast cancer using spatial mass spectrometry imaging combined with immunohistochemistry and spatial transcriptomics. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL24247 2 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE318nnn/GSE318532/
+Series		Accession: GSE318532	ID: 200318532
+
+32. Bridge to transplant using a flow-adaptive extracorporeal total artificial lung system following bilateral pneumonectomy
+(Submitter supplied) Acute respiratory distress syndrome (ARDS), when complicated by secondary pneumonias caused by nosocomial antibiotic-resistant pathogens and septic shock, can carry mortality rates exceeding 80%. We performed single-cell RNA sequencing and Visium HD spatial transcriptomics on an explanted lung from a 33-year-old patient with influenza-associated ARDS complicated by carbapenem-resistant Pseudomonas aeruginosa pneumonia and refractory septic shock. more...
+Organism:	Homo sapiens
+Type:		Other; Expression profiling by high throughput sequencing
+Platform: GPL20301 23 Samples
+FTP download: GEO (CLOUPE, H5AD, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE312nnn/GSE312053/
+Series		Accession: GSE312053	ID: 200312053
+
+33. Vascular invasion-associated gene expression is detectable in pre-surgical biopsies of stage I lung adenocarcinoma [Spatial Transcriptomics]
+(Submitter supplied) Microscopic vascular invasion (VI) predicts recurrence and benefit from lobectomy in stage I lung adenocarcinoma (LUAD) but cannot be accurately predicted before surgery. Thus, biomarkers that identify this aggressive tumor subset are needed. Here, we show that VI in stage I LUAD is associated with reproducible gene expression programs detectable beyond the invasive focus. Using bulk RNA sequencing of 162 resected tumors and spatial transcriptomics in a subset, we identify and characterize a VI-associated gene signature. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL30173 16 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE273nnn/GSE273378/
+Series		Accession: GSE273378	ID: 200273378
+
+34. Spatial Transcriptomics in the Human Left Atrial Appendage and Pulmonary Vein Sleeve
+(Submitter supplied) Human left atrial appendage (LAA) and pulmonary vein (PV) tissues were obtained from unused lung or heart transplant donors.  Paired LAA and PV sleeve tissues were obtained from two subjects, and an additional 6 PV samples were obtained from other donors.  After tissue sectioning and staining, spatial RNAseq was performed.  mRNAs from~1000 to 2500 genes were sequenced  in each spatial area.  Seurat clustering yielded 15 different clusters. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL11154 12 Samples
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE218nnn/GSE218539/
+Series		Accession: GSE218539	ID: 200218539
+
+35. Spatially resolved integrative analysis of transcriptomic and metabolomic changes in tissue injury studies
+(Submitter supplied) Recent developments in spatially resolved -omics have enabled studies linking gene expression and metabolite levels to tissue morphology, offering new insights into biological pathways. By capturing multiple modalities on matched tissue sections, one can better probe how different biological entities interact in a spatially coordinated manner. However, such cross-modality integration presents experimental and computational challenges. more...
+Organism:	Rattus norvegicus
+Type:		Other
+Platform: GPL25947 1 Sample
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE312nnn/GSE312168/
+Series		Accession: GSE312168	ID: 200312168
+
+36. Spatial transcriptomics reveals functional compartmentalization of the lung tissue of OP patient
+(Submitter supplied) To characterize the spatial characteristics of the lung tissue of OP patient, we collected lung samples for Visium CytAssist from one patient with OP
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL24676 1 Sample
+FTP download: GEO (MTX, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE250nnn/GSE250385/
+Series		Accession: GSE250385	ID: 200250385
+
+37. The single-cell transcriptional landscape of the pediatric cystic fibrosis airway from minimally invasive respiratory specimens
+(Submitter supplied) Cystic fibrosis (CF) is a multisystemic, autosomal recessive disorder caused by mutations in the cystic fibrosis transmembrane conductance regulator (CFTR) gene with the majority of morbidity and mortality extending from lung disease. In this study, we leveraged single-cell transcriptional analyses to characterize the immune and airway epithelial cell populations in minimally invasive respiratory specimens obtained from pediatric patients with CF and pediatric non-CF controls at the time of clinically indicated flexible bronchoscopy. more...
+Organism:	Homo sapiens
+Type:		Other; Expression profiling by high throughput sequencing
+Platform: GPL24676 16 Samples
+FTP download: GEO (H5, MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE271nnn/GSE271984/
+Series		Accession: GSE271984	ID: 200271984
+
+38. Spatial Transcriptomics of Human Fetal Lungs
+(Submitter supplied) Spatial transcriptomic profiles were generated using lung tissue sections obtained from twelve prenatal human lung samples ranging in gestational age from 13 – 20 weeks, of which four were diagnosed with Trisomy 21, with defined hypoplasia.
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 12 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE310nnn/GSE310610/
+Series		Accession: GSE310610	ID: 200310610
+
+39. The spatial transcriptomics of EGFR-mutant non-small cell lung cancer before osimertinib treatment
+(Submitter supplied) EGFR-mutant non-small cell lung cancer (NSCLC) is commonly treated with EGFR tyrosine kinase inhibitors (TKIs) such as osimertinib. However, the development of resistance remains a major clinical challenge, with various resistance mechanisms having been identified. Emerging evidence suggests that the tumor microenvironment (TME) may contribute to this resistance. In this study, we analyzed the TME of pre-treatment tumor samples from EGFR-mutant NSCLC patients using the Visium HD spatial transcriptomics platform to explore its potential role in the development of resistance.
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL34284 2 Samples
+FTP download: GEO (TAR, XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE301nnn/GSE301973/
+Series		Accession: GSE301973	ID: 200301973
+
+40. Spatial dynamics of the tumor microenvironment associated with emerging resistance to targeted therapy in EGFR-mutated non–small cell lung cancer
+(Submitter supplied) Epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors (TKIs) provide therapeutic benefit in EGFR mutation–positive non–small cell lung cancer, but some individuals develop early resistance. We performed spatial transcriptomics analysis of pre- and posttreatment tumor samples from the same patients to explore the underlying mechanisms of such early resistance. The proportion and activation of fibroblasts increased in association with the development of early resistance, whereas a distinct tumor cell cluster showed activation of tumor necrosis factor–α signaling via the NF-B pathway even before treatment. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL34284 2 Samples
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE288nnn/GSE288758/
+Series		Accession: GSE288758	ID: 200288758
+
+41. Spatial transcriptomics analysis of normal lung tissues, precursor lung lesions and invasive lung adenocarcinomas
+(Submitter supplied) Understanding cellular processes underlying early lung adenocarcinoma (LUAD) development is needed to devise intervention strategies. Here, we performed spatial trancriptomics analysis of human treatment-naive lungs comprising various stages in the sequence of pathogenesis of LUAD including normal lung tissues, atypical adenomatous hyperplasia (AAH), adenocarcinoma in situ (AIS), minimally invasive adenocarcinoma (MIA) and LUAD.
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 56 Samples
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE307nnn/GSE307534/
+Series		Accession: GSE307534	ID: 200307534
+
+42. TLR4-dependent fibroblast-monocyte axis in tumor-draining lymph nodes contributes to metastasis in triple-negative breast cancer
+(Submitter supplied) Triple-negative breast cancer (TNBC) is the most aggressive form of BC and despite improvements in neoadjuvant treatment with immune checkpoint blockade (ICB) targeting PD-1, response rates vary, and patients relapse with metastatic disease. Using human samples and mouse models, we show that myeloid cells, particularly monocytes, increase in aggressive TNBC draining lymph nodes (TDLN) showing T-cell suppressive capacity via PD-L1 and iNOS. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL30172 3 Samples
+FTP download: GEO (ZIP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE267nnn/GSE267534/
+Series		Accession: GSE267534	ID: 200267534
+
+43. Identification of key molecules promoting lepidic–filigree micropapillary–conventional/overt micropapillary progression in lung adenocarcinoma: A comprehensive gene expression analysis study using the spatial gene expression solution methodology
+(Submitter supplied) The micropapillary (mPAP) histological subtype is a high-grade element and a poor prognostic marker in lung adenocarcinoma (LUAD). This subtype develops through the lepidic–filigree mPAP–conventional/overt mPAP pathway. In the present study, we aimed to identify key molecules that promote this progression. To this end, we investigated gene expression profiles specific to lepidic, filigree mPAP (filigree), and conventional/overt mPAP (mPAP) elements in histological sections obtained from four different LUAD cases.
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL28038 8 Samples
+FTP download: GEO (H5, TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE300nnn/GSE300676/
+Series		Accession: GSE300676	ID: 200300676
+
+44. Multiomics analysis of lung adenocarcinoma manifesting as radiological part-solid features in female never-smokers
+(Submitter supplied) Lung adenocarcinomas (LUADs) with part-solid radiological features exhibit slow progression to invasive malignancy; however, the key genomic alterations driving this progression remain poorly understood. We conducted a multiomics analysis of four components (distant and adjacent normal lung and solid [S] and ground-glass [GG] components) of part-solid-type LUADs in female never-smokers. Although GG and S components displayed similar mutational profiles, epithelial–mesenchymal transition and hypoxia pathways were significantly upregulated in the S component. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL20301 GPL16791 38 Samples
+FTP download: GEO (CSV, MTX, PNG, TIFF, TSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE288nnn/GSE288479/
+Series		Accession: GSE288479	ID: 200288479
+
+45. Spatially resolved atlas of IPF fibroblastic foci identifies that PAK2 kinase activation is involved in fibrogenesis
+(Submitter supplied) Idiopathic pulmonary fibrosis (IPF) is a fatal interstitial lung disease characterized by progressive fibrosis of the lung parenchyma. To identify potential therapeutic targets for IPF, we conducted spatial transcriptomic analysis and single-cell RNA sequencing (scRNA-seq). Our findings reveal that PAK plays a critical role in the immature fibroblast niche during fibrogenesis, highlighting its potential as a therapeutic target for the treatment of IPF.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL28038 GPL20795 12 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE285nnn/GSE285246/
+Series		Accession: GSE285246	ID: 200285246
+
+46. INFLAMMATION-INDUCED SENESCENT-LIKE GLIA REWIRE CELLULAR NETWORKS IN MULTIPLE SCLEROSIS [Spatial transcriptomic]
+(Submitter supplied) In multiple sclerosis (MS), chronic compartmentalized inflammation is thought to drive relentless clinical deterioration. Here, we investigate the link between unresolved parenchymal inflammation and cellular senescence in MS progression. Single-cell transcriptomic analysis of human brain tissue reveals an accumulation of senescent-like glial cells in diseased white matter, especially in chronic active lesions, and to a lesser extent in the cortex. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 12 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE277nnn/GSE277435/
+Series		Accession: GSE277435	ID: 200277435
+
+47. Spatial transcriptomics of Atg7 knockout mice reveals ATG7’s role in antimicrobial immunity against nontuberculous mycobacteria
+(Submitter supplied) We performed Spatial transcriptomics (Visium) using the 10X Genomics platform to investigate the role of the autophagy-related protein ATG7 in the context of nontuberculous mycobacterial (NTM) infection. ATG7 in innate immune cells plays a critical role in controlling NTM infection and protecting lung tissue from pathological inflammation.  This study represents single-cell analysis of Mice deletion of Atg7 in innate immune cells and reveals the importance of ATG7 in mediating antimicrobial responses during infection and its essential role in host defense mechanisms against NTM.
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL24247 2 Samples
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE297nnn/GSE297621/
+Series		Accession: GSE297621	ID: 200297621
+
+48. Lung injury shifts pulmonary capillary endothelial cells towards regeneration-associated Lrg1+ subpopulations with delayed dynamics in aged mice
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL19057 GPL30172 20 Samples
+FTP download: GEO (MTX, TSV, ZIP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE234nnn/GSE234199/
+Series		Accession: GSE234199	ID: 200234199
+
+49. Spatial RNA sequencing of bleomycin-treated young and old mice lungs at day 14 and day 28 post injection
+(Submitter supplied) We monitored lung fibrosis formation and resolution in young and old mice by generating a series of spatial transcriptomics datasets using the 10x Genomics Visium platform
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL30172 8 Samples
+FTP download: GEO (ZIP) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE234nnn/GSE234198/
+Series		Accession: GSE234198	ID: 200234198
+
+50. Spatial transcriptomics dataset of primary tumours from MDA-MB-231 xenograft model
+(Submitter supplied) Identifying functionally important cell states and structure within heterogeneous tumors remains a significant biological and computational challenge. Current clustering or trajectory-based models are ill-equipped to address the notion that cancer cells reside along a phenotypic continuum. We present Archetypal Analysis network (AAnet), a neural network that learns archetypal states within a phenotypic continuum in single-cell data. more...
+Organism:	Mus musculus; Homo sapiens
+Type:		Other
+Platform: GPL30202 2 Samples
+FTP download: GEO (CSV, H5, H5AD, JSON, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE300nnn/GSE300613/
+Series		Accession: GSE300613	ID: 200300613
+
+51. Paired single-cell and spatial transcriptional profiling reveals a central osteopontin macrophage response mediating tuberculous granuloma formation in humans and zebrafish [Spatial Transcriptomics]
+(Submitter supplied) Mycobacterial granulomas are categorical manifestations of tuberculosis pathogenesis. They result from an ensemble of immune responses to Mycobacterium tuberculosis infection, but the identities, arrangement, cellular interactions and regulation of the cells that comprise them has thus far been incompletely understood. We conducted spatial and single-cell RNA sequencing of clinical granuloma biopsy specimens from tuberculosis patients. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL34281 4 Samples
+FTP download: GEO (MTX, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE296nnn/GSE296400/
+Series		Accession: GSE296400	ID: 200296400
+
+52. Paired single-cell and spatial transcriptional profiling reveals a central osteopontin macrophage response mediating tuberculous granuloma formation in humans and zebrafish [scRNA-Seq]
+(Submitter supplied) Mycobacterial granulomas are categorical manifestations of tuberculosis pathogenesis. They result from an ensemble of immune responses to Mycobacterium tuberculosis infection, but the identities, arrangement, cellular interactions and regulation of the cells that comprise them has thus far been incompletely understood. We conducted spatial and single-cell RNA sequencing of clinical granuloma biopsy specimens from tuberculosis patients. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL34281 4 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE296nnn/GSE296399/
+Series		Accession: GSE296399	ID: 200296399
+
+53. Neutrophils recruited by NKX2-1 suppression via activation of CXCLs/CXCR2 axis promote lung adenocarcinoma progression
+(Submitter supplied) Background: Lung adenocarcinoma (LUAD) progression is dependent on the immune tumor microenvironment through paracrine signaling. Lineage-specific transcription NKX2-1 is a well-developed pathology marker to define LUAD with progressive impact in patients. However, the involvement of NKX2-1 in modeling the tumor immune microenvironment is still unclear. Here, we demonstrated that NKX2-1-low tumors expedite tumor progression in LUAD through increased tumor-promoting neutrophils. more...
+Organism:	Mus musculus; Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing; Other
+Platforms: GPL16791 GPL34284 GPL34290 12 Samples
+FTP download: GEO (JSON, MTX, TIFF, TSV, XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE270nnn/GSE270431/
+Series		Accession: GSE270431	ID: 200270431
+
+54. Modulation of infiltrating CD206-positive macrophages restricts progression of pulmonary lymphangioleiomyomatosis (LAM)
+(Submitter supplied) Lymphangioleiomyomatosis (LAM) is a progressive neoplastic interstitial lung disease that primarily affects women of reproductive age. It is characterized by the infiltration of the lungs by atypical "LAM" cells, which leads to the cystic destruction of lung tissue. In our study, we employed spatial transcriptomics to analyze cell populations within LAM in order to understand the significance of the spatial organization of LAM cells and macrophages. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 8 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE287nnn/GSE287459/
+Series		Accession: GSE287459	ID: 200287459
+
+55. Spatial mapping of transcriptomic and lineage plasticity in metastatic pancreatic cancer
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Other
+Platforms: GPL33484 GPL24676 64 Samples
+FTP download: GEO (H5, JPG, TAR, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE277nnn/GSE277783/
+Series		Accession: GSE277783	ID: 200277783
+
+56. Spatial mapping of transcriptomic and lineage plasticity in metastatic pancreatic cancer
+(Submitter supplied) Patients with treatment-refractory pancreatic cancer often succumb to widespread systemic metastases; however, the transcriptomic heterogeneity that underlies recalcitrance to therapy remains understudied, particularly in the spatial context. We constructed high-resolution spatial maps of transcriptional heterogeneity, clonal architecture and lineage plasticity using spatially resolved transcriptomics from 55 individual samples of primary tumour, liver, lung, and peritoneal metastases, collected from 13 patients via a rapid ("warm") autopsy program. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 57 Samples
+FTP download: GEO (H5, JPG, TAR, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE274nnn/GSE274557/
+Series		Accession: GSE274557	ID: 200274557
+
+57. Spatial transcriptomic profiling of the lung tissues from a patient with recurrent anti-synthetase syndrome associated interstitial lung disease after bilateral lung transplantation and one untreated patient
+(Submitter supplied) Background: A 58-year-old male with anti-synthetase syndrome-associated interstitial lung disease (ASS-ILD) underwent bilateral lung transplantation (LTx) but experienced ILD progression and myositis worsening 38 weeks post-transplant, despite glucocorticoids, tacrolimus, and mycophenolic acid treatment. High-dose glucocorticoids led to adverse effects and ILD exacerbation upon tapering. Objective: To identify persistent inflammatory pathways despite anti-rejection therapy. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL34281 2 Samples
+FTP download: GEO (JPG, JSON, MTX, PARQUET, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE286nnn/GSE286227/
+Series		Accession: GSE286227	ID: 200286227
+
+58. Histological Signatures Reveal Anti-Fibrotic Factors in Mouse and Human Lungs
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other; Genome binding/occupancy profiling by high throughput sequencing
+Platforms: GPL21103 GPL21626 14 Samples
+FTP download: GEO (BED, CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE250nnn/GSE250398/
+Series		Accession: GSE250398	ID: 200250398
+
+59. Histological Signatures Reveal Anti-Fibrotic Factors in Mouse and Human Lungs [scATAC-Seq]
+(Submitter supplied) Fibrosis, the replacement of healthy tissue with collagen-rich matrix, can occur following injury in almost every organ. Mouse lungs follow stereotyped sequences of fibrogenesis-to-resolution after bleomycin injury, and we reasoned that profiling post-injury histological progression could uncover pro- vs. anti-fibrotic features with functional value for human fibrosis. We mapped spatiotemporally-resolved transformations in lung extracellular matrix (ECM) architecture to spatially-resolved, multi-omic data. more...
+Organism:	Mus musculus
+Type:		Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL21103 3 Samples
+FTP download: GEO (BED, MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE250nnn/GSE250397/
+Series		Accession: GSE250397	ID: 200250397
+
+60. Histological Signatures Reveal Anti-Fibrotic Factors in Mouse and Human Lungs [scRNA-seq]
+(Submitter supplied) Fibrosis, the replacement of healthy tissue with collagen-rich matrix, can occur following injury in almost every organ. Mouse lungs follow stereotyped sequences of fibrogenesis-to-resolution after bleomycin injury, and we reasoned that profiling post-injury histological progression could uncover pro- vs. anti-fibrotic features with functional value for human fibrosis. We mapped spatiotemporally-resolved transformations in lung extracellular matrix (ECM) architecture to spatially-resolved, multi-omic data. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL21103 3 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE250nnn/GSE250396/
+Series		Accession: GSE250396	ID: 200250396
+
+61. Histological Signatures Reveal Anti-Fibrotic Factors in Mouse and Human Lungs [Visium]
+(Submitter supplied) Fibrosis, the replacement of healthy tissue with collagen-rich matrix, can occur following injury in almost every organ. Mouse lungs follow stereotyped sequences of fibrogenesis-to-resolution after bleomycin injury, and we reasoned that profiling post-injury histological progression could uncover pro- vs. anti-fibrotic features with functional value for human fibrosis. We mapped spatiotemporally-resolved transformations in lung extracellular matrix (ECM) architecture to spatially-resolved, multi-omic data. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL21626 8 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE250nnn/GSE250395/
+Series		Accession: GSE250395	ID: 200250395
+
+62. Characterizing preeclamptic developmental lung injury pathways through human placental spatial transcriptomics
+(Submitter supplied) Bronchopulmonary dysplasia (BPD) continues to impact the health of preterm infants worldwide.  Preeclampsia (PE), a placental-driven pregnancy disorder, has a strong clinical association with BPD risk. We hypothesize that preeclampsia causes a unique type of developmental lung injury that predisposes infants to an increased risk of BPD.   Research on human placental tissues is needed to more clearly define the role of PE in developmental lung injury. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 2 Samples
+FTP download: GEO (H5, JPG, JSON) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE249nnn/GSE249899/
+Series		Accession: GSE249899	ID: 200249899
+
+63. Spatial deconvolution of tertiary lymphoid structure in human IPF lungs revealed novel CCL19-expressing mural cells
+(Submitter supplied) Tertiary lymphoid structures (TLS) are commonly observed in human idiopathic pulmonary fibrosis (IPF) lungs. The specific immune and non-immune cells in the TLS of IPF patients, and the factors that drive TLS formation, remain largely unknown. Here we spatially deconvoluted immune and non-immune cells in the TLS of human IPF lungs, and examined the signals underlying TSL development in IPF patients. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 17 Samples
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE248nnn/GSE248082/
+Series		Accession: GSE248082	ID: 200248082
+
+64. Spatial Transcriptomics of Lungs Infected with Coccidioides posadasii
+(Submitter supplied) Coccidioidomycosis, or Valley Fever, is a lung disease caused by inhaling Coccidioides fungi, prevalent in the Southwestern U.S., Mexico, and parts of Central and South America. Climate change is contributing to the spread of this disease. Many cases are asymptomatic, some are often misdiagnosed, and a small subset can progress to severe illness. To better understand lung responses during late Coccidioides infection, we used 10x Visium spatial transcriptomics. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL30172 2 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE274nnn/GSE274767/
+Series		Accession: GSE274767	ID: 200274767
+
+65. Multi-omics analysis of molecular changes during early progression of precancerous lesion to lung adenocarcinoma in never-smokers
+(Submitter supplied) The prevalence of lung adenocarcinoma (LUAD) has increased sharply in East Asia. Early diagnosis leads to better survival rates, but this requires an improved understanding of the molecular changes during early tumorigenesis, particularly in non-smokers. We performed whole exome-sequencing and RNA-sequencing of samples from 94 East Asian patients with precancerous lesions (25 with atypical adenomatous hyperplasia [AAH]; 69 with adenocarcinoma in situ [AIS]) and 73 patients with early invasive lesions (minimally invasive adenocarcinoma [MIA]). more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 2 Samples
+FTP download: GEO (H5) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE277nnn/GSE277206/
+Series		Accession: GSE277206	ID: 200277206
+
+66. snPATHO-seq: unlocking the FFPE archives for single nucleus RNA profiling [snRNA-seq]
+(Submitter supplied) FFPE tissue samples have long been considered challenging for sc-/sn-RNA sequencing assays. In this study, we developed a novel snRNA-seq workflow, snPATHO-seq, for FFPE tissue samples utilising isolated high-quality nuclei from FFPE samples and 10X Genomics FLEX chemistry. The snPATHO-seq demonstrated consistent performance with the established 10X Genomics 3' assay. In addition, it allows more accurate single-nucleus and spatial transcriptomics integration with the FFPE Visium dataset generated from the same FFPE block. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platforms: GPL24676 GPL21697 37 Samples
+FTP download: GEO (H5) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE268nnn/GSE268426/
+Series		Accession: GSE268426	ID: 200268426
+
+67. Image-based spatial transcriptomics identifies molecular niche dysregulation associated with distal lung remodeling in pulmonary fibrosis
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens
+Type:		Other
+Platforms: GPL33762 GPL34281 46 Samples
+FTP download: GEO (CSV, JSON, NPY, TAR, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE276nnn/GSE276945/
+Series		Accession: GSE276945	ID: 200276945
+
+68. Image-based spatial transcriptomics identifies molecular niche dysregulation associated with distal lung remodeling in pulmonary fibrosis [Visium]
+(Submitter supplied) Pulmonary fibrosis (PF) is a chronic, progressive condition that represents the end-stage of many interstitial lung diseases (ILDs). Single-cell transcriptomic studies have revealed disease-emergent epithelial, fibroblast, and macrophage cell types/states in PF lungs, but the spatial contexts wherein these cells contribute to disease pathogenesis has remained uncertain.  Using image-based spatial transcriptomics to profile gene expression changes in-situ across 28 lung samples from control and PF lungs, we characterized the expression of 343 genes in over 1 million nuclei at subcellular resolution. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL34281 1 Sample
+FTP download: GEO (JSON, TAR, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE276nnn/GSE276934/
+Series		Accession: GSE276934	ID: 200276934
+
+69. An aberrant immune-epithelial progenitor niche drives post-viral lung sequelae [mouse]
+(Submitter supplied) Respiratory viral infections are being increasingly recognized not just for their acute impact but also as potential triggers of long-term health conditions. The recent COVID-19 pandemic in particular has highlighted the prevalence of this phenomenon, termed Post-Acute Sequelae of SARS-CoV-2 (PASC), which has rapidly evolved into a major public health concern. The underlying cellular and molecular etiology remain poorly defined but growing evidence links PASC to abnormal immune responses and/or impaired organ recovery post infection. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL24247 4 Samples
+FTP download: GEO (H5, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE267nnn/GSE267228/
+Series		Accession: GSE267228	ID: 200267228
+
+70. An aberrant immune-epithelial progenitor niche drives post-viral lung sequelae [human]
+(Submitter supplied) Respiratory viral infections are being increasingly recognized not just for their acute impact but also as potential triggers of long-term health conditions. The recent COVID-19 pandemic in particular has highlighted the prevalence of this phenomenon, termed Post-Acute Sequelae of SARS-CoV-2 (PASC), which has rapidly evolved into a major public health concern. The underlying cellular and molecular etiology remain poorly defined but growing evidence links PASC to abnormal immune responses and/or impaired organ recovery post infection. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 5 Samples
+FTP download: GEO (H5, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE267nnn/GSE267226/
+Series		Accession: GSE267226	ID: 200267226
+
+71. Extraction of a Stromal Metastatic Gene Signature in Breast Cancer via Spatial Profiling
+(Submitter supplied) The identification of molecular characteristics that define metastatic disease is a primary research focus across numerous types of malignancies. Understanding the mechanisms that drive metastatic foci, which diverge significantly from the biology of primary tumors, and identifying new biomarkers specifically associated with metastatic disease, is of critical importance in oncology. Consequently, the characterization of the stroma associated with metastatic foci has been largely unexplored and remains an area requiring significant investigation. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL30172 4 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE273nnn/GSE273439/
+Series		Accession: GSE273439	ID: 200273439
+
+72. SDePER: a hybrid machine learning and regression method for cell-type deconvolution of spatial barcoding-based transcriptomic data
+(Submitter supplied) Spatial barcoding-based transcriptomic (ST) data require cell type deconvolution for cellular-level downstream analysis. Here we present SDePER, a hybrid machine learning and regression method, to deconvolve ST data using reference single-cell RNA sequencing (scRNA-seq) data. SDePER removes the systematic difference between the ST and scRNA-seq data (platform effects) explicitly and efficiently to ensure the linear relationship between ST data and cell type-specific expression profile. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL18573 1 Sample
+FTP download: GEO (TIFF, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE231nnn/GSE231385/
+Series		Accession: GSE231385	ID: 200231385
+
+73. Sorafenib inhibits invasion of multicellular organoids that mimic Lymphangioleiomyomatosis nodules.
+(Submitter supplied) Lymphangioleiomyomatosis (LAM) is a debilitating, progressive lung disease with few therapeutic options, largely due to a paucity of mechanistic knowledge of disease pathogenesis. Lymphatic endothelial cells (LECs) are known to envelope and invade clusters of LAM-cells, comprising of smooth muscle α-actin and/or HMB-45 positive "smooth muscle-like cells” however the role of LECs in LAM pathogenesis is still unknown. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 2 Samples
+FTP download: GEO (CLOUPE, CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE234nnn/GSE234885/
+Series		Accession: GSE234885	ID: 200234885
+
+74. Early human fetal lung atlas reveals the temporal dynamics of epithelial cell plasticity [Visium]
+(Submitter supplied) While animal models have provided key insights into conserved mechanisms of how the lung forms during development, human-specific developmental mechanisms are not always captured. To fully appreciate how developmental defects and disease states alter the function of the lungs, studies in human lung models are important. Here, we sequenced >150,000 single single-cells from 19 healthy human fetal lung tissues from gestational weeks 10-19 and identified at least 58 unique cell types/states contributing to the developing lung. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL34284 2 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE264nnn/GSE264398/
+Series		Accession: GSE264398	ID: 200264398
+
+75. METI: Deep profiling of tumor ecosystems by integrating cell morphology and spatial transcriptomics
+(Submitter supplied) The recent advance of spatial transcriptomics (ST) technique provides valuable insights into the organization and interactions of cells within the tumor microenvironment (TME). While various analytical tools have been developed for tasks such as spatial clustering, spatially variable gene identification, and cell type deconvolution, most of them are general methods lacking consideration of histological features in spatial data analysis. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL24676 7 Samples
+FTP download: GEO (CSV, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE246nnn/GSE246011/
+Series		Accession: GSE246011	ID: 200246011
+
+76. Aberrant activation of wound healing programs within the metastatic niche facilitates lung colonization by osteosarcoma cells
+(Submitter supplied) Purpose: Lung metastasis is responsible for nearly all deaths caused by osteosarcoma, the most common pediatric bone tumor. How malignant bone cells coerce the lung microenvironment to support metastatic growth is unclear. This study delineates how osteosarcoma cells educate the lung microenvironment during metastatic progression.   Experimental design: Using single-cell transcriptomics (scRNA-seq), we characterized genome- and tissue-wide molecular changes induced within lung tissues by disseminated osteosarcoma cells in both immunocompetent murine models of metastasis and patient samples. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL30172 GPL24247 10 Samples
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE252nnn/GSE252703/
+Series		Accession: GSE252703	ID: 200252703
+
+77. A spatial transcriptomics based Label-free Method for Assessment of Human Stem Cell Distribution and Effects in a Mouse Model of Lung Fibrosis
+(Submitter supplied) Recently, cell therapy has emerged as a promising treatment option for various disorders. Given the intricate mechanisms of action (MOA) and heterogenous distribution in target tissues inherent to cell therapy, it is necessary to develop more sophisticated, unbiased approaches to evaluate the distribution of administered cells and the molecular changes at a microscopic level. This study introduces a label-free approach for assessing the tissue distribution of administered human mesenchymal stem cells (hMSCs) and their MOA, leveraging spatially resolved transcriptomics (ST) analysis. more...
+Organism:	Homo sapiens; Mus musculus
+Type:		Other
+Platforms: GPL21103 GPL25431 5 Samples
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE253nnn/GSE253378/
+Series		Accession: GSE253378	ID: 200253378
+
+78. Spatial microniches of IL-2 synergize with IL-10 to drive lung migratory Th2 cells in response to inhaled allergen
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL30172 12 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE245nnn/GSE245112/
+Series		Accession: GSE245112	ID: 200245112
+
+79. Spatial microniches of IL-2 synergize with IL-10 to drive lung migratory Th2 cells in response to inhaled allergen [Spatial transcriptomics]
+(Submitter supplied) The mechanisms that guide Th2 cell differentiation in barrier tissues are unclear but important for the development of allergic asthma. Using temporal, spatial and single cell transcriptomic tracking of house dust mite (HDM) specific T cells, we describe the molecular pathways driving allergen-specific Th2 cells. Early Blimp-1 expression occurs in a subset of CD4 T cells in the lymph node prior to lung migration driven by IL-10 from allergen-specific T cells, but was not required for GATA3 upregulation. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL30172 4 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE245nnn/GSE245110/
+Series		Accession: GSE245110	ID: 200245110
+
+80. Single-cell analysis of tobacco-associated lung adenocarcinoma development
+(Submitter supplied) Understanding cellular processes underlying early lung adenocarcinoma (LUAD) development is needed to devise intervention strategies. Here, we performed single-cell RNA sequencing (scRNA-seq) of mouse lungs from Gprc5a-/- mice during lung tumor development. We coupled scRNA-seq analysis with spatial transcriptomics of tumor-bearing lungs.
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24247 35 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE222nnn/GSE222901/
+Series		Accession: GSE222901	ID: 200222901
+
+81. A pairwise cytokine code explains the organism-wide response to sepsis
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL21626 GPL24247 GPL30172 2196 Samples
+FTP download: GEO (H5) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE224nnn/GSE224146/
+Series		Accession: GSE224146	ID: 200224146
+
+82. Spatial sequencing of young and aged lungs following influenza A virus infection
+(Submitter supplied) Aging is known to alter the host repsonse to influenza infection. Here, we use 10x Visium spatial sequencing to identify spatial changes in mRNA expression of left lungs of young (16-week-old) and aged (80-week-old) mice following influenza infection.
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL19057 6 Samples
+FTP download: GEO (CSV, H5, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE202nnn/GSE202322/
+Series		Accession: GSE202322	ID: 200202322
+
+83. Epithelial Plasticity and Innate Immune Activation Promote Lung Tissue Remodeling following Respiratory Viral Infection.
+(Submitter supplied) As observed in mice with genetic depletion of stem cells, epithelial plasticity is a critical component of tissue repair in response to injury; however, the physiological relevance of this process and the involved progenitor populations are not well understood. Severe respiratory viral infection and chronic lung disease share pathological features including stem cell loss in the gas-exchange regions, basal cell (BC) hyperplasia in small airways, and innate immune activation. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL24247 32 Samples
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, RDS, TIFF, TSV, XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE184nnn/GSE184384/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA764926
+Series		Accession: GSE184384	ID: 200184384
+
+84. Spatially resolved multi-omics single-cell analyses inform mechanisms of immune-dysfunction in pancreatic cancer
+(Submitter supplied) As pancreatic ductal adenocarcinoma (PDAC) continues to be recalcitrant to therapeutic interventions including poor response to immunotherapy, albeit effective in other solid malignancies, a more nuanced understanding of the immune microenvironment in PDAC is urgently needed. Using a spatially-resolved multimodal single cell approach we unveil a detailed view of the immune micromilieu in PDAC with specific emphasis on the correlation of immune subtypes with patient survival. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL21697 8 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE205nnn/GSE205354/
+Series		Accession: GSE205354	ID: 200205354
+
+85. Genetically diverse mouse models of SARS-CoV-2 infection reproduce clinical variation in type I interferon and cytokine responses in COVID-19.
+(Submitter supplied) Inflammation in response to severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) infection drives severity of coronavirus disease 2019 (COVID-19), with effective versus dysregulated responses influenced by host genetics. To understand mechanisms of inflammation, animal models that reflect genetic diversity and clinical outcomes observed in humans are needed. We report a mouse panel comprising the diverse genetic backgrounds of the Collaborative Cross founder strains crossed to K18-hACE2 mice that confers high susceptibility to SARS-CoV-2. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24247 16 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE231nnn/GSE231711/
+Series		Accession: GSE231711	ID: 200231711
+
+86. Conserved transcriptional connectivity of regulatory T cells in the tumor microenvironment informs novel combination cancer therapy strategies [visium]
+(Submitter supplied) While regulatory T (Treg) cells are traditionally viewed as professional suppressors of antigen presenting and effector T cells in both autoimmunity and cancer, recent findings of distinct Treg functions in tissue maintenance suggest that their regulatory purview extends to a wider range of cells and is broader than previously assumed. To elucidate tumoral Treg “connectivity” to diverse tumor-supporting accessory cell types, we explored immediate early changes in their single cell transcriptomes upon punctual Treg depletion in experimental lung cancer and injury-induced inflammation. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL24247 8 Samples
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE215nnn/GSE215361/
+Series		Accession: GSE215361	ID: 200215361
+
+87. Conserved transcriptional connectivity of regulatory T cells in the tumor microenvironment informs novel combination cancer therapy strategies
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL21103 GPL24247 120 Samples
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE202nnn/GSE202159/
+Series		Accession: GSE202159	ID: 200202159
+
+88. Spatially resolved transcriptomic profiling of degraded and challenging fresh frozen samples
+(Submitter supplied) Spatially resolved transcriptomics has enabled precise genome-wide mRNA expression profiling within tissue sections. The performance of unbiased SRT methods targeting the polyA tail of mRNA, relies on the availability of specimens with high RNA quality. Moreover, the high cost of currently available SRT assays requires a careful sample screening process to increase the chance of obtaining high-quality data. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL30172 14 Samples
+FTP download: GEO (CSV, H5, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221571/
+Series		Accession: GSE221571	ID: 200221571
+
+89. Spatial transcriptomics of post-mortem lung tissue from COVID-19 donors
+(Submitter supplied) Visualization of gene expression in lung tissue was performed using Visium spatial gene expression kits (10x Genomics) following the manufacturer`s protocol. The four capture areas in a 10x Genomics Visium Gene Expression slide consist of 5000 spots with DNA oligos for mRNA capture that have a unique spatial barcode and a unique Molecular Identifier (UMI). Each spot has 55 µm diameter and can therefore capture mRNA from 1 to 10 cells. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL21697 12 Samples
+FTP download: GEO (H5, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE190nnn/GSE190732/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA788282
+Series		Accession: GSE190732	ID: 200190732
+
+90. Mucosal exposure to non-tuberculous mycobacteria elicits B-cell mediated protection against pulmonary tuberculosis
+(Submitter supplied) Bacille Calmette Guerin (BCG) is the only licensed vaccine against Mycobacterium tuberculosis (Mtb), the causative agent of tuberculosis (TB) disease. However, BCG has limited efficacy, necessitating the development of better vaccines. Non-tuberculous mycobacteria (NTM), a distinct lineage from Mtb, are opportunistic pathogens present in the environment. TB endemic countries experience higher exposure to NTM, but previous studies have not elucidated the relationship between NTM exposure and BCG efficacy. more...
+Organism:	Mus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL23642 8 Samples
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE203nnn/GSE203037/
+Series		Accession: GSE203037	ID: 200203037
+
+91. Gramd2+ alveolar type I cells can give rise to Kras-induced lung adenocarcinoma
+(Submitter supplied) Lung adenocarcinoma (LUAD) is the most common subtype of lung cancer and arises in the distal lung. LUAD encompasses several pathologic subtypes, including solid, lepidic, papillary, micropapillary, acinar and mixed subtypes, each with differing clinical outcomes or biological behavior. Specifically, lepidic histology is associated with improved survival relative to other LUAD histologies. Yet, the molecular and cellular underpinnings of these subtypes are largely unknown. more...
+Organism:	Mus musculus
+Type:		Other
+Platform: GPL19057 8 Samples
+FTP download: GEO (CSV, H5) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE215nnn/GSE215858/
+Series		Accession: GSE215858	ID: 200215858
+
+92. Integrative Analysis of Spatial Transcriptome with Single-cell Transcriptome and Single-cell Epigenome in Mouse Lungs after Immunization
+(Submitter supplied) Immunological memory is key to productive adaptive immunity. An unbiased, high through-put gene expression profiling of tissue-resident memory T cells residing in various anatomical location within the lung is fundamental to understand lung immunity but still lacking. In this study, using a well-established model on Klebsiella pneumoniae, we performed an integrative analysis of spatial transcriptome with single-cell RNA-seq and single-cell ATAC-seq on lung cells from mice after Immunization using the 10x Genomics Chromium and Visium platform. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL24247 6 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE190nnn/GSE190225/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA786471
+Series		Accession: GSE190225	ID: 200190225
+
+93. A cellular hierarchy in melanoma uncouples growth and metastasis
+(Submitter supplied) Although melanoma is notorious for its high degree of heterogeneity and plasticity, the origin and magnitude of cell state diversity remains poorly understood. Equally, it is not known whether melanoma growth and metastatic dissemination are supported by overlapping or distinct melanoma subpopulations. By combining mouse genetics, unbiased lineage tracing and quantitative modelling, single-cell and spatial transcriptomics, we provide evidence of a hierarchical model of tumour growth that mirrors the cellular and molecular logic underlying embryonic neural crest cell fate specification and differentiation. more...
+Organism:	Homo sapiens; Mus; Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other
+Platforms: GPL24676 GPL28457 GPL31136 25 Samples
+FTP download: GEO (CSV, H5, MTX, TIFF, TSV, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE207nnn/GSE207592/
+Series		Accession: GSE207592	ID: 200207592
+
+94. Cell type inference in human lung tissue by domain adaptation of single-cell and spatial transcriptomic data
+(Submitter supplied) We developed a method, CellDART, which estimates the spatial distribution of cells defined by single-cell level data using domain adaptation of neural networks, and applied to the spatial mapping of human lung tissue. The neural network that predicts the cell proportion in a pseudospot, a virtual mixture of cells from single-cell data, is translated to decompose the cell types in each spatial barcoded region. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL24676 2 Samples
+FTP download: GEO (CSV, H5, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE172nnn/GSE172416/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA723278
+Series		Accession: GSE172416	ID: 200172416
+
+95. Human distal lung maps and lineage hierarchies reveal a bipotent progenitor [Spatial transcriptomics]
+(Submitter supplied) We performed spatial transcriptomics using 10x Genomic Visium Spatial Gene Expression on human lung.
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 2 Samples
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE178nnn/GSE178361/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA738599
+Series		Accession: GSE178361	ID: 200178361
+
+96. Perturb-map coupled with spatial transcriptomics identifies mutation associated gene signatures in a mouse model of lung adenocarcinoma
+(Submitter supplied) The cellular architecture of a tumor has a major impact on cancer outcome, and thus there is interest in identifying genes controlling the tumor microenvironment (TME). While CRISPR screens are helping uncover genes regulating many cell-intrinsic processes, existing approaches are suboptimal for identifying gene functions operating extracellularly or within a tissue context. To address this, we developed an approach for spatial functional genomics called Perturb-map, which utilizes protein barcodes (Pro-Code) to enable spatial detection of barcoded cells within tissue. more...
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other
+Platform: GPL24247 4 Samples
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, XLSX) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE193nnn/GSE193460/
+Series		Accession: GSE193460	ID: 200193460
+
+97. Fundamentals of Vaping-Associated Pulmonary Injury  Leading to Severe Respiratory Distress [Visium]
+(Submitter supplied) Spatial transcriptomic (10X Genomics Visium) to profile pulmonary branches from Non-Vaped (NV) and Vaped (V) mice.
+Organism:	Mus musculus
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24247 4 Samples
+FTP download: GEO (TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE188nnn/GSE188805/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA780415
+Series		Accession: GSE188805	ID: 200188805
+
+98. Spatial transcriptomics of human brain metastases
+(Submitter supplied) Spatial transcriptomics of six surgically-resected human brain metastasis samples
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 6 Samples
+FTP download: GEO (H5, MTX, TAR, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE179nnn/GSE179572/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA744217
+Series		Accession: GSE179572	ID: 200179572
+
+99. Spatial transcriptomics of mus musculus: infected young female lung mouse BNI-H311
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659312/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812097
+Sample		Accession: GSM8659312	ID: 308659312
+
+100. Spatial transcriptomics of mus musculus: infected young female liver mouse BNI-H311
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659311/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812096
+Sample		Accession: GSM8659311	ID: 308659311
+
+101. Spatial transcriptomics of mus musculus: infected young female kidney mouse BNI-H311
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659310/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812094
+Sample		Accession: GSM8659310	ID: 308659310
+
+102. Spatial transcriptomics of mus musculus: infected young female olfactory bulb mouse BNI-H311
+Organism:	Mus musculus
+Source name:	Olfactory bulb
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659309/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812093
+Sample		Accession: GSM8659309	ID: 308659309
+
+103. Spatial transcriptomics of mus musculus: infected young female brain mouse BNI-H311
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659308/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812092
+Sample		Accession: GSM8659308	ID: 308659308
+
+104. Spatial transcriptomics of mus musculus: infected young female lung mouse BNI-H310
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659307/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812091
+Sample		Accession: GSM8659307	ID: 308659307
+
+105. Spatial transcriptomics of mus musculus: infected young female liver mouse BNI-H310
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659306/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812090
+Sample		Accession: GSM8659306	ID: 308659306
+
+106. Spatial transcriptomics of mus musculus: infected young female kidney mouse BNI-H310
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659305/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812089
+Sample		Accession: GSM8659305	ID: 308659305
+
+107. Spatial transcriptomics of mus musculus: infected young female brain mouse BNI-H310
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659304/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812088
+Sample		Accession: GSM8659304	ID: 308659304
+
+108. Spatial transcriptomics of mus musculus: infected young female lung mouse BNI-H309
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659303/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812087
+Sample		Accession: GSM8659303	ID: 308659303
+
+109. Spatial transcriptomics of mus musculus: infected young female liver mouse BNI-H309
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659302/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812086
+Sample		Accession: GSM8659302	ID: 308659302
+
+110. Spatial transcriptomics of mus musculus: infected young female kidney mouse BNI-H309
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659301/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812085
+Sample		Accession: GSM8659301	ID: 308659301
+
+111. Spatial transcriptomics of mus musculus: infected young female olfactory bulb mouse BNI-H309
+Organism:	Mus musculus
+Source name:	Olfactory bulb
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659300/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812083
+Sample		Accession: GSM8659300	ID: 308659300
+
+112. Spatial transcriptomics of mus musculus: infected young female brain mouse BNI-H309
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659299/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812082
+Sample		Accession: GSM8659299	ID: 308659299
+
+113. Spatial transcriptomics of mus musculus: young female lung mouse BNI-H308
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659298/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812081
+Sample		Accession: GSM8659298	ID: 308659298
+
+114. Spatial transcriptomics of mus musculus: young female liver mouse BNI-H308
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659297/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812080
+Sample		Accession: GSM8659297	ID: 308659297
+
+115. Spatial transcriptomics of mus musculus: young female kidney mouse BNI-H308
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659296/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812079
+Sample		Accession: GSM8659296	ID: 308659296
+
+116. Spatial transcriptomics of mus musculus: young female lung mouse BNI-H307
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659295/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812078
+Sample		Accession: GSM8659295	ID: 308659295
+
+117. Spatial transcriptomics of mus musculus: young female liver mouse BNI-H307
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659294/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812077
+Sample		Accession: GSM8659294	ID: 308659294
+
+118. Spatial transcriptomics of mus musculus: young female kidney mouse BNI-H307
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659293/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812076
+Sample		Accession: GSM8659293	ID: 308659293
+
+119. Spatial transcriptomics of mus musculus: young female olfactory bulb mouse BNI-H307
+Organism:	Mus musculus
+Source name:	Olfactory bulb
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659292/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812075
+Sample		Accession: GSM8659292	ID: 308659292
+
+120. Spatial transcriptomics of mus musculus: young female lung mouse BNI-H306
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659291/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812074
+Sample		Accession: GSM8659291	ID: 308659291
+
+121. Spatial transcriptomics of mus musculus: young female liver mouse BNI-H306
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659290/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812072
+Sample		Accession: GSM8659290	ID: 308659290
+
+122. Spatial transcriptomics of mus musculus: young female kidney mouse BNI-H306
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659289/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812071
+Sample		Accession: GSM8659289	ID: 308659289
+
+123. Spatial transcriptomics of mus musculus: young female olfactory bulb mouse BNI-H306
+Organism:	Mus musculus
+Source name:	Olfactory bulb
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659288/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812070
+Sample		Accession: GSM8659288	ID: 308659288
+
+124. Spatial transcriptomics of mus musculus: young female brain mouse BNI-H306
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659287/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812069
+Sample		Accession: GSM8659287	ID: 308659287
+
+125. Spatial transcriptomics of mus musculus: young male liver mouse BNI-H304
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659286/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812068
+Sample		Accession: GSM8659286	ID: 308659286
+
+126. Spatial transcriptomics of mus musculus: young male kidney mouse BNI-H304
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659285/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812067
+Sample		Accession: GSM8659285	ID: 308659285
+
+127. Spatial transcriptomics of mus musculus: young male olfactory bulb mouse BNI-H304
+Organism:	Mus musculus
+Source name:	Olfactory bulb
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659284/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812066
+Sample		Accession: GSM8659284	ID: 308659284
+
+128. Spatial transcriptomics of mus musculus: young male brain mouse BNI-H304
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659283/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812065
+Sample		Accession: GSM8659283	ID: 308659283
+
+129. Spatial transcriptomics of mus musculus: young male lung mouse BNI-H303
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659282/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812064
+Sample		Accession: GSM8659282	ID: 308659282
+
+130. Spatial transcriptomics of mus musculus: young male liver mouse BNI-H303
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659281/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812063
+Sample		Accession: GSM8659281	ID: 308659281
+
+131. Spatial transcriptomics of mus musculus: young male kidney mouse BNI-H303
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659280/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812102
+Sample		Accession: GSM8659280	ID: 308659280
+
+132. Spatial transcriptomics of mus musculus: young male olfactory bulb mouse BNI-H303
+Organism:	Mus musculus
+Source name:	Olfactory bulb
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659279/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812101
+Sample		Accession: GSM8659279	ID: 308659279
+
+133. Spatial transcriptomics of mus musculus: young male brain mouse BNI-H303
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659278/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812100
+Sample		Accession: GSM8659278	ID: 308659278
+
+134. Spatial transcriptomics of mus musculus: infected young male liver mouse BNI-H300
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659277/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812099
+Sample		Accession: GSM8659277	ID: 308659277
+
+135. Spatial transcriptomics of mus musculus: infected young male olfactory bulb mouse BNI-H300
+Organism:	Mus musculus
+Source name:	Olfactory bulb
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659276/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812098
+Sample		Accession: GSM8659276	ID: 308659276
+
+136. Spatial transcriptomics of mus musculus: infected young male lung mouse BNI-H299
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659275/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812095
+Sample		Accession: GSM8659275	ID: 308659275
+
+137. Spatial transcriptomics of mus musculus: infected young male liver mouse BNI-H299
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659274/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812084
+Sample		Accession: GSM8659274	ID: 308659274
+
+138. Spatial transcriptomics of mus musculus: infected young male kidney mouse BNI-H299
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659273/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812073
+Sample		Accession: GSM8659273	ID: 308659273
+
+139. Spatial transcriptomics of mus musculus: infected young male olfactory bulb mouse BNI-H299
+Organism:	Mus musculus
+Source name:	Olfactory bulb
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659272/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812062
+Sample		Accession: GSM8659272	ID: 308659272
+
+140. Spatial transcriptomics of mus musculus: infected young male brain mouse BNI-H299
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659271/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26812061
+Sample		Accession: GSM8659271	ID: 308659271
+
+141. Spatial transcriptomics of mus musculus: old male kidney mouse 15
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659270/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138373
+Sample		Accession: GSM8659270	ID: 308659270
+
+142. Spatial transcriptomics of mus musculus: old male heart mouse 15
+Organism:	Mus musculus
+Source name:	Heart
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659269/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138371
+Sample		Accession: GSM8659269	ID: 308659269
+
+143. Spatial transcriptomics of mus musculus: old male brain5 mouse 15
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659268/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138370
+Sample		Accession: GSM8659268	ID: 308659268
+
+144. Spatial transcriptomics of mus musculus: old male brain4 mouse 15
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659267/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138369
+Sample		Accession: GSM8659267	ID: 308659267
+
+145. Spatial transcriptomics of mus musculus: old male brain3 mouse 15
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659266/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138368
+Sample		Accession: GSM8659266	ID: 308659266
+
+146. Spatial transcriptomics of mus musculus: old male brain2 mouse 15
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659265/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138367
+Sample		Accession: GSM8659265	ID: 308659265
+
+147. Spatial transcriptomics of mus musculus: old male brain1 mouse 15
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659264/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138366
+Sample		Accession: GSM8659264	ID: 308659264
+
+148. Spatial transcriptomics of mus musculus: middle-aged male spleen mouse 14
+Organism:	Mus musculus
+Source name:	Spleen
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659263/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138365
+Sample		Accession: GSM8659263	ID: 308659263
+
+149. Spatial transcriptomics of mus musculus: middle-aged male lung mouse 14
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659262/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138364
+Sample		Accession: GSM8659262	ID: 308659262
+
+150. Spatial transcriptomics of mus musculus: middle-aged male liver mouse 14
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659261/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138363
+Sample		Accession: GSM8659261	ID: 308659261
+
+151. Spatial transcriptomics of mus musculus: middle-aged male kidney mouse 14
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659260/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138362
+Sample		Accession: GSM8659260	ID: 308659260
+
+152. Spatial transcriptomics of mus musculus: middle-aged male heart mouse 14
+Organism:	Mus musculus
+Source name:	Heart
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659259/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138469
+Sample		Accession: GSM8659259	ID: 308659259
+
+153. Spatial transcriptomics of mus musculus: middle-aged male brain5 mouse 14
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659258/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138468
+Sample		Accession: GSM8659258	ID: 308659258
+
+154. Spatial transcriptomics of mus musculus: middle-aged male brain4 mouse 14
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659257/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138467
+Sample		Accession: GSM8659257	ID: 308659257
+
+155. Spatial transcriptomics of mus musculus: middle-aged male brain3 mouse 14
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659256/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138466
+Sample		Accession: GSM8659256	ID: 308659256
+
+156. Spatial transcriptomics of mus musculus: middle-aged male brain2 mouse 14
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659255/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138465
+Sample		Accession: GSM8659255	ID: 308659255
+
+157. Spatial transcriptomics of mus musculus: middle-aged male brain1 mouse 14
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659254/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138464
+Sample		Accession: GSM8659254	ID: 308659254
+
+158. Spatial transcriptomics of mus musculus: young male spleen mouse 13
+Organism:	Mus musculus
+Source name:	Spleen
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659253/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138463
+Sample		Accession: GSM8659253	ID: 308659253
+
+159. Spatial transcriptomics of mus musculus: young male lung mouse 13
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659252/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138462
+Sample		Accession: GSM8659252	ID: 308659252
+
+160. Spatial transcriptomics of mus musculus: young male liver mouse 13
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659251/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138461
+Sample		Accession: GSM8659251	ID: 308659251
+
+161. Spatial transcriptomics of mus musculus: young male heart mouse 13
+Organism:	Mus musculus
+Source name:	Heart
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659250/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138460
+Sample		Accession: GSM8659250	ID: 308659250
+
+162. Spatial transcriptomics of mus musculus: young male brain5 mouse 13
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659249/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138458
+Sample		Accession: GSM8659249	ID: 308659249
+
+163. Spatial transcriptomics of mus musculus: young male brain4 mouse 13
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659248/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138457
+Sample		Accession: GSM8659248	ID: 308659248
+
+164. Spatial transcriptomics of mus musculus: young male brain3 mouse 13
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659247/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138456
+Sample		Accession: GSM8659247	ID: 308659247
+
+165. Spatial transcriptomics of mus musculus: young male brain2 mouse 13
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659246/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138455
+Sample		Accession: GSM8659246	ID: 308659246
+
+166. Spatial transcriptomics of mus musculus: young male brain1 mouse 13
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659245/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138454
+Sample		Accession: GSM8659245	ID: 308659245
+
+167. Spatial transcriptomics of mus musculus: old male spleen mouse 12
+Organism:	Mus musculus
+Source name:	Spleen
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659244/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138453
+Sample		Accession: GSM8659244	ID: 308659244
+
+168. Spatial transcriptomics of mus musculus: old male lung mouse 12
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659243/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138452
+Sample		Accession: GSM8659243	ID: 308659243
+
+169. Spatial transcriptomics of mus musculus: old male liver mouse 12
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659242/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138451
+Sample		Accession: GSM8659242	ID: 308659242
+
+170. Spatial transcriptomics of mus musculus: old male heart mouse 12
+Organism:	Mus musculus
+Source name:	Heart
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659241/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138450
+Sample		Accession: GSM8659241	ID: 308659241
+
+171. Spatial transcriptomics of mus musculus: middle-aged male spleen mouse 11
+Organism:	Mus musculus
+Source name:	Spleen
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659240/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138449
+Sample		Accession: GSM8659240	ID: 308659240
+
+172. Spatial transcriptomics of mus musculus: middle-aged male lung mouse 11
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659239/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138447
+Sample		Accession: GSM8659239	ID: 308659239
+
+173. Spatial transcriptomics of mus musculus: middle-aged male liver mouse 11
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659238/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138418
+Sample		Accession: GSM8659238	ID: 308659238
+
+174. Spatial transcriptomics of mus musculus: middle-aged male heart mouse 11
+Organism:	Mus musculus
+Source name:	Heart
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659237/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138417
+Sample		Accession: GSM8659237	ID: 308659237
+
+175. Spatial transcriptomics of mus musculus: young male spleen mouse 10
+Organism:	Mus musculus
+Source name:	Spleen
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659236/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138416
+Sample		Accession: GSM8659236	ID: 308659236
+
+176. Spatial transcriptomics of mus musculus: young male liver mouse 10
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659235/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138415
+Sample		Accession: GSM8659235	ID: 308659235
+
+177. Spatial transcriptomics of mus musculus: young male kidney mouse 10
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659234/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138414
+Sample		Accession: GSM8659234	ID: 308659234
+
+178. Spatial transcriptomics of mus musculus: young male heart mouse 10
+Organism:	Mus musculus
+Source name:	Heart
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659233/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138413
+Sample		Accession: GSM8659233	ID: 308659233
+
+179. Spatial transcriptomics of mus musculus: old male spleen mouse 9
+Organism:	Mus musculus
+Source name:	Spleen
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659232/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138412
+Sample		Accession: GSM8659232	ID: 308659232
+
+180. Spatial transcriptomics of mus musculus: old male lung mouse 9
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659231/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138411
+Sample		Accession: GSM8659231	ID: 308659231
+
+181. Spatial transcriptomics of mus musculus: old male liver mouse 9
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659230/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138410
+Sample		Accession: GSM8659230	ID: 308659230
+
+182. Spatial transcriptomics of mus musculus: old male kidney mouse 9
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659229/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138408
+Sample		Accession: GSM8659229	ID: 308659229
+
+183. Spatial transcriptomics of mus musculus: old male heart mouse 9
+Organism:	Mus musculus
+Source name:	Heart
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659228/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138407
+Sample		Accession: GSM8659228	ID: 308659228
+
+184. Spatial transcriptomics of mus musculus: old male brain5 mouse 9
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659227/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138406
+Sample		Accession: GSM8659227	ID: 308659227
+
+185. Spatial transcriptomics of mus musculus: old male brain4 mouse 9
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659226/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138405
+Sample		Accession: GSM8659226	ID: 308659226
+
+186. Spatial transcriptomics of mus musculus: old male brain3 mouse 9
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659225/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138404
+Sample		Accession: GSM8659225	ID: 308659225
+
+187. Spatial transcriptomics of mus musculus: old male brain2 mouse 9
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659224/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138403
+Sample		Accession: GSM8659224	ID: 308659224
+
+188. Spatial transcriptomics of mus musculus: old male brain1 mouse 9
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659223/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138402
+Sample		Accession: GSM8659223	ID: 308659223
+
+189. Spatial transcriptomics of mus musculus: middle-aged male spleen mouse 8
+Organism:	Mus musculus
+Source name:	Spleen
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659222/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138401
+Sample		Accession: GSM8659222	ID: 308659222
+
+190. Spatial transcriptomics of mus musculus: middle-aged male kidney mouse 8
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659221/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138400
+Sample		Accession: GSM8659221	ID: 308659221
+
+191. Spatial transcriptomics of mus musculus: middle-aged male heart mouse 8
+Organism:	Mus musculus
+Source name:	Heart
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659220/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138399
+Sample		Accession: GSM8659220	ID: 308659220
+
+192. Spatial transcriptomics of mus musculus: middle-aged male brain5 mouse 8
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659219/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138397
+Sample		Accession: GSM8659219	ID: 308659219
+
+193. Spatial transcriptomics of mus musculus: middle-aged male brain4 mouse 8
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659218/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138396
+Sample		Accession: GSM8659218	ID: 308659218
+
+194. Spatial transcriptomics of mus musculus: middle-aged male brain3 mouse 8
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659217/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138395
+Sample		Accession: GSM8659217	ID: 308659217
+
+195. Spatial transcriptomics of mus musculus: middle-aged male brain2 mouse 8
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659216/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138394
+Sample		Accession: GSM8659216	ID: 308659216
+
+196. Spatial transcriptomics of mus musculus: middle-aged male brain1 mouse 8
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659215/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138393
+Sample		Accession: GSM8659215	ID: 308659215
+
+197. Spatial transcriptomics of mus musculus: young male spleen mouse 7
+Organism:	Mus musculus
+Source name:	Spleen
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659214/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138392
+Sample		Accession: GSM8659214	ID: 308659214
+
+198. Spatial transcriptomics of mus musculus: young male lung mouse 7
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659213/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138391
+Sample		Accession: GSM8659213	ID: 308659213
+
+199. Spatial transcriptomics of mus musculus: young male liver mouse 7
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659212/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138446
+Sample		Accession: GSM8659212	ID: 308659212
+
+200. Spatial transcriptomics of mus musculus: young male kidney mouse 7
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659211/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138445
+Sample		Accession: GSM8659211	ID: 308659211
+
+201. Spatial transcriptomics of mus musculus: young male brain5 mouse 7
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659210/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138444
+Sample		Accession: GSM8659210	ID: 308659210
+
+202. Spatial transcriptomics of mus musculus: young male brain4 mouse 7
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659209/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138442
+Sample		Accession: GSM8659209	ID: 308659209
+
+203. Spatial transcriptomics of mus musculus: young male brain3 mouse 7
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659208/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138441
+Sample		Accession: GSM8659208	ID: 308659208
+
+204. Spatial transcriptomics of mus musculus: young male brain2 mouse 7
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659207/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138440
+Sample		Accession: GSM8659207	ID: 308659207
+
+205. Spatial transcriptomics of mus musculus: young male brain1 mouse 7
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659206/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138439
+Sample		Accession: GSM8659206	ID: 308659206
+
+206. Spatial transcriptomics of mus musculus: old male spleen mouse 6
+Organism:	Mus musculus
+Source name:	Spleen
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659205/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138438
+Sample		Accession: GSM8659205	ID: 308659205
+
+207. Spatial transcriptomics of mus musculus: old male lung mouse 6
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659204/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138437
+Sample		Accession: GSM8659204	ID: 308659204
+
+208. Spatial transcriptomics of mus musculus: old male liver mouse 6
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659203/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138436
+Sample		Accession: GSM8659203	ID: 308659203
+
+209. Spatial transcriptomics of mus musculus: old male kidney mouse 6
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659202/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138435
+Sample		Accession: GSM8659202	ID: 308659202
+
+210. Spatial transcriptomics of mus musculus: old male brain4 mouse 6
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659201/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138434
+Sample		Accession: GSM8659201	ID: 308659201
+
+211. Spatial transcriptomics of mus musculus: old male brain3 mouse 6
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659200/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138433
+Sample		Accession: GSM8659200	ID: 308659200
+
+212. Spatial transcriptomics of mus musculus: old male brain2 mouse 6
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659199/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138431
+Sample		Accession: GSM8659199	ID: 308659199
+
+213. Spatial transcriptomics of mus musculus: old male brain1 mouse 6
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659198/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138430
+Sample		Accession: GSM8659198	ID: 308659198
+
+214. Spatial transcriptomics of mus musculus: middle-aged male spleen mouse 5
+Organism:	Mus musculus
+Source name:	Spleen
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659197/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138429
+Sample		Accession: GSM8659197	ID: 308659197
+
+215. Spatial transcriptomics of mus musculus: middle-aged male lung mouse 5
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659196/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138428
+Sample		Accession: GSM8659196	ID: 308659196
+
+216. Spatial transcriptomics of mus musculus: middle-aged male heart mouse 5
+Organism:	Mus musculus
+Source name:	Heart
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659195/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138427
+Sample		Accession: GSM8659195	ID: 308659195
+
+217. Spatial transcriptomics of mus musculus: middle-aged male brain5 mouse 5
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659194/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138426
+Sample		Accession: GSM8659194	ID: 308659194
+
+218. Spatial transcriptomics of mus musculus: middle-aged male brain4 mouse 5
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659193/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138425
+Sample		Accession: GSM8659193	ID: 308659193
+
+219. Spatial transcriptomics of mus musculus: middle-aged male brain3 mouse 5
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659192/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138424
+Sample		Accession: GSM8659192	ID: 308659192
+
+220. Spatial transcriptomics of mus musculus: middle-aged male brain2 mouse 5
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659191/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138423
+Sample		Accession: GSM8659191	ID: 308659191
+
+221. Spatial transcriptomics of mus musculus: middle-aged male brain1 mouse 5
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659190/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138422
+Sample		Accession: GSM8659190	ID: 308659190
+
+222. Spatial transcriptomics of mus musculus: young male spleen mouse 4
+Organism:	Mus musculus
+Source name:	Spleen
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659189/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138420
+Sample		Accession: GSM8659189	ID: 308659189
+
+223. Spatial transcriptomics of mus musculus: young male liver mouse 4
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659188/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138419
+Sample		Accession: GSM8659188	ID: 308659188
+
+224. Spatial transcriptomics of mus musculus: young male heart mouse 4
+Organism:	Mus musculus
+Source name:	Heart
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659187/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138390
+Sample		Accession: GSM8659187	ID: 308659187
+
+225. Spatial transcriptomics of mus musculus: young male brain5 mouse 4
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659186/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138389
+Sample		Accession: GSM8659186	ID: 308659186
+
+226. Spatial transcriptomics of mus musculus: young male brain4 mouse 4
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659185/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138388
+Sample		Accession: GSM8659185	ID: 308659185
+
+227. Spatial transcriptomics of mus musculus: young male brain3 mouse 4
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659184/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138387
+Sample		Accession: GSM8659184	ID: 308659184
+
+228. Spatial transcriptomics of mus musculus: young male brain2 mouse 4
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659183/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138386
+Sample		Accession: GSM8659183	ID: 308659183
+
+229. Spatial transcriptomics of mus musculus: young male brain1 mouse 4
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659182/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138385
+Sample		Accession: GSM8659182	ID: 308659182
+
+230. Spatial transcriptomics of mus musculus: old male spleen mouse 3
+Organism:	Mus musculus
+Source name:	Spleen
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659181/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138384
+Sample		Accession: GSM8659181	ID: 308659181
+
+231. Spatial transcriptomics of mus musculus: old male liver mouse 3
+Organism:	Mus musculus
+Source name:	Liver
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659180/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138383
+Sample		Accession: GSM8659180	ID: 308659180
+
+232. Spatial transcriptomics of mus musculus: old male kidney mouse 3
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659179/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138381
+Sample		Accession: GSM8659179	ID: 308659179
+
+233. Spatial transcriptomics of mus musculus: old male heart mouse 3
+Organism:	Mus musculus
+Source name:	Heart
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659178/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138380
+Sample		Accession: GSM8659178	ID: 308659178
+
+234. Spatial transcriptomics of mus musculus: old male brain5 mouse 3
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659177/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138379
+Sample		Accession: GSM8659177	ID: 308659177
+
+235. Spatial transcriptomics of mus musculus: middle-aged male spleen mouse 2
+Organism:	Mus musculus
+Source name:	Spleen
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659176/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138378
+Sample		Accession: GSM8659176	ID: 308659176
+
+236. Spatial transcriptomics of mus musculus: middle-aged male lung mouse 2
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659175/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138377
+Sample		Accession: GSM8659175	ID: 308659175
+
+237. Spatial transcriptomics of mus musculus: middle-aged male kidney mouse 2
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659174/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138376
+Sample		Accession: GSM8659174	ID: 308659174
+
+238. Spatial transcriptomics of mus musculus: middle-aged male heart mouse 2
+Organism:	Mus musculus
+Source name:	Heart
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659173/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138375
+Sample		Accession: GSM8659173	ID: 308659173
+
+239. Spatial transcriptomics of mus musculus: middle-aged male brain5 mouse 2
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659172/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138374
+Sample		Accession: GSM8659172	ID: 308659172
+
+240. Spatial transcriptomics of mus musculus: middle-aged male brain4 mouse 2
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659171/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138372
+Sample		Accession: GSM8659171	ID: 308659171
+
+241. Spatial transcriptomics of mus musculus: middle-aged male brain3 mouse 2
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659170/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138361
+Sample		Accession: GSM8659170	ID: 308659170
+
+242. Spatial transcriptomics of mus musculus: middle-aged male brain2 mouse 2
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659169/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138459
+Sample		Accession: GSM8659169	ID: 308659169
+
+243. Spatial transcriptomics of mus musculus: middle-aged male brain1 mouse 2
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659168/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138448
+Sample		Accession: GSM8659168	ID: 308659168
+
+244. Spatial transcriptomics of mus musculus: young male spleen mouse 1
+Organism:	Mus musculus
+Source name:	Spleen
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659167/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138409
+Sample		Accession: GSM8659167	ID: 308659167
+
+245. Spatial transcriptomics of mus musculus: young male lung mouse 1
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659166/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138398
+Sample		Accession: GSM8659166	ID: 308659166
+
+246. Spatial transcriptomics of mus musculus: young male kidney mouse 1
+Organism:	Mus musculus
+Source name:	Kidney
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659165/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138443
+Sample		Accession: GSM8659165	ID: 308659165
+
+247. Spatial transcriptomics of mus musculus: young male brain5 mouse 1
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659164/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138432
+Sample		Accession: GSM8659164	ID: 308659164
+
+248. Spatial transcriptomics of mus musculus: young male brain4 mouse 1
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659163/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138421
+Sample		Accession: GSM8659163	ID: 308659163
+
+249. Spatial transcriptomics of mus musculus: young male brain3 mouse 1
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659162/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138382
+Sample		Accession: GSM8659162	ID: 308659162
+
+250. Spatial transcriptomics of mus musculus: young male brain2 mouse 1
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659161/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138360
+Sample		Accession: GSM8659161	ID: 308659161
+
+251. Spatial transcriptomics of mus musculus: young male brain1 mouse 1
+Organism:	Mus musculus
+Source name:	Brain
+Platform: GPL24247 Series: GSE283283 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8659nnn/GSM8659160/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26138359
+Sample		Accession: GSM8659160	ID: 308659160
+
+252. LAM 20, Visium
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL30882 Series: GSE302356 
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9226nnn/GSM9226656/
+Sample		Accession: GSM9226656	ID: 309226656
+
+253. LAM 18, Visium HD
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL30882 Series: GSE302356 
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9226nnn/GSM9226654/
+Sample		Accession: GSM9226654	ID: 309226654
+
+254. Spatial transcriptomics (Visium) of Human Lung Cancer Capture 1 (NSCLC_41485_2)
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL24676 Series: GSE322553 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9554nnn/GSM9554210/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX32333705
+Sample		Accession: GSM9554210	ID: 309554210
+
+255. Spatial transcriptomics (Visium) of Human Lung Cancer Capture 1 (NSCLC_936_1)
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL24676 Series: GSE322553 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9554nnn/GSM9554209/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX32333704
+Sample		Accession: GSM9554209	ID: 309554209
+
+256. NSCLC, Patient 15, Spatial Transcriptomics (Visium)
+Organism:	Homo sapiens
+Source name:	NSCLC tumor
+Platform: GPL34281 Series: GSE292299 
+FTP download: GEO (H5, TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8855nnn/GSM8855717/
+Sample		Accession: GSM8855717	ID: 308855717
+
+257. NSCLC, Patient 12, Spatial Transcriptomics (Visium)
+Organism:	Homo sapiens
+Source name:	NSCLC tumor
+Platform: GPL34281 Series: GSE292299 
+FTP download: GEO (H5, TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8855nnn/GSM8855714/
+Sample		Accession: GSM8855714	ID: 308855714
+
+258. NSCLC, Patient 8, Spatial Transcriptomics (Visium)
+Organism:	Homo sapiens
+Source name:	NSCLC tumor
+Platform: GPL34281 Series: GSE292299 
+FTP download: GEO (H5, TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8855nnn/GSM8855710/
+Sample		Accession: GSM8855710	ID: 308855710
+
+259. NSCLC, Patient 5, Spatial Transcriptomics (Visium)
+Organism:	Homo sapiens
+Source name:	NSCLC tumor
+Platform: GPL34281 Series: GSE292299 
+FTP download: GEO (H5, TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8855nnn/GSM8855707/
+Sample		Accession: GSM8855707	ID: 308855707
+
+260. Healthy Lung, Visium D1
+Organism:	Homo sapiens
+Source name:	Healthy Lung
+Platform: GPL16791 Series: GSE262998 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8182nnn/GSM8182907/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24128598
+Sample		Accession: GSM8182907	ID: 308182907
+
+261. Sarcoid Lung, Visium C1
+Organism:	Homo sapiens
+Source name:	Sarcoid Lung
+Platform: GPL16791 Series: GSE262998 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8182nnn/GSM8182906/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24128597
+Sample		Accession: GSM8182906	ID: 308182906
+
+262. Sarcoid Lung, Visium B1
+Organism:	Homo sapiens
+Source name:	Sarcoid Lung
+Platform: GPL16791 Series: GSE262998 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8182nnn/GSM8182905/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24128596
+Sample		Accession: GSM8182905	ID: 308182905
+
+263. Sarcoid Lung, Visium A1
+Organism:	Homo sapiens
+Source name:	Sarcoid Lung
+Platform: GPL16791 Series: GSE262998 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8182nnn/GSM8182904/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24128595
+Sample		Accession: GSM8182904	ID: 308182904
+
+264. Chronic lung disease 11
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL30173 Series: GSE300851 
+FTP download: GEO (H5AD) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9293nnn/GSM9293142/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX31117522
+Sample		Accession: GSM9293142	ID: 309293142
+
+265. Chronic lung disease 1
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL30173 Series: GSE300851 
+FTP download: GEO (H5AD) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9293nnn/GSM9293141/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX31117521
+Sample		Accession: GSM9293141	ID: 309293141
+
+266. MR4
+Organism:	Homo sapiens
+Source name:	Lung metastatic osteosarcoma
+Platform: GPL24676 Series: GSE293065 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8875nnn/GSM8875096/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX28161489
+Sample		Accession: GSM8875096	ID: 308875096
+
+267. MR3
+Organism:	Homo sapiens
+Source name:	Lung metastatic osteosarcoma
+Platform: GPL24676 Series: GSE293065 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8875nnn/GSM8875095/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX28161488
+Sample		Accession: GSM8875095	ID: 308875095
+
+268. MR2
+Organism:	Homo sapiens
+Source name:	Lung metastatic osteosarcoma
+Platform: GPL24676 Series: GSE293065 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8875nnn/GSM8875094/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX28161487
+Sample		Accession: GSM8875094	ID: 308875094
+
+269. MR18
+Organism:	Homo sapiens
+Source name:	Lung metastatic osteosarcoma
+Platform: GPL24676 Series: GSE293065 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8875nnn/GSM8875093/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX28161486
+Sample		Accession: GSM8875093	ID: 308875093
+
+270. MR15
+Organism:	Homo sapiens
+Source name:	Lung metastatic osteosarcoma
+Platform: GPL24676 Series: GSE293065 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8875nnn/GSM8875091/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX28161484
+Sample		Accession: GSM8875091	ID: 308875091
+
+271. MR13
+Organism:	Homo sapiens
+Source name:	Lung metastatic osteosarcoma
+Platform: GPL24676 Series: GSE293065 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8875nnn/GSM8875089/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX28161482
+Sample		Accession: GSM8875089	ID: 308875089
+
+272. MR12
+Organism:	Homo sapiens
+Source name:	Lung metastatic osteosarcoma
+Platform: GPL24676 Series: GSE293065 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8875nnn/GSM8875088/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX28161481
+Sample		Accession: GSM8875088	ID: 308875088
+
+273. MR11B
+Organism:	Homo sapiens
+Source name:	Lung metastatic osteosarcoma
+Platform: GPL24676 Series: GSE293065 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8875nnn/GSM8875087/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX28161480
+Sample		Accession: GSM8875087	ID: 308875087
+
+274. MR11A
+Organism:	Homo sapiens
+Source name:	Lung metastatic osteosarcoma
+Platform: GPL24676 Series: GSE293065 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8875nnn/GSM8875086/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX28161479
+Sample		Accession: GSM8875086	ID: 308875086
+
+275. MR10B
+Organism:	Homo sapiens
+Source name:	Lung metastatic osteosarcoma
+Platform: GPL24676 Series: GSE293065 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8875nnn/GSM8875085/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX28161478
+Sample		Accession: GSM8875085	ID: 308875085
+
+276. MR10A
+Organism:	Homo sapiens
+Source name:	Lung metastatic osteosarcoma
+Platform: GPL24676 Series: GSE293065 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8875nnn/GSM8875084/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX28161477
+Sample		Accession: GSM8875084	ID: 308875084
+
+277. MR1
+Organism:	Homo sapiens
+Source name:	Lung metastatic osteosarcoma
+Platform: GPL24676 Series: GSE293065 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8875nnn/GSM8875083/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX28161476
+Sample		Accession: GSM8875083	ID: 308875083
+
+278. Small cell lung cancer, patient12
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL24676 Series: GSE263196 
+FTP download: GEO (CSV, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8187nnn/GSM8187473/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24153331
+Sample		Accession: GSM8187473	ID: 308187473
+
+279. Small cell lung cancer, patient9
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL24676 Series: GSE263196 
+FTP download: GEO (CSV, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8187nnn/GSM8187472/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24153330
+Sample		Accession: GSM8187472	ID: 308187472
+
+280. Small cell lung cancer, patient8
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL24676 Series: GSE263196 
+FTP download: GEO (CSV, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8187nnn/GSM8187471/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24153329
+Sample		Accession: GSM8187471	ID: 308187471
+
+281. Small cell lung cancer, patient4
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL24676 Series: GSE263196 
+FTP download: GEO (CSV, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8187nnn/GSM8187470/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24153328
+Sample		Accession: GSM8187470	ID: 308187470
+
+282. Small cell lung cancer, patient3
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL24676 Series: GSE263196 
+FTP download: GEO (CSV, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8187nnn/GSM8187469/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24153327
+Sample		Accession: GSM8187469	ID: 308187469
+
+283. ARDS, LLL1, Visium HD
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL20301 Series: GSE312053 
+FTP download: GEO (CLOUPE, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9336nnn/GSM9336966/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX31293498
+Sample		Accession: GSM9336966	ID: 309336966
+
+284. ARDS, LUL, Visium HD
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL20301 Series: GSE312053 
+FTP download: GEO (CLOUPE, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9336nnn/GSM9336965/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX31293497
+Sample		Accession: GSM9336965	ID: 309336965
+
+285. ARDS, RLL2, Visium HD
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL20301 Series: GSE312053 
+FTP download: GEO (CLOUPE, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9336nnn/GSM9336964/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX31293496
+Sample		Accession: GSM9336964	ID: 309336964
+
+286. ARDS, RLL1, Visium HD
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL20301 Series: GSE312053 
+FTP download: GEO (CLOUPE, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9336nnn/GSM9336963/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX31293495
+Sample		Accession: GSM9336963	ID: 309336963
+
+287. ARDS, RML, Visium HD
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL20301 Series: GSE312053 
+FTP download: GEO (CLOUPE, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9336nnn/GSM9336962/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX31293494
+Sample		Accession: GSM9336962	ID: 309336962
+
+288. ARDS, RUL, Visium HD
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL20301 Series: GSE312053 
+FTP download: GEO (CLOUPE, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9336nnn/GSM9336961/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX31293493
+Sample		Accession: GSM9336961	ID: 309336961
+
+289. ARDS, LLL2, Visium HD
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL20301 Series: GSE312053 
+FTP download: GEO (CLOUPE, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9336nnn/GSM9336960/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX31293492
+Sample		Accession: GSM9336960	ID: 309336960
+
+290. Covid, Visium HD
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL20301 Series: GSE312053 
+FTP download: GEO (CLOUPE, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9336nnn/GSM9336959/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX31293491
+Sample		Accession: GSM9336959	ID: 309336959
+
+291. Control, Visium HD
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL20301 Series: GSE312053 
+FTP download: GEO (CLOUPE, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9336nnn/GSM9336958/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX31293490
+Sample		Accession: GSM9336958	ID: 309336958
+
+292. OP, replicate 1, Visium CytAssist
+Organism:	Homo sapiens
+Source name:	lung tissue of OP patient
+Platform: GPL24676 Series: GSE250385 
+FTP download: GEO (MTX, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7978nnn/GSM7978181/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22915767
+Sample		Accession: GSM7978181	ID: 307978181
+
+293. Lung_spatial_CF1, scRNAseq
+Organism:	Homo sapiens
+Source name:	Lung Biopsy
+Platform: GPL24676 Series: GSE271984 
+FTP download: GEO (H5) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8390nnn/GSM8390254/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX25270671
+Sample		Accession: GSM8390254	ID: 308390254
+
+294. Visium HD, LR1, LR2
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL34284 Series: GSE288758 
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8774nnn/GSM8774702/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX27547276
+Sample		Accession: GSM8774702	ID: 308774702
+
+295. Visium HD, ER, SR
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL34284 Series: GSE288758 
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8774nnn/GSM8774701/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX27547275
+Sample		Accession: GSM8774701	ID: 308774701
+
+296. SMC19, whole slide
+Organism:	Homo sapiens
+Source name:	Lung
+Platform: GPL16791 Series: GSE288479 
+FTP download: GEO (CSV, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8768nnn/GSM8768597/
+Sample		Accession: GSM8768597	ID: 308768597
+
+297. Visium_JKPF3_5
+Organism:	Homo sapiens
+Source name:	IPF lung
+Platform: GPL28038 Series: GSE285246 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8699nnn/GSM8699173/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX27173684
+Sample		Accession: GSM8699173	ID: 308699173
+
+298. Visium_JKPF3_3
+Organism:	Homo sapiens
+Source name:	IPF lung
+Platform: GPL28038 Series: GSE285246 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8699nnn/GSM8699172/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX27173683
+Sample		Accession: GSM8699172	ID: 308699172
+
+299. Visium_JKPF3_2
+Organism:	Homo sapiens
+Source name:	IPF lung
+Platform: GPL28038 Series: GSE285246 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8699nnn/GSM8699171/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX27173682
+Sample		Accession: GSM8699171	ID: 308699171
+
+300. Visium_JKPF3_1
+Organism:	Homo sapiens
+Source name:	IPF lung
+Platform: GPL28038 Series: GSE285246 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8699nnn/GSM8699170/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX27173681
+Sample		Accession: GSM8699170	ID: 308699170
+
+301. Visium_JKPF2_3
+Organism:	Homo sapiens
+Source name:	IPF lung
+Platform: GPL28038 Series: GSE285246 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8699nnn/GSM8699169/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX27173680
+Sample		Accession: GSM8699169	ID: 308699169
+
+302. Visium_JKPF2_2
+Organism:	Homo sapiens
+Source name:	IPF lung
+Platform: GPL28038 Series: GSE285246 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8699nnn/GSM8699168/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX27173679
+Sample		Accession: GSM8699168	ID: 308699168
+
+303. Visium_JKPF2_1
+Organism:	Homo sapiens
+Source name:	IPF lung
+Platform: GPL28038 Series: GSE285246 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8699nnn/GSM8699167/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX27173678
+Sample		Accession: GSM8699167	ID: 308699167
+
+304. Visium_JKPF1_2
+Organism:	Homo sapiens
+Source name:	IPF lung
+Platform: GPL28038 Series: GSE285246 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8699nnn/GSM8699166/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX27173677
+Sample		Accession: GSM8699166	ID: 308699166
+
+305. Visium_JKPF1_1
+Organism:	Homo sapiens
+Source name:	IPF lung
+Platform: GPL28038 Series: GSE285246 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8699nnn/GSM8699165/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX27173673
+Sample		Accession: GSM8699165	ID: 308699165
+
+306. OldD28b , Spatial Transcriptomics
+Organism:	Mus musculus
+Source name:	Fibrotic lung slice
+Platform: GPL30172 Series: GSE234198 GSE234199 
+FTP download: GEO (ZIP) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7454nnn/GSM7454049/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20596909
+Sample		Accession: GSM7454049	ID: 307454049
+
+307. OldD28a , Spatial Transcriptomics
+Organism:	Mus musculus
+Source name:	Fibrotic lung slice
+Platform: GPL30172 Series: GSE234198 GSE234199 
+FTP download: GEO (ZIP) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7454nnn/GSM7454048/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20596908
+Sample		Accession: GSM7454048	ID: 307454048
+
+308. YoungD28bis , Spatial Transcriptomics
+Organism:	Mus musculus
+Source name:	Fibrotic lung slice
+Platform: GPL30172 Series: GSE234198 GSE234199 
+FTP download: GEO (ZIP) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7454nnn/GSM7454047/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20596907
+Sample		Accession: GSM7454047	ID: 307454047
+
+309. YoungD28 , Spatial Transcriptomics
+Organism:	Mus musculus
+Source name:	Fibrotic lung slice
+Platform: GPL30172 Series: GSE234198 GSE234199 
+FTP download: GEO (ZIP) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7454nnn/GSM7454046/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20596902
+Sample		Accession: GSM7454046	ID: 307454046
+
+310. OldD14b , Spatial Transcriptomics
+Organism:	Mus musculus
+Source name:	Fibrotic lung slice
+Platform: GPL30172 Series: GSE234198 GSE234199 
+FTP download: GEO (ZIP) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7454nnn/GSM7454045/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20596903
+Sample		Accession: GSM7454045	ID: 307454045
+
+311. OldD14a , Spatial Transcriptomics
+Organism:	Mus musculus
+Source name:	Fibrotic lung slice
+Platform: GPL30172 Series: GSE234198 GSE234199 
+FTP download: GEO (ZIP) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7454nnn/GSM7454044/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20596904
+Sample		Accession: GSM7454044	ID: 307454044
+
+312. YoungD14bis , Spatial Transcriptomics
+Organism:	Mus musculus
+Source name:	Fibrotic lung slice
+Platform: GPL30172 Series: GSE234198 GSE234199 
+FTP download: GEO (ZIP) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7454nnn/GSM7454043/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20596905
+Sample		Accession: GSM7454043	ID: 307454043
+
+313. YoungD14 , Spatial Transcriptomics
+Organism:	Mus musculus
+Source name:	Fibrotic lung slice
+Platform: GPL30172 Series: GSE234198 GSE234199 
+FTP download: GEO (ZIP) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7454nnn/GSM7454042/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20596906
+Sample		Accession: GSM7454042	ID: 307454042
+
+314. Pt-13C
+Organism:	Homo sapiens
+Source name:	Lung metastasis
+Platform: GPL24676 Series: GSE274557 GSE277783 
+FTP download: GEO (H5, JPG, TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8452nnn/GSM8452893/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX25681371
+Sample		Accession: GSM8452893	ID: 308452893
+
+315. Pt-12C
+Organism:	Homo sapiens
+Source name:	Lung metastasis
+Platform: GPL24676 Series: GSE274557 GSE277783 
+FTP download: GEO (H5, JPG, TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8452nnn/GSM8452889/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX25681367
+Sample		Accession: GSM8452889	ID: 308452889
+
+316. Pt-11C
+Organism:	Homo sapiens
+Source name:	Lung metastasis
+Platform: GPL24676 Series: GSE274557 GSE277783 
+FTP download: GEO (H5, JPG, TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8452nnn/GSM8452885/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX25681363
+Sample		Accession: GSM8452885	ID: 308452885
+
+317. Pt-10C
+Organism:	Homo sapiens
+Source name:	Lung metastasis
+Platform: GPL24676 Series: GSE274557 GSE277783 
+FTP download: GEO (H5, JPG, TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8452nnn/GSM8452881/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX25681359
+Sample		Accession: GSM8452881	ID: 308452881
+
+318. Pt-4C
+Organism:	Homo sapiens
+Source name:	Lung metastasis
+Platform: GPL24676 Series: GSE274557 GSE277783 
+FTP download: GEO (H5, JPG, TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8452nnn/GSM8452858/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX25681336
+Sample		Accession: GSM8452858	ID: 308452858
+
+319. Pt-2B
+Organism:	Homo sapiens
+Source name:	Lung metastasis
+Platform: GPL24676 Series: GSE274557 GSE277783 
+FTP download: GEO (H5, JPG, TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8452nnn/GSM8452851/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX25681329
+Sample		Accession: GSM8452851	ID: 308452851
+
+320. Mouse lungs, post-injury day 0, replicate 2, Visium
+Organism:	Mus musculus
+Source name:	lungs
+Platform: GPL21626 Series: GSE250395 GSE250398 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7978nnn/GSM7978624/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22917251
+Sample		Accession: GSM7978624	ID: 307978624
+
+321. Mouse lungs, post-injury day 14, replicate 3, Visium
+Organism:	Mus musculus
+Source name:	lungs
+Platform: GPL21626 Series: GSE250395 GSE250398 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7978nnn/GSM7978623/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22917250
+Sample		Accession: GSM7978623	ID: 307978623
+
+322. Mouse lungs, post-injury day 35, replicate 3, Visium
+Organism:	Mus musculus
+Source name:	lungs
+Platform: GPL21626 Series: GSE250395 GSE250398 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7978nnn/GSM7978622/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22917249
+Sample		Accession: GSM7978622	ID: 307978622
+
+323. Mouse lungs, post-injury day 0, replicate 1, Visium
+Organism:	Mus musculus
+Source name:	lungs
+Platform: GPL21626 Series: GSE250395 GSE250398 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7978nnn/GSM7978621/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22917248
+Sample		Accession: GSM7978621	ID: 307978621
+
+324. Mouse lungs, post-injury day 35, replicate 2, Visium
+Organism:	Mus musculus
+Source name:	lungs
+Platform: GPL21626 Series: GSE250395 GSE250398 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7978nnn/GSM7978620/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22917247
+Sample		Accession: GSM7978620	ID: 307978620
+
+325. Mouse lungs, post-injury day 14, replicate 2, Visium
+Organism:	Mus musculus
+Source name:	lungs
+Platform: GPL21626 Series: GSE250395 GSE250398 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7978nnn/GSM7978619/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22917246
+Sample		Accession: GSM7978619	ID: 307978619
+
+326. Mouse lungs, post-injury day 35, replicate 1, Visium
+Organism:	Mus musculus
+Source name:	lungs
+Platform: GPL21626 Series: GSE250395 GSE250398 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7978nnn/GSM7978618/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22917245
+Sample		Accession: GSM7978618	ID: 307978618
+
+327. Mouse lungs, post-injury day 14, replicate 1, Visium
+Organism:	Mus musculus
+Source name:	lungs
+Platform: GPL21626 Series: GSE250395 GSE250398 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7978nnn/GSM7978617/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22917244
+Sample		Accession: GSM7978617	ID: 307978617
+
+328. IPF12
+Organism:	Homo sapiens
+Source name:	Idiopathic pulmonary fibrosis
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8087nnn/GSM8087038/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23671500
+Sample		Accession: GSM8087038	ID: 308087038
+
+329. IPF11
+Organism:	Homo sapiens
+Source name:	Idiopathic pulmonary fibrosis
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8087nnn/GSM8087037/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23671499
+Sample		Accession: GSM8087037	ID: 308087037
+
+330. IPF10
+Organism:	Homo sapiens
+Source name:	Idiopathic pulmonary fibrosis
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8087nnn/GSM8087036/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23671498
+Sample		Accession: GSM8087036	ID: 308087036
+
+331. N5
+Organism:	Homo sapiens
+Source name:	Normal human lung
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8087nnn/GSM8087035/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23671497
+Sample		Accession: GSM8087035	ID: 308087035
+
+332. N4
+Organism:	Homo sapiens
+Source name:	Normal human lung
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8087nnn/GSM8087034/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23671496
+Sample		Accession: GSM8087034	ID: 308087034
+
+333. N3
+Organism:	Homo sapiens
+Source name:	Normal human lung
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8087nnn/GSM8087033/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23671495
+Sample		Accession: GSM8087033	ID: 308087033
+
+334. N2
+Organism:	Homo sapiens
+Source name:	Normal human lung
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8087nnn/GSM8087032/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23671494
+Sample		Accession: GSM8087032	ID: 308087032
+
+335. N1
+Organism:	Homo sapiens
+Source name:	Normal human lung
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8087nnn/GSM8087031/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX23671493
+Sample		Accession: GSM8087031	ID: 308087031
+
+336. IPF9
+Organism:	Homo sapiens
+Source name:	PPFE tissue
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7905nnn/GSM7905768/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22555462
+Sample		Accession: GSM7905768	ID: 307905768
+
+337. IPF8
+Organism:	Homo sapiens
+Source name:	PPFE tissue
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7905nnn/GSM7905767/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22555461
+Sample		Accession: GSM7905767	ID: 307905767
+
+338. IPF7
+Organism:	Homo sapiens
+Source name:	PPFE tissue
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7905nnn/GSM7905766/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22555460
+Sample		Accession: GSM7905766	ID: 307905766
+
+339. IPF6
+Organism:	Homo sapiens
+Source name:	PPFE tissue
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7905nnn/GSM7905765/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22555459
+Sample		Accession: GSM7905765	ID: 307905765
+
+340. IPF5
+Organism:	Homo sapiens
+Source name:	PPFE tissue
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7905nnn/GSM7905764/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22555458
+Sample		Accession: GSM7905764	ID: 307905764
+
+341. IPF4
+Organism:	Homo sapiens
+Source name:	PPFE tissue
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7905nnn/GSM7905763/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22555457
+Sample		Accession: GSM7905763	ID: 307905763
+
+342. IPF3
+Organism:	Homo sapiens
+Source name:	PPFE tissue
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7905nnn/GSM7905762/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22555456
+Sample		Accession: GSM7905762	ID: 307905762
+
+343. IPF2
+Organism:	Homo sapiens
+Source name:	PPFE tissue
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7905nnn/GSM7905761/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22555455
+Sample		Accession: GSM7905761	ID: 307905761
+
+344. IPF1
+Organism:	Homo sapiens
+Source name:	Fresh frozen tissue
+Platform: GPL24676 Series: GSE248082 
+FTP download: GEO (CSV, H5, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7905nnn/GSM7905760/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX22555454
+Sample		Accession: GSM7905760	ID: 307905760
+
+345. VF_D14, Lung
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL30172 Series: GSE274767 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8457nnn/GSM8457567/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX25688910
+Sample		Accession: GSM8457567	ID: 308457567
+
+346. VF_WT, Lung
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL30172 Series: GSE274767 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8457nnn/GSM8457566/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX25688909
+Sample		Accession: GSM8457566	ID: 308457566
+
+347. IPFTMA5, Post-Xenium Visium HD (VUILD49LA, TILD113LA, TILD111LA, VUHD049)
+Organism:	Homo sapiens
+Source name:	lung
+Platform: GPL34281 Series: GSE276934 GSE276945 
+FTP download: GEO (JSON, TAR, TIFF) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8509nnn/GSM8509590/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX26057062
+Sample		Accession: GSM8509590	ID: 308509590
+
+348. F420 Osteosarcoma lung met Visium
+Organism:	Mus musculus
+Source name:	lung tumor
+Platform: GPL30172 Series: GSE252703 
+FTP download: GEO (TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8478nnn/GSM8478586/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX25803695
+Sample		Accession: GSM8478586	ID: 308478586
+
+349. Spatial_Transciptomics_Mouse_628_LUNG
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL30172 Series: GSE273439 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8428nnn/GSM8428411/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX25515155
+Sample		Accession: GSM8428411	ID: 308428411
+
+350. Spatial_Transciptomics_Mouse_628_TM
+Organism:	Mus musculus
+Source name:	Breast tumor
+Platform: GPL30172 Series: GSE273439 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8428nnn/GSM8428410/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX25515154
+Sample		Accession: GSM8428410	ID: 308428410
+
+351. Spatial_Transciptomics_Mouse_627_LUNG
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL30172 Series: GSE273439 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8428nnn/GSM8428409/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX25515153
+Sample		Accession: GSM8428409	ID: 308428409
+
+352. Spatial_Transciptomics_Mouse_627_TM
+Organism:	Mus musculus
+Source name:	Breast tumor
+Platform: GPL30172 Series: GSE273439 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8428nnn/GSM8428408/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX25515152
+Sample		Accession: GSM8428408	ID: 308428408
+
+353. IPF1, Spatial Transcriptomic, Visium, frozen tissue
+Organism:	Homo sapiens
+Source name:	Fibrotic Lung
+Platform: GPL18573 Series: GSE231385 
+FTP download: GEO (TIFF, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7267nnn/GSM7267702/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20165748
+Sample		Accession: GSM7267702	ID: 307267702
+
+354. FFPE archived fetal lung tissue GW18; Visium
+Organism:	Homo sapiens
+Source name:	Fetal lung tissue
+Platform: GPL34284 Series: GSE264398 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8217nnn/GSM8217625/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24311045
+Sample		Accession: GSM8217625	ID: 308217625
+
+355. FFPE archived fetal lung tissue GW15; Visium
+Organism:	Homo sapiens
+Source name:	Fetal lung tissue
+Platform: GPL34284 Series: GSE264398 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8217nnn/GSM8217624/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX24311044
+Sample		Accession: GSM8217624	ID: 308217624
+
+356. R3_Spatial_31dpi
+Organism:	Mus musculus
+Source name:	spatial RNAseq: 31 days post infection with PR8
+Platform: GPL24247 Series: GSE184384 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6585nnn/GSM6585869/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX17591619
+Sample		Accession: GSM6585869	ID: 306585869
+
+357. R3_Spatial
+Organism:	Mus musculus
+Source name:	spatial RNAseq: 14 days post infection with PR8
+Platform: GPL24247 Series: GSE184384 
+FTP download: GEO (CSV, JPG, JSON, MTX, PNG, RDS, TIFF, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6439nnn/GSM6439492/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX17011244
+Sample		Accession: GSM6439492	ID: 306439492
+
+358. PWK_0-2
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE231711 
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7296nnn/GSM7296549/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20228379
+Sample		Accession: GSM7296549	ID: 307296549
+
+359. B6_0-2
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE231711 
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7296nnn/GSM7296548/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20228378
+Sample		Accession: GSM7296548	ID: 307296548
+
+360. PWK_0-1
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE231711 
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7296nnn/GSM7296547/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20228377
+Sample		Accession: GSM7296547	ID: 307296547
+
+361. B6_0-1
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE231711 
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7296nnn/GSM7296546/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20228376
+Sample		Accession: GSM7296546	ID: 307296546
+
+362. B6_6-3
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE231711 
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7296nnn/GSM7296545/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20228375
+Sample		Accession: GSM7296545	ID: 307296545
+
+363. PWK_3-3
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE231711 
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7296nnn/GSM7296544/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20228374
+Sample		Accession: GSM7296544	ID: 307296544
+
+364. PWK_6-3
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE231711 
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7296nnn/GSM7296543/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20228373
+Sample		Accession: GSM7296543	ID: 307296543
+
+365. B6_3-3
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE231711 
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7296nnn/GSM7296542/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20228372
+Sample		Accession: GSM7296542	ID: 307296542
+
+366. PWK_3-2
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE231711 
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7296nnn/GSM7296541/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20228371
+Sample		Accession: GSM7296541	ID: 307296541
+
+367. B6_3-2
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE231711 
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7296nnn/GSM7296540/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20228370
+Sample		Accession: GSM7296540	ID: 307296540
+
+368. PWK_6-2
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE231711 
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7296nnn/GSM7296539/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20228369
+Sample		Accession: GSM7296539	ID: 307296539
+
+369. B6_6-2
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE231711 
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7296nnn/GSM7296538/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20228368
+Sample		Accession: GSM7296538	ID: 307296538
+
+370. PWK_6-1
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE231711 
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7296nnn/GSM7296537/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20228367
+Sample		Accession: GSM7296537	ID: 307296537
+
+371. B6_6-1
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE231711 
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7296nnn/GSM7296536/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20228366
+Sample		Accession: GSM7296536	ID: 307296536
+
+372. PWK_3-1
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE231711 
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7296nnn/GSM7296535/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20228365
+Sample		Accession: GSM7296535	ID: 307296535
+
+373. B6_3-1
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE231711 
+FTP download: GEO (MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7296nnn/GSM7296534/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX20228364
+Sample		Accession: GSM7296534	ID: 307296534
+
+374. Lung KP DT (Diphtheria Toxin 48hr) sample #D2, visium
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE202159 GSE215361 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6634nnn/GSM6634342/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX17869970
+Sample		Accession: GSM6634342	ID: 306634342
+
+375. Lung KP DT (Diphtheria Toxin 48hr) sample #C2, visium
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE202159 GSE215361 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6634nnn/GSM6634341/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX17869969
+Sample		Accession: GSM6634341	ID: 306634341
+
+376. Lung KP DT (Diphtheria Toxin 48hr) sample #B1, visium
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE202159 GSE215361 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6634nnn/GSM6634340/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX17869968
+Sample		Accession: GSM6634340	ID: 306634340
+
+377. Lung KP DT (Diphtheria Toxin 48hr) sample #A1, visium
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE202159 GSE215361 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6634nnn/GSM6634339/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX17869967
+Sample		Accession: GSM6634339	ID: 306634339
+
+378. Lung KP control (PBS 48 hr) sample #D2, visium
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE202159 GSE215361 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6634nnn/GSM6634338/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX17869966
+Sample		Accession: GSM6634338	ID: 306634338
+
+379. Lung KP control (PBS 48 hr) sample #C2, visium
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE202159 GSE215361 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6634nnn/GSM6634337/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX17869965
+Sample		Accession: GSM6634337	ID: 306634337
+
+380. Lung KP control (PBS 48 hr) sample #B1, visium
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE202159 GSE215361 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6634nnn/GSM6634336/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX17869964
+Sample		Accession: GSM6634336	ID: 306634336
+
+381. Lung KP control (PBS 48 hr) sample #A1, visium
+Organism:	Mus musculus
+Source name:	lung
+Platform: GPL24247 Series: GSE202159 GSE215361 
+FTP download: GEO (CSV, H5, JPG, JSON, PNG) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6634nnn/GSM6634335/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX17869963
+Sample		Accession: GSM6634335	ID: 306634335
+
+382. Lung section derived from Sftpc:KrasG12D sample 2
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL19057 Series: GSE215858 
+FTP download: GEO (H5) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6643nnn/GSM6643279/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX17907649
+Sample		Accession: GSM6643279	ID: 306643279
+
+383. Lung section derived from Gramd2:KrasG12D sample 2
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL19057 Series: GSE215858 
+FTP download: GEO (H5) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6643nnn/GSM6643278/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX17907648
+Sample		Accession: GSM6643278	ID: 306643278
+
+384. Lung section derived from Gramd2:KrasG12D sample 1
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL19057 Series: GSE215858 
+FTP download: GEO (H5) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6643nnn/GSM6643277/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX17907647
+Sample		Accession: GSM6643277	ID: 306643277
+
+385. Lung section derived from Sftpc:KrasG12D sample 1
+Organism:	Mus musculus
+Source name:	Lung
+Platform: GPL19057 Series: GSE215858 
+FTP download: GEO (H5) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM6643nnn/GSM6643276/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX17907646
+Sample		Accession: GSM6643276	ID: 306643276
+
+386. Spatial transcriptomics of a human brain metastasis (patient 27)
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL24676 Series: GSE179572 
+FTP download: GEO (H5, MTX, TAR, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5420nnn/GSM5420754/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX11362765
+Sample		Accession: GSM5420754	ID: 305420754
+
+387. Spatial transcriptomics of a human brain metastasis (patient 19)
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL24676 Series: GSE179572 
+FTP download: GEO (H5, MTX, TAR, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5420nnn/GSM5420751/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX11362761
+Sample		Accession: GSM5420751	ID: 305420751
+
+388. Spatial transcriptomics of a human brain metastasis (patient 15)
+Organism:	Homo sapiens
+Source name:	tumor
+Platform: GPL24676 Series: GSE179572 
+FTP download: GEO (H5, MTX, TAR, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5420nnn/GSM5420749/
+SRA Run Selector: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX11362758
+Sample		Accession: GSM5420749	ID: 305420749
