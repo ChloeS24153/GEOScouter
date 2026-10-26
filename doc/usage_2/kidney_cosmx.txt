@@ -1,0 +1,368 @@
+
+1. Single-cell gene programs define subtype identity and metastatic trajectories in renal cell carcinoma
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.
+Organism:	Homo sapiens; Mus musculus
+Type:		Expression profiling by high throughput sequencing; Other
+6 related Platforms 34 Samples
+FTP download: GEO (CSV, RDS) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE328nnn/GSE328692/
+Series		Accession: GSE328692	ID: 200328692
+
+2. Single-Cell Spatial Mapping of Human Kidney Development Reveals Cellular Niches and Lineage Dynamics [CosMx]
+(Submitter supplied) Organ development is shaped by both cell-autonomous changes and critical environmental cues. While single-cell genomic tools have enabled the characterization of gene expression and regulatory transitions during development, they have not fully captured the influence of neighboring cells. In this study, we combined single-cell spatial transcriptomics with gene expression data to investigate how cellular interactions influence human kidney development. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL33484 3 Samples
+FTP download: GEO (H5AD, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE278nnn/GSE278614/
+Series		Accession: GSE278614	ID: 200278614
+
+3. Spatial analysis reveals a novel inflammatory tumor transition state which promotes a macrophage-driven induction of sarcomatoid renal cell carcinoma
+(Submitter supplied) Sarcomatoid renal cell carcinoma (sRCC) is an aggressive trans-differentiation of epithelioid clear cell RCC (ccRCC) tumors that shows heightened response to immunotherapy. The underlying biology leading to sarcomatoid transformation and mechanisms contributing to immunotherapy response are not well understood. Novel single cell spatial techniques were used in ccRCC and sRCC tumors from 40 patients to understand the spatial sRCC transformation and corresponding immune changes. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL33484 1 Sample
+FTP download: GEO (CSV, TAR) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE299nnn/GSE299368/
+Series		Accession: GSE299368	ID: 200299368
+
+4. Spatial transcriptomics identifies IL-32 as a lipid droplet-associated cytokine linked to tubular injury in human diabetic kidney disease
+(Submitter supplied) Diabetic kidney disease (DKD) is a severe complication of diabetes mellitus and the leading cause of chronic kidney disease worldwide. Among the many drivers of tubular injury, lipid accumulation and inflammation are emerging as major contributors to kidney disease progression, but the molecular link between lipid metabolism and inflammatory signaling remains to be determined. Kidney biopsies from patients with DKD across pathologic classes were labelled for lipid droplets and analyzed by Nile Red spectroscopy. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL33484 17 Samples
+FTP download: GEO (CSV, H5AD) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE325nnn/GSE325587/
+Series		Accession: GSE325587	ID: 200325587
+
+5. 6K-plex RNA CosMx data fra human FFPE samples from patients with psoriasis.
+(Submitter supplied) IκBζ, encoded by NFKBIZ, is a key transcriptional regulator in psoriasis, with a well-known role in keratinocytes but an unclear function in dermal fibroblasts. This study investigates cytokine-driven regulation of IκBζ in primary human dermal fibroblasts and integrates spatial transcriptomics to map NFKBIZ expression in psoriatic skin. Spatial transcriptomics (CosMx™) revealed expected expression of NFKBIZ in keratinocytes and additionally demonstrated elevated expression in dermal fibroblasts in lesional compared with non-lesional skin. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL33484 134 Samples
+FTP download: GEO (CSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE314nnn/GSE314158/
+Series		Accession: GSE314158	ID: 200314158
+
+6. Systematic benchmarking of imaging spatial transcriptomics platforms in FFPE tissues - scRNA-seq Data
+(Submitter supplied) Emerging imaging spatial transcriptomics (iST) platforms and coupled analytical methods can recover cell-to-cell interactions, groups of spatially covarying genes, and gene signatures associated with pathological features, and are thus particularly well-suited for applications in formalin fixed paraffin embedded (FFPE) tissues. Here, we benchmark the performance of three commercial iST platforms—10X Xenium, Vizgen MERSCOPE, and Nanostring CosMx—on serial sections from tissue microarrays (TMAs) containing 17 tumor and 16 normal tissue types for both relative technical and biological performance. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing
+Platform: GPL24676 1 Sample
+FTP download: GEO (CSV, MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE308nnn/GSE308145/
+Series		Accession: GSE308145	ID: 200308145
+
+7. STAMP: Single-Cell Transcriptomics Analysis and Multimodal Profiling through Imaging [Xenium]
+(Submitter supplied) Single-cell RNA sequencing (scRNA-seq) has revolutionized our understanding of cellular diversity, but remains constrained by scalability, high costs, and the destruction of cells during analysis. To overcome these challenges, we developed STAMP (Single-Cell Transcriptomics Analysis and Multimodal Profiling), a highly scalable approach for the profiling of single cells. By leveraging transcriptomics and proteomics imaging platforms, STAMP eliminates sequencing costs, enabling single-cell genomics of hundreds to millions of cells at an unprecedented affordability. more...
+Organism:	Homo sapiens; Mus musculus
+Type:		Other
+Platforms: GPL33896 GPL33762 63 Samples
+FTP download: GEO (CSV, MTX, PARQUET, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE301nnn/GSE301112/
+Series		Accession: GSE301112	ID: 200301112
+
+8. STAMP: Single-Cell Transcriptomics Analysis and Multimodal Profiling through Imaging
+(Submitter supplied) This SuperSeries is composed of the SubSeries listed below.  PhenoCycler (protein) data is available at https://stjude.app.box.com/s/fg5e5r43heipjh6lchu6m0d612ojwtw1 This is the content within the .tar file: There are 3 STAMPs on the slide i) {PBMC, MCF-7, SK-BR-3}, ii) {MCF-7}, and iii) {SK-BR-3}.You can separate each STAMP by referring to stamp12b_MCF7_new.tsv and stamp12b_SKBR3.tsv - the remaining stamp in the slide will be {PBMC, MCF-7, SK-BR-3}.
+Organism:	Homo sapiens; synthetic construct; Mus musculus
+Type:		Other; Expression profiling by high throughput sequencing
+5 related Platforms 169 Samples
+FTP download: GEO (CSV, MTX, PARQUET, QS, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE290nnn/GSE290468/
+Series		Accession: GSE290468	ID: 200290468
+
+9. STAMP: Single-Cell Transcriptomics Analysis and Multimodal Profiling through Imaging [CosMx Spatial]
+(Submitter supplied) Single-cell RNA sequencing (scRNA-seq) has revolutionized our understanding of cellular diversity, but remains constrained by scalability, high costs, and the destruction of cells during analysis. To overcome these challenges, we developed STAMP (Single-Cell Transcriptomics Analysis and Multimodal Profiling), a highly scalable approach for the profiling of single cells. By leveraging transcriptomics and proteomics imaging platforms, STAMP eliminates sequencing costs, enabling single-cell genomics of hundreds to millions of cells at an unprecedented affordability. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL33484 92 Samples
+FTP download: GEO (MTX, QS, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE290nnn/GSE290466/
+Series		Accession: GSE290466	ID: 200290466
+
+10. Comparison of CosMx and GeoMx profiling performed on the same human kidney tissues [CosMx]
+(Submitter supplied) Spatial transcriptomic profiling enables precise quantification of gene expression with simultaneous localization of expression profiles onto tissue structures. This new technology promises to improve our understanding of the disease mechanisms. Therefore, there is intense interest in applying these methods in clinical trials or as laboratory developed tests to aid in diagnosis of disease. Before these applications can been more broadly deployed in clinical research and diagnostics, it is necessary  to thoroughly understand the technology’s performance in real world conditions. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL33484 1 Sample
+FTP download: GEO (CSV, RDS) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE278nnn/GSE278766/
+Series		Accession: GSE278766	ID: 200278766
+
+11. Nanostring CosMx 980-plex RNA profiling of human kidney biopsy and nephrectomy
+(Submitter supplied) The human kidneys are comprised of multiple different cell types in a complex anatomical arragemnt that is optimal for their key functions such as waste removal, regulation of fluid and electrolyte homeostasis and production of hormones. In chronic kidney disease (CKD) this arrangement is disrupted with de-differentiation and atrophy of epithelial cells, recruitment of immune cells and activation of myofibroblasts to produce excess scarring. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL33484 4 Samples
+FTP download: GEO (CSV, RDS) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE253nnn/GSE253439/
+Series		Accession: GSE253439	ID: 200253439
+
+12. Nanostring CosMx 6,000-plex RNA profiling of human kidney nephrectomy specimens
+(Submitter supplied) The human kidneys are comprised of multiple different cell types in a complex anatomical arragemnt that is optimal for their key functions such as waste removal, regulation of fluid and electrolyte homeostasis and production of hormones. In chronic kidney disease (CKD) this arrangement is disrupted with de-differentiation and atrophy of epithelial cells, recruitment of immune cells and activation of myofibroblasts to produce excess scarring. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by array; Other
+Platform: GPL33484 1 Sample
+FTP download: GEO (CSV, RDS) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE282nnn/GSE282059/
+Series		Accession: GSE282059	ID: 200282059
+
+13. CosMx 6175 human gene for human kidney delayed graft function (DGF) and immediate graft function (IGF)
+(Submitter supplied) This dataset includes CosMx spatial transcriptomic data from human kidney biopsies collected one hour post-transplantation. Patients were then monitored and categorized into two groups: those with immediate graft function (IGF) and those with delayed graft function (DGF). DGF refers to cases where patients required dialysis for one or more weeks before kidney function was restored. The biopsies were formalin-fixed, paraffin-embedded, and sectioned using a microtome. more...
+Organism:	Homo sapiens
+Type:		Other
+Platform: GPL33484 19 Samples
+FTP download: GEO (RDS) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE282nnn/GSE282193/
+Series		Accession: GSE282193	ID: 200282193
+
+14. CosMx 6175 human gene for human kidney primary non-function and immediate graft function.
+(Submitter supplied) This dataset includes CosMx spatial transcriptomic data from human kidney biopsies collected one hour post-transplantation. Patients were then monitored and categorized into two groups: immediate graft function (IGF) and primary nonfunction (PNF). PNF refers to cases where the transplanted kidney never functions. The biopsies were formalin-fixed, paraffin-embedded, and sectioned using a microtome. Sample processing followed NanoString's standard protocol, utilizing a pre-made 6,175-gene panel to detect the spatial location and expression levels of each gene, without any additional custom probes.
+Organism:	Homo sapiens
+Type:		Expression profiling by array
+Platform: GPL33484 13 Samples
+FTP download: GEO (RDS) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE282nnn/GSE282026/
+Series		Accession: GSE282026	ID: 200282026
+
+15. Spatially resolved human kidney multi-omics single cell atlas highlights the key role of fibrotic microenvironment in kidney disease progression.
+(Submitter supplied) Kidneys possess come one of the most intricate three-dimensional cellular structures in the body, yet the spatial molecular principles of kidney health and disease remain inadequately understood. Here we generated high-quality single cell (sc), single nuclear (sn), spatial (sp) RNA expression and sn open chromatin datasets for 79 samples, capturing half a million cells from healthy, diabetic, and hypertensive diseased human kidneys. more...
+Organism:	Homo sapiens
+Type:		Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing
+Platform: GPL24676 80 Samples
+FTP download: GEO (H5AD, JSON, RDS, TIFF, TXT) ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE211nnn/GSE211785/
+Series		Accession: GSE211785	ID: 200211785
+
+16. STAMP_113
+Organism:	Mus musculus
+Source name:	Isolated brain/heart/kidney/liver/ling mixed nuclei
+Platform: GPL33896 Series: GSE290468 GSE301112 
+FTP download: GEO (CSV, MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9075nnn/GSM9075576/
+Sample		Accession: GSM9075576	ID: 309075576
+
+17. STAMP_110
+Organism:	Mus musculus
+Source name:	Isolated kidney nuclei
+Platform: GPL33896 Series: GSE290468 GSE301112 
+FTP download: GEO (CSV, MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9075nnn/GSM9075573/
+Sample		Accession: GSM9075573	ID: 309075573
+
+18. STAMP_107
+Organism:	Mus musculus
+Source name:	Dissociated brain/heart/kidney/liver/ling mixed cells
+Platform: GPL33896 Series: GSE290468 GSE301112 
+FTP download: GEO (CSV, MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9075nnn/GSM9075570/
+Sample		Accession: GSM9075570	ID: 309075570
+
+19. STAMP_104
+Organism:	Mus musculus
+Source name:	Dissociated kidney cells
+Platform: GPL33896 Series: GSE290468 GSE301112 
+FTP download: GEO (CSV, MTX, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9075nnn/GSM9075567/
+Sample		Accession: GSM9075567	ID: 309075567
+
+20. STAMP_150
+Organism:	Homo sapiens
+Source name:	HEK293T
+Platform: GPL33762 Series: GSE290468 GSE301112 
+FTP download: GEO (MTX, PARQUET, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9075nnn/GSM9075613/
+Sample		Accession: GSM9075613	ID: 309075613
+
+21. STAMP_129
+Organism:	Homo sapiens
+Source name:	HEK293T
+Platform: GPL33762 Series: GSE290468 GSE301112 
+FTP download: GEO (MTX, PARQUET, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9075nnn/GSM9075592/
+Sample		Accession: GSM9075592	ID: 309075592
+
+22. STAMP_77
+Organism:	Homo sapiens
+Source name:	HEK293T
+Platform: GPL33484 Series: GSE290466 GSE290468 
+FTP download: GEO (MTX, QS, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8815nnn/GSM8815006/
+Sample		Accession: GSM8815006	ID: 308815006
+
+23. STAMP_54
+Organism:	Homo sapiens
+Source name:	HEK293T
+Platform: GPL33484 Series: GSE290466 GSE290468 
+FTP download: GEO (MTX, QS, TSV) ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8814nnn/GSM8814983/
+Sample		Accession: GSM8814983	ID: 308814983
+
+24. DGF_007
+Organism:	Homo sapiens
+Source name:	Delay graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637853	ID: 308637853
+
+25. DGF_008
+Organism:	Homo sapiens
+Source name:	Delay graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637852	ID: 308637852
+
+26. DGF_009
+Organism:	Homo sapiens
+Source name:	Delay graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637851	ID: 308637851
+
+27. DGF_006
+Organism:	Homo sapiens
+Source name:	Delay graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637849	ID: 308637849
+
+28. DGF_005
+Organism:	Homo sapiens
+Source name:	Delay graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637848	ID: 308637848
+
+29. DGF_004
+Organism:	Homo sapiens
+Source name:	Delay graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637847	ID: 308637847
+
+30. DGF_003
+Organism:	Homo sapiens
+Source name:	Delay graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637846	ID: 308637846
+
+31. DGF_002
+Organism:	Homo sapiens
+Source name:	Delay graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637845	ID: 308637845
+
+32. DGF_001
+Organism:	Homo sapiens
+Source name:	Delay graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637844	ID: 308637844
+
+33. IGF_008
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637843	ID: 308637843
+
+34. IGF_009
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637842	ID: 308637842
+
+35. IGF_010
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637841	ID: 308637841
+
+36. IGF_007
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637840	ID: 308637840
+
+37. IGF_006
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637839	ID: 308637839
+
+38. IGF_005
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637838	ID: 308637838
+
+39. IGF_004
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637837	ID: 308637837
+
+40. IGF_003
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637836	ID: 308637836
+
+41. IGF_002
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637835	ID: 308637835
+
+42. IGF_001
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282193 
+Sample		Accession: GSM8637834	ID: 308637834
+
+43. Patient 3 PNF 003
+Organism:	Homo sapiens
+Source name:	Primary nonfunction
+Platform: GPL33484 Series: GSE282026 
+Sample		Accession: GSM8634622	ID: 308634622
+
+44. Patient 2 PNF 002
+Organism:	Homo sapiens
+Source name:	Primary nonfunction
+Platform: GPL33484 Series: GSE282026 
+Sample		Accession: GSM8634621	ID: 308634621
+
+45. Patient 1 PNF 001
+Organism:	Homo sapiens
+Source name:	Primary nonfunction
+Platform: GPL33484 Series: GSE282026 
+Sample		Accession: GSM8634620	ID: 308634620
+
+46. Patient 10 IGF 010
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282026 
+Sample		Accession: GSM8634619	ID: 308634619
+
+47. Patient 9 IGF 009
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282026 
+Sample		Accession: GSM8634618	ID: 308634618
+
+48. Patient 8 IGF 008
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282026 
+Sample		Accession: GSM8634617	ID: 308634617
+
+49. Patient 7 IGF 007
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282026 
+Sample		Accession: GSM8634616	ID: 308634616
+
+50. Patient 6 IGF 006
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282026 
+Sample		Accession: GSM8634615	ID: 308634615
+
+51. Patient 5 IGF 005
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282026 
+Sample		Accession: GSM8634614	ID: 308634614
+
+52. Patient 4 IGF 004
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282026 
+Sample		Accession: GSM8634613	ID: 308634613
+
+53. Patient 3 IGF 003
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282026 
+Sample		Accession: GSM8634612	ID: 308634612
+
+54. Patient 2 IGF 002
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282026 
+Sample		Accession: GSM8634611	ID: 308634611
+
+55. Patient 1 IGF 001
+Organism:	Homo sapiens
+Source name:	Immediate graft function allograft
+Platform: GPL33484 Series: GSE282026 
+Sample		Accession: GSM8634610	ID: 308634610
