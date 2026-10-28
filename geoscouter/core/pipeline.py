@@ -8,11 +8,10 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 import streamlit as st
 from geoscouter.core.platforms import build_technology_label, ensure_platform_labels
-from geoscouter.core.tar_expand import expand_tar_rows, is_tar_filename
+from geoscouter.core.tar_expand import is_tar_filename
 from geoscouter.utils.http import ncbi_get
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-from geoscouter.core.tar_expand import is_tar_filename
 
 
 logger = logging.getLogger(__name__)
@@ -354,7 +353,6 @@ def process_gse(gse_id, driver=None, super_series=None, series_meta: dict | None
         if fname and not row.get("Supplementary URL") and fname in url_map:
             row["Supplementary URL"] = url_map[fname]
 
-    supp_data = expand_tar_rows(supp_data, gse_id, url_map)
     return supp_data
 
 
