@@ -7,54 +7,11 @@ import logging
 import re
 import tarfile
 from typing import BinaryIO
-from urllib.parse import quote, urljoin
-from html.parser import HTMLParser
+from urllib.parse import quote
 
 import pandas as pd
 
 from geoscouter.utils.http import ncbi_get
-
-class GeoLinkParser(HTMLParser):
-    """Collect links from a GEO webpage."""
-
-    def __init__(self):
-        super().__init__()
-        self.links = []
-
-    def handle_starttag(self, tag, attrs):
-        if tag == "a":
-            href = dict(attrs).get("href")
-            if href:
-                self.links.append(href)
-
-def discover_remote_tar_urls(gse_id: str) -> list[str]:
-    """Find TAR archive links in a GEO Series download page."""
-    page_url = (
-        f"https://www.ncbi.nlm.nih.gov/geo/download/?acc={gse_id}"
-    )
-
-    response = ncbi_get(page_url, timeout=30)
-
-    try:
-        response.raise_for_status()
-
-        parser = GeoLinkParser()
-        parser.feed(response.text)
-
-    finally:
-        response.close()
-
-    tar_urls = []
-
-    for link in parser.links:
-        full_url = urljoin(page_url, link)
-        path = full_url.lower().split("?", 1)[0]
-
-        if "/suppl/" in path and is_tar_filename(path):
-            if full_url not in tar_urls:
-                tar_urls.append(full_url)
-
-    return tar_urls
 
 logger = logging.getLogger(__name__)
 
@@ -142,7 +99,6 @@ def list_remote_tar_members(
     url = normalize_geo_url(url)
     label = filename or url.rsplit("/", 1)[-1]
     try:
-        logger.warning("Attempting to open TAR: %s", url)
         response = ncbi_get(url, stream=True, timeout=120)
         response.raise_for_status()
         response.raw.decode_content = True
@@ -154,61 +110,6 @@ def list_remote_tar_members(
         logger.warning("Failed to fetch tar %s: %s", label, e)
         return []
 
-def list_nested_tar_members(url: str) -> dict[str, list[str]]:
-    """Return filenames contained in nested TAR archives."""
-    nested_files: dict[str, list[str]] = {}
-
-    try:
-        response = ncbi_get(url, stream=True, timeout=120)
-        response.raise_for_status()
-        response.raw.decode_content = True
-
-        try:
-            with tarfile.open(
-                fileobj=response.raw, mode="r|*"
-            ) as outer_tar:
-
-                for member in outer_tar:
-                    if not member.isfile() or not is_tar_filename(member.name):
-                        continue
-
-                    file = outer_tar.extractfile(member)
-
-                    if file is None:
-                        continue
-
-                    filenames = []
-
-                    try:
-                        with tarfile.open(
-                            fileobj=file, mode="r|*"
-                        ) as inner_tar:
-
-                            for inner_member in inner_tar:
-                                if inner_member.isfile():
-                                    filenames.append(inner_member.name)
-
-                    except (tarfile.TarError, OSError, EOFError) as e:
-                        logger.warning(
-                            "Could not read nested archive %s: %s",
-                            member.name,
-                            e,
-                        )
-                        continue
-
-                    finally:
-                        file.close()
-
-                    if filenames:
-                        nested_files[member.name] = filenames
-
-        finally:
-            response.close()
-
-    except Exception as e:
-        logger.warning("Could not inspect archive %s: %s", url, e)
-
-    return nested_files
 
 def resolve_tar_url(row: dict, gse_id: str, url_map: dict[str, str]) -> str:
     """Resolve download URL for a supplementary tar row."""
@@ -243,8 +144,6 @@ def _expand_once(
     result: list[dict] = []
     any_expanded = False
 
-    nested_archive_members: dict[str, list[str]] | None=None
-
     for row in supp_data:
         fname = str(row.get("Supplementary file", "")).strip()
         if not is_tar_filename(fname):
@@ -253,22 +152,6 @@ def _expand_once(
 
         url = resolve_tar_url(row, gse_id, url_map)
         members = list_remote_tar_members(url, fname)
-        if not members:
-            if nested_archive_members is None:
-                nested_archive_members = {}
-
-                outer_urls = discover_remote_tar_urls(gse_id)
-
-                for outer_url in outer_urls:
-                    found = list_nested_tar_members(outer_url)
-
-                    for nested_name, filenames in found.items():
-                        key = nested_name.rsplit("/",1)[-1]
-                        nested_archive_members[key] = filenames
-
-            key = fname.rsplit("/",1)[-1]
-            members = nested_archive_members.get(key, [])
-
         if not members:
             logger.warning(
                 "Keeping tar row for %s (%s): could not list members",

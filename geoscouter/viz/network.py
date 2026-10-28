@@ -64,6 +64,10 @@ def supervised_file_similarity_network(
 
     node_info_df = df.drop_duplicates(subset="Series").set_index("Series")
 
+    tar_mask = df["TAR file"] == True
+    tar_gses = set(df.loc[tar_mask, "Series"].dropna())
+
+
     pos: dict[str, tuple[float, float]] = {SIGNATURE_NODE: (0.0, 0.0)}
 
     training_list = sorted(training)
@@ -158,6 +162,8 @@ def supervised_file_similarity_network(
             return None
         labels = text_labels or nodes
         hovertext = hovers or [_node_hover(n) for n in nodes]
+        label_colors = ["red" if node in tar_gses else "black"
+                       for node in nodes]
         return go.Scatter(
             x=[pos[n][0] for n in nodes],
             y=[pos[n][1] for n in nodes],
@@ -167,6 +173,7 @@ def supervised_file_similarity_network(
             textposition="top center",
             hovertext=hovertext,
             marker=dict(size=size, color=color, line=line),
+            textfont = dict(color = label_colors)
         )
 
     def _scatter_nodes_viridis(nodes, scores, size, line):
@@ -174,6 +181,8 @@ def supervised_file_similarity_network(
             return None
         colors = [px.colors.sample_colorscale("viridis", scores[n])[0] for n in nodes]
         hovers = [_node_hover(n, scores[n]) for n in nodes]
+        label_colors = ["red" if node in tar_gses else "black"
+                        for node in nodes]
         return go.Scatter(
             x=[pos[n][0] for n in nodes],
             y=[pos[n][1] for n in nodes],
@@ -183,6 +192,7 @@ def supervised_file_similarity_network(
             textposition="top center",
             hovertext=hovers,
             marker=dict(size=size, color=colors, line=line),
+            textfont = dict(color = label_colors)
         )
 
     linked_nodes = [gse for gse, _ in linked]
@@ -290,6 +300,17 @@ def supervised_file_similarity_network(
                 yanchor="top",
                 font=dict(size=11, color="#6b7280"),
             ),
+            dict(
+                x=0.02,
+                y=0.86 if legend_training else 0.90,
+                xref="paper",
+                yref="paper",
+                text="Red: GSE has tar files",
+                showarrow=False,
+                xanchor="left",
+                yanchor="top",
+                font=dict(size=11, color="red")
+            )
         ]
         if a is not None
     ]
